@@ -1,81 +1,102 @@
-# Investor Atlas · Czech pilot
+# Investor Atlas
 
-A small React application for researching Czech venture investors, inspecting public evidence, and building a personal **Final draft**. Built from the original Czech assignment and the subsequent product/design discussion.
+Find Czech venture investors, check the evidence behind their profiles, and build a shortlist you can export. The app calls that shortlist your **Final draft**. You choose who belongs in it and in what order.
 
-**Data status: research preview, not an independently audited investor database.** The application is functional; the research assignment remains incomplete until the human audit and global estimate are finished. Suitability weights are provisional.
+This is a working research preview for the investor database assignment. It contains eight researched profiles and 36 candidate records. Independent human review is still pending, so data accuracy has **not been measured**. Suitability weights are provisional too.
 
-## Try it
+## Try the app
 
-GitHub Pages deployment target: **https://imorkovkai.github.io/clientelo-database/**. The URL works after the first successful Pages deployment; check the [workflow](https://github.com/IMorkovkaI/clientelo-database/actions) for the current status.
+[Open Investor Atlas](https://imorkovkai.github.io/clientelo-database/) after the first successful GitHub Pages deployment. Check [GitHub Actions](https://github.com/IMorkovkaI/clientelo-database/actions) if the page is unavailable.
 
-Locally, use Node.js 22.12+:
+To run it locally, install Node.js 22.12 or newer, then:
 
 ```sh
+git clone https://github.com/IMorkovkaI/clientelo-database.git
+cd clientelo-database
 npm ci
 npm run dev
 ```
 
-Open the Local URL printed by Vite. No API keys, paid databases, backend service, or accounts are required. Drafts and notes stay in this browser's local storage. Export before clearing browser data or changing devices.
+Open the local address printed in the terminal. There are no accounts, API keys or backend services to configure.
 
-## What works
+## Search, check, then choose
 
-- Ranked results with sector, stage, geography, focus, amount/currency, essential criteria, missing-data controls, and captured recent activity.
-- Name search, sorting, empty states, responsive filters, preserved filter state.
-- Investor details with per-claim sources, short excerpts, publication/retrieval dates, financial scope and research limitations.
-- Final draft with add/remove/undo, keyboard-accessible ordering, inline notes and local persistence.
-- Comparison of two or three chosen investors, differences-only view, shared notes and removal.
-- CSV and genuine XLSX exports including order, notes, research status and evidence. Excel is loaded only when exporting.
-- Methodology screen, research workbook, candidate list, source register and blind audit template.
+1. Set your sector, stage, location and investment criteria. Results explain their fit and flag missing information. You can make a criterion essential.
+2. Open an investor's profile to see its sources, dates, investment evidence and financial details.
+3. Add investors to Final draft. Reorder them, write notes, or remove an entry and undo the removal.
+4. Select two or three investors to compare. Use the differences-only view to narrow your choices.
+5. Export your draft as CSV or Excel. Both include your notes and source links.
 
-## Data and methodology
+Drafts and notes stay in this browser's local storage. Export a copy before clearing browser data or moving to another device. Nothing synchronizes between devices.
 
-- 8 real organizations have researched profiles; all await independent human audit.
-- 36 candidates are recorded, including discovery-only and out-of-scope entities.
-- 15 public source records include short excerpts and dates where published.
-- Only 2 profiles meet the initial automated evidence/scope gate. These are not human-verified.
-- Empty `data/exports/investors_verified.csv` and `.xlsx` deliberately prevent an unreviewed release from pretending to be verified.
+## What the data can tell you
 
-Canonical records live in `data/investors.json` and `data/candidates.json`. `public/data/` contains generated download artifacts. Update canonical records, then run `npm run prepare:data` and the checks. `scripts/seed-data.mjs` reconstructs the initial extraction only; do not rerun it over subsequent research changes.
+The pilot covers VC organizations whose main investment management office is in Czechia. Investing in Czech companies or having a Czech registered address alone does not qualify an organization.
 
-Read [the consolidated specification](docs/SPECIFICATION.md), [manual work](docs/MANUAL_WORK.md), [methodology](reports/methodology.md), [pilot results](reports/pilot_results.md), and [global estimate status](reports/global_estimate.md). The original `Investor_Database_AI_Handoff_CZ.md` is retained unchanged as historical input; later chat decisions are documented in the consolidated specification.
+Profiles link claims to public sources. Missing information stays missing, with a reason such as “not found” or “not disclosed.” A funding round's total is kept separate from an investor's contribution; fund size, AUM and portfolio value are separate metrics too.
 
-## Tests
+The current sample has 15 source records. Two profiles pass the initial evidence and scope checks, but neither has passed independent human review. The verified exports are deliberately empty. See [pilot results](reports/pilot_results.md) for coverage and [methodology](reports/methodology.md) for the inclusion rules.
+
+The remaining work is listed in [MANUAL_WORK.md](docs/MANUAL_WORK.md): complete the research, independently audit the sample, measure accuracy, and support the worldwide coverage and cost estimate with evidence. Software tests cannot establish investor-data accuracy.
+
+## Run the checks
 
 ```sh
 npm run prepare:data
 npm run check
+npm audit --audit-level=moderate
 npx playwright install chromium
+```
+
+`check` validates the data, runs the domain tests, checks TypeScript and builds the app. Run browser tests against that production build:
+
+```sh
+# macOS / Linux
 TEST_PRODUCTION=1 npm run test:e2e
 ```
 
-PowerShell with an existing Microsoft Edge installation:
-
 ```powershell
-$env:PLAYWRIGHT_CHANNEL = 'msedge'
+# PowerShell
 $env:TEST_PRODUCTION = '1'
 npm run test:e2e
 ```
 
-`check` validates data references, runs domain tests, typechecks, and creates a production build. Browser tests cover the main user journeys, actual XLSX parsing, mobile overflow, and accessibility. These tests **do not measure investor-data precision**.
+On Windows, you can use an installed Microsoft Edge instead of downloading Chromium by setting `$env:PLAYWRIGHT_CHANNEL = 'msedge'`. CI uses Playwright's Chromium. See [validation notes](docs/VALIDATION.md) for coverage and limitations.
 
-For real independent audit results:
+## Work on the project
+
+The app uses React, TypeScript and Vite. The dataset is versioned with the source code; opening the app does not crawl investor websites. Ranking, storage and export logic live in separate modules under `src/`.
+
+| Location               | What belongs here                                        |
+| ---------------------- | -------------------------------------------------------- |
+| `src/`                 | Screens, styles, ranking, browser storage and exports    |
+| `data/investors.json`  | Canonical researched profiles and evidence               |
+| `data/candidates.json` | Canonical discovery and inclusion decisions              |
+| `public/data/`         | Generated downloads, workbook and review template        |
+| `scripts/`             | Data validation, download generation and audit reporting |
+| `tests/`               | Domain and browser tests                                 |
+| `docs/`, `reports/`    | Product decisions, human tasks and research results      |
+
+Edit canonical data, then run `npm run prepare:data` and the checks. Do not edit the generated downloads directly. `scripts/seed-data.mjs` recreates the original research sample and can overwrite later work; it is not part of the update process.
+
+For an independent review, copy the blank review template, complete that copy, then run:
 
 ```sh
 npm run audit:report -- path/to/completed-review.csv
 ```
 
-Without a completed audit the command records `not_measured`. Keep the blank template unchanged, and complete a separate copy.
+The command reports entity-level precision and candidate-set recall. Without a review file, it records `not_measured`. Field-level checks and publication of a verified dataset remain separate work.
 
-## GitHub Pages
+Read [AGENTS.md](AGENTS.md) for repository guidance, [the specification](docs/SPECIFICATION.md) for product decisions, and [DESIGN.md](DESIGN.md) for the visual direction. The original Czech handoff is preserved in `Investor_Database_AI_Handoff_CZ.md`; the consolidated specification records the later chat decisions.
 
-In the repository's **Settings → Pages → Build and deployment**, select **GitHub Actions**. Push to `main`. The workflow validates data, tests, builds, audits dependencies and runs browser checks against the production build before deploying. Pull requests run the checks without publishing. Relative asset paths and hash navigation work under the repository subpath.
+## Publish through GitHub
 
-## Architecture
+In **Settings → Pages → Build and deployment**, select **GitHub Actions**. Push changes to `main`. The workflow validates, tests and builds the app, checks dependencies, then runs browser tests against the production build. Deployment runs only when those checks pass. Pull requests run the checks without publishing.
 
-React + TypeScript + Vite, a versioned static dataset, pure ranking/storage/export modules, Vitest, Playwright and axe. No live data collection runs in a user's browser. Evidence extraction in this initial pilot is curated AI-assisted research, not a fully automated crawler. A larger pipeline can be added later without changing the published dataset contract.
+Assets use relative paths so the app can run under `/clientelo-database/`. Draft navigation uses URL hashes.
 
-## Security and limitations
+## Storage and security
 
-Notes render as text; exported spreadsheet cells are protected against formula injection. Evidence URLs must be HTTPS. Production includes a restrictive Content Security Policy; no analytics or third-party assets load. GitHub Pages controls HTTP response headers. Browser-local data is not encrypted or synchronized; do not store confidential information in notes. The UUID dependency override addresses a reported ExcelJS transitive dependency advisory and is covered by the real export test.
+Notes render as text, and spreadsheet exports escape formula-like values. Evidence links must use HTTPS. The production page sets a Content Security Policy and loads no analytics or third-party assets. GitHub Pages controls the HTTP response headers.
 
-See [validation notes](docs/VALIDATION.md) for the checks performed and their limits.
+Browser storage is neither encrypted nor a backup. Keep confidential information out of draft notes.

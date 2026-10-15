@@ -1474,12 +1474,16 @@ input[type="checkbox"] {
     font-size: 14px;
   }
   .app-header {
-    height: 64px;
+    /* Give navigation its own row so system-font widths cannot crowd it out. */
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    height: auto;
     padding: 0 16px;
-    gap: 20px;
-    justify-content: space-between;
+    gap: 0;
   }
   .brand {
+    justify-self: start;
+    min-height: 48px;
     font-size: 19px;
     gap: 7px;
   }
@@ -1493,6 +1497,8 @@ input[type="checkbox"] {
   }
   .app-header nav {
     gap: 10px;
+    height: 44px;
+    justify-content: space-between;
   }
   .app-header nav button {
     font-size: 11px;
@@ -1500,20 +1506,6 @@ input[type="checkbox"] {
   }
   .app-header nav button > svg {
     display: none;
-  }
-  .app-header nav button:last-child {
-    width: 26px;
-  }
-  .app-header nav button:last-child > svg {
-    display: block;
-    width: 18px;
-  }
-  .app-header nav button:last-child > span {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
   }
   .nav-count {
     min-width: 17px;
@@ -1559,6 +1551,9 @@ input[type="checkbox"] {
   }
   .searchbar {
     height: 44px;
+  }
+  .results-toolbar {
+    flex-wrap: wrap;
   }
   .results-toolbar h2 {
     font-size: 12px;

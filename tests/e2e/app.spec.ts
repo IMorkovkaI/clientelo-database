@@ -130,29 +130,74 @@ test("Excel export creates a real workbook", async ({ page }) => {
   expect(workbook.getWorksheet("Final draft")?.rowCount).toBe(2);
   expect(workbook.getWorksheet("Evidence")?.rowCount).toBeGreaterThan(1);
 });
-test("mobile layout and filters do not overflow", async ({ page }) => {
-  await page.setViewportSize({ width: 390, height: 844 });
-  await page.goto("/");
-  await page.getByRole("button", { name: "Filters", exact: true }).click();
-  await page.getByLabel("Company stage", { exact: true }).selectOption("Seed");
-  await page.getByRole("button", { name: /Show \d+ investors/ }).click();
-  await page
-    .getByRole("button", {
-      name: "Add J&T Ventures to Final draft",
-      exact: true,
-    })
-    .click();
-  await page.getByRole("button", { name: /Final draft 1/ }).click();
-  expect(
-    await page.evaluate(
-      () => document.documentElement.scrollWidth <= window.innerWidth,
-    ),
-  ).toBe(true);
-  await page.screenshot({
-    path: "test-results/mobile-draft.png",
-    fullPage: true,
-  });
-});
+for (const width of [320, 390, 560]) {
+  for (const font of ["default", "wide fallback"]) {
+    test(`mobile layout and filters do not overflow (${width}px, ${font})`, async ({
+      page,
+    }) => {
+      await page.setViewportSize({ width, height: 844 });
+      await page.goto("/");
+      if (font === "wide fallback") {
+        await page.evaluate(() => {
+          document.documentElement.style.fontFamily = "monospace";
+        });
+      }
+      const checkLayout = async () => {
+        const layout = await page.evaluate(() => ({
+          viewport: window.innerWidth,
+          width: document.documentElement.scrollWidth,
+          overflowing: [...document.querySelectorAll("body *")]
+            .filter(
+              (el) => el.getBoundingClientRect().right > window.innerWidth,
+            )
+            .map((el) => ({
+              tag: el.tagName,
+              className: el.getAttribute("class"),
+              right: el.getBoundingClientRect().right,
+            })),
+        }));
+        expect(layout.width, JSON.stringify(layout)).toBeLessThanOrEqual(
+          layout.viewport,
+        );
+      };
+      await checkLayout();
+      await page.getByRole("button", { name: "Filters", exact: true }).click();
+      await page
+        .getByLabel("Company stage", { exact: true })
+        .selectOption("Seed");
+      await page.getByRole("button", { name: /Show \d+ investors/ }).click();
+      await page
+        .getByRole("button", {
+          name: "Add J&T Ventures to Final draft",
+          exact: true,
+        })
+        .click();
+      await page.getByRole("button", { name: /Final draft 1/ }).click();
+      await checkLayout();
+      await page
+        .getByRole("button", { name: "Back to results", exact: true })
+        .click();
+      await page
+        .getByRole("button", {
+          name: "Add Look AI Ventures to Final draft",
+          exact: true,
+        })
+        .click();
+      await page.getByRole("button", { name: /Final draft 2/ }).click();
+      await checkLayout();
+      const navigation = page.getByRole("navigation", {
+        name: "Main navigation",
+      });
+      for (const button of await navigation.getByRole("button").all()) {
+        await expect(button).toBeInViewport();
+      }
+      await page.screenshot({
+        path: `test-results/mobile-draft-${width}-${font.replaceAll(" ", "-")}.png`,
+        fullPage: true,
+      });
+    });
+  }
+}
 test("main screens and detail panel have no serious accessibility violations", async ({
   page,
 }) => {
