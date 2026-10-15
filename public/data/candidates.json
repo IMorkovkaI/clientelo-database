@@ -1,0 +1,326 @@
+[
+  {
+    "id": "credo",
+    "name": "Credo Ventures",
+    "discoverySource": "https://www.credoventures.com/",
+    "systemDecision": "unresolved",
+    "reason": "Main management location needs explicit confirmation across its offices. Founder origin is a condition; company location alone cannot establish geographic fit. The cited deal is the latest captured here, not necessarily the latest actual investment.",
+    "research": "profile",
+    "samplingGroup": "purposive_development"
+  },
+  {
+    "id": "purple",
+    "name": "Purple Ventures",
+    "discoverySource": "https://www.purple-ventures.com/",
+    "systemDecision": "unresolved",
+    "reason": "CEE+ is conservatively normalized to CEE; additional countries need confirmation. Main management office and a dated investment announcement remain unresolved.",
+    "research": "profile",
+    "samplingGroup": "purposive_development"
+  },
+  {
+    "id": "presto",
+    "name": "Presto Ventures",
+    "discoverySource": "https://www.prestoventures.com/",
+    "systemDecision": "unresolved",
+    "reason": "The new fund headline is not used as confirmed closed capital. NATO & allies matching uses a documented small country mapping; other countries need review.",
+    "research": "profile",
+    "samplingGroup": "purposive_development"
+  },
+  {
+    "id": "look",
+    "name": "Look AI Ventures",
+    "discoverySource": "https://lookai.vc/",
+    "systemDecision": "accepted",
+    "reason": "Initial evidence gate met; independent audit pending.",
+    "research": "profile",
+    "samplingGroup": "purposive_development"
+  },
+  {
+    "id": "jt",
+    "name": "J&T Ventures",
+    "discoverySource": "https://www.jtventures.cz/",
+    "systemDecision": "accepted",
+    "reason": "Initial evidence gate met; independent audit pending.",
+    "research": "profile",
+    "samplingGroup": "purposive_development"
+  },
+  {
+    "id": "tensor",
+    "name": "Tensor Ventures",
+    "discoverySource": "https://tensor.ventures/",
+    "systemDecision": "unresolved",
+    "reason": "Czech presence alone does not prove the main management office. €50M is a fundraising target, not confirmed commitments.",
+    "research": "profile",
+    "samplingGroup": "purposive_development"
+  },
+  {
+    "id": "kaya",
+    "name": "KAYA VC",
+    "discoverySource": "https://www.kaya.vc/",
+    "systemDecision": "unresolved",
+    "reason": "Capital figures have no explicit as-of date. A dated investment announcement remains to be captured. Founder origin is distinct from company geography.",
+    "research": "profile",
+    "samplingGroup": "purposive_development"
+  },
+  {
+    "id": "miton",
+    "name": "Miton",
+    "discoverySource": "https://www.miton.cz/",
+    "systemDecision": "unresolved",
+    "reason": "VC eligibility and main management location require review. Portfolio value is not capital available for new investments.",
+    "research": "profile",
+    "samplingGroup": "purposive_development"
+  },
+  {
+    "id": "directory-1",
+    "name": "Abris Capital",
+    "discoverySource": "https://cvca.cz/en/membership/",
+    "systemDecision": "unresolved",
+    "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+    "research": "discovery_only",
+    "samplingGroup": "directory_frame"
+  },
+  {
+    "id": "directory-2",
+    "name": "ARX Equity Partners",
+    "discoverySource": "https://cvca.cz/en/membership/",
+    "systemDecision": "unresolved",
+    "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+    "research": "discovery_only",
+    "samplingGroup": "directory_frame"
+  },
+  {
+    "id": "directory-3",
+    "name": "CVI",
+    "discoverySource": "https://cvca.cz/en/membership/",
+    "systemDecision": "unresolved",
+    "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+    "research": "discovery_only",
+    "samplingGroup": "directory_frame"
+  },
+  {
+    "id": "directory-4",
+    "name": "DEPO Ventures",
+    "discoverySource": "https://cvca.cz/en/membership/",
+    "systemDecision": "unresolved",
+    "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+    "research": "discovery_only",
+    "samplingGroup": "directory_frame"
+  },
+  {
+    "id": "directory-5",
+    "name": "Enterprise Investors",
+    "discoverySource": "https://cvca.cz/en/membership/",
+    "systemDecision": "unresolved",
+    "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+    "research": "discovery_only",
+    "samplingGroup": "directory_frame"
+  },
+  {
+    "id": "directory-6",
+    "name": "Espira Investments",
+    "discoverySource": "https://cvca.cz/en/membership/",
+    "systemDecision": "unresolved",
+    "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+    "research": "discovery_only",
+    "samplingGroup": "directory_frame"
+  },
+  {
+    "id": "directory-7",
+    "name": "EVERITA Capital",
+    "discoverySource": "https://cvca.cz/en/membership/",
+    "systemDecision": "unresolved",
+    "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+    "research": "discovery_only",
+    "samplingGroup": "directory_frame"
+  },
+  {
+    "id": "directory-8",
+    "name": "Genesis Capital Equity",
+    "discoverySource": "https://cvca.cz/en/membership/",
+    "systemDecision": "unresolved",
+    "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+    "research": "discovery_only",
+    "samplingGroup": "directory_frame"
+  },
+  {
+    "id": "directory-9",
+    "name": "i&i Biotech Investments",
+    "discoverySource": "https://cvca.cz/en/membership/",
+    "systemDecision": "unresolved",
+    "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+    "research": "discovery_only",
+    "samplingGroup": "directory_frame"
+  },
+  {
+    "id": "directory-10",
+    "name": "Innova Capital",
+    "discoverySource": "https://cvca.cz/en/membership/",
+    "systemDecision": "unresolved",
+    "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+    "research": "discovery_only",
+    "samplingGroup": "directory_frame"
+  },
+  {
+    "id": "directory-11",
+    "name": "Integral Capital Group",
+    "discoverySource": "https://cvca.cz/en/membership/",
+    "systemDecision": "unresolved",
+    "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+    "research": "discovery_only",
+    "samplingGroup": "directory_frame"
+  },
+  {
+    "id": "directory-12",
+    "name": "Inven Capital",
+    "discoverySource": "https://cvca.cz/en/membership/",
+    "systemDecision": "unresolved",
+    "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+    "research": "discovery_only",
+    "samplingGroup": "directory_frame"
+  },
+  {
+    "id": "directory-13",
+    "name": "Jet Investment",
+    "discoverySource": "https://cvca.cz/en/membership/",
+    "systemDecision": "unresolved",
+    "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+    "research": "discovery_only",
+    "samplingGroup": "directory_frame"
+  },
+  {
+    "id": "directory-14",
+    "name": "MAM Private Equity Fund",
+    "discoverySource": "https://cvca.cz/en/membership/",
+    "systemDecision": "unresolved",
+    "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+    "research": "discovery_only",
+    "samplingGroup": "directory_frame"
+  },
+  {
+    "id": "directory-15",
+    "name": "Mid Europa Partners",
+    "discoverySource": "https://cvca.cz/en/membership/",
+    "systemDecision": "unresolved",
+    "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+    "research": "discovery_only",
+    "samplingGroup": "directory_frame"
+  },
+  {
+    "id": "directory-16",
+    "name": "Nation1",
+    "discoverySource": "https://cvca.cz/en/membership/",
+    "systemDecision": "unresolved",
+    "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+    "research": "discovery_only",
+    "samplingGroup": "directory_frame"
+  },
+  {
+    "id": "directory-17",
+    "name": "Orbit Capital",
+    "discoverySource": "https://cvca.cz/en/membership/",
+    "systemDecision": "unresolved",
+    "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+    "research": "discovery_only",
+    "samplingGroup": "directory_frame"
+  },
+  {
+    "id": "directory-18",
+    "name": "Sandberg Capital",
+    "discoverySource": "https://cvca.cz/en/membership/",
+    "systemDecision": "unresolved",
+    "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+    "research": "discovery_only",
+    "samplingGroup": "directory_frame"
+  },
+  {
+    "id": "directory-19",
+    "name": "SkyLimit Investments",
+    "discoverySource": "https://cvca.cz/en/membership/",
+    "systemDecision": "unresolved",
+    "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+    "research": "discovery_only",
+    "samplingGroup": "directory_frame"
+  },
+  {
+    "id": "directory-20",
+    "name": "Stratum Partners",
+    "discoverySource": "https://cvca.cz/en/membership/",
+    "systemDecision": "unresolved",
+    "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+    "research": "discovery_only",
+    "samplingGroup": "directory_frame"
+  },
+  {
+    "id": "directory-21",
+    "name": "Thein",
+    "discoverySource": "https://cvca.cz/en/membership/",
+    "systemDecision": "unresolved",
+    "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+    "research": "discovery_only",
+    "samplingGroup": "directory_frame"
+  },
+  {
+    "id": "directory-22",
+    "name": "Tilia Impact Ventures",
+    "discoverySource": "https://cvca.cz/en/membership/",
+    "systemDecision": "unresolved",
+    "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+    "research": "discovery_only",
+    "samplingGroup": "directory_frame"
+  },
+  {
+    "id": "directory-23",
+    "name": "V4C Investment Advisers",
+    "discoverySource": "https://cvca.cz/en/membership/",
+    "systemDecision": "unresolved",
+    "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+    "research": "discovery_only",
+    "samplingGroup": "directory_frame"
+  },
+  {
+    "id": "directory-24",
+    "name": "Versute Investments",
+    "discoverySource": "https://cvca.cz/en/membership/",
+    "systemDecision": "unresolved",
+    "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+    "research": "discovery_only",
+    "samplingGroup": "directory_frame"
+  },
+  {
+    "id": "directory-25",
+    "name": "Accolade",
+    "discoverySource": "https://cvca.cz/en/membership/",
+    "systemDecision": "unresolved",
+    "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+    "research": "discovery_only",
+    "samplingGroup": "directory_frame"
+  },
+  {
+    "id": "directory-26",
+    "name": "AKAT Czech Capital Market Association",
+    "discoverySource": "https://cvca.cz/en/membership/",
+    "systemDecision": "out_of_scope",
+    "reason": "Directory describes association or professional services; not a qualifying VC organization.",
+    "research": "discovery_only",
+    "samplingGroup": "directory_frame"
+  },
+  {
+    "id": "directory-27",
+    "name": "Aon Central and Eastern Europe",
+    "discoverySource": "https://cvca.cz/en/membership/",
+    "systemDecision": "out_of_scope",
+    "reason": "Directory describes association or professional services; not a qualifying VC organization.",
+    "research": "discovery_only",
+    "samplingGroup": "directory_frame"
+  },
+  {
+    "id": "directory-28",
+    "name": "ASB Czech Republic",
+    "discoverySource": "https://cvca.cz/en/membership/",
+    "systemDecision": "out_of_scope",
+    "reason": "Directory describes association or professional services; not a qualifying VC organization.",
+    "research": "discovery_only",
+    "samplingGroup": "directory_frame"
+  }
+]

@@ -1,0 +1,951 @@
+{
+  "version": "2026-10-15-preview.1",
+  "asOf": "2026-10-15",
+  "publicationStatus": "research_preview",
+  "sources": [
+    {
+      "id": "credo-strategy",
+      "url": "https://www.credoventures.com/",
+      "publisher": "Credo Ventures",
+      "title": "Investment approach and offices",
+      "excerpt": "Leading Pre-Seed rounds.",
+      "summary": "States $1M–$5M checks, a CEE-founder and diaspora mandate, and Prague and Kraków offices. Describes backing founders without a fixed thesis.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-15",
+      "kind": "primary"
+    },
+    {
+      "id": "credo-deal",
+      "url": "https://elevenlabs.io/blog/series-b",
+      "publisher": "ElevenLabs",
+      "title": "Series B funding announcement",
+      "excerpt": "joined by Sequoia Capital, SV Angel, Smash Capital, BroadLight Capital and Credo Ventures",
+      "summary": "Names Credo as a participant in the $80M round. Does not disclose Credo’s individual contribution.",
+      "publishedAt": "2024-01-22",
+      "retrievedAt": "2026-10-15",
+      "kind": "primary"
+    },
+    {
+      "id": "purple-strategy",
+      "url": "https://www.purple-ventures.com/",
+      "publisher": "Purple Ventures",
+      "title": "Investment strategy and portfolio",
+      "excerpt": "€250k to €400k",
+      "summary": "States initial tickets of €250k–€400k and pre-seed/seed focus on CEE+ technology businesses with initial revenue. Lists Flowlance as a 2024 investment. Exact announcement date and main management location need further evidence.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-15",
+      "kind": "primary"
+    },
+    {
+      "id": "presto-strategy",
+      "url": "https://www.prestoventures.com/",
+      "publisher": "Presto Ventures",
+      "title": "Investment approach, portfolio and contact",
+      "excerpt": "Tickets ranging from €500k to €5M.",
+      "summary": "States seed to Series A, security/defense/aerospace, software and hardware, NATO and allied markets, and a Prague office. Lists Behavio as a portfolio company. A separately dated transaction source is still needed.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-15",
+      "kind": "primary"
+    },
+    {
+      "id": "look-strategy",
+      "url": "https://lookai.vc/",
+      "publisher": "Look AI Ventures",
+      "title": "Investment criteria and contact",
+      "excerpt": "pre-Series A venture capital fund based in Prague",
+      "summary": "States a global AI strategy with European emphasis, pre-Series A companies and an operational team in Prague. Ticket range not found in the inspected source.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-15",
+      "kind": "primary"
+    },
+    {
+      "id": "look-deal",
+      "url": "https://lookai.vc/look-ai-ventures-sodex-innovations-4m-ai-construction-site-surveying/",
+      "publisher": "Look AI Ventures",
+      "title": "Sodex Innovations funding announcement",
+      "excerpt": "Look AI Ventures has joined Sodex Innovations' €4M funding round",
+      "summary": "Documents participation in a €4M company round. Individual contribution not disclosed. This is an announcement date, not a confirmed closing date.",
+      "publishedAt": "2026-07-23",
+      "retrievedAt": "2026-10-15",
+      "kind": "primary"
+    },
+    {
+      "id": "jt-strategy",
+      "url": "https://www.jtventures.cz/pristup",
+      "publisher": "J&T Ventures",
+      "title": "Investment criteria",
+      "excerpt": "€300K – €3M",
+      "summary": "States pre-seed to Series A, CEE/SEE/Baltics, equity and convertible instruments, a Prague office, and preferred technology sectors. €6M maximum company allocation is distinct from the initial ticket.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-15",
+      "kind": "primary"
+    },
+    {
+      "id": "jt-focus",
+      "url": "https://www.jtventures.cz/",
+      "publisher": "J&T Ventures",
+      "title": "Investment focus",
+      "excerpt": "Sector Agnostic",
+      "summary": "States sector agnostic, B2B, B2C and marketplace interests, with Prague office details.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-15",
+      "kind": "primary"
+    },
+    {
+      "id": "jt-deal",
+      "url": "https://www.jtventures.cz/blog",
+      "publisher": "J&T Ventures",
+      "title": "grid.online funding report",
+      "excerpt": "investici 1,5 milionu eur od fondů Reflex Capital, J&T Ventures a Grid Invest",
+      "summary": "Dated blog entry names grid.online and the three investors in a €1.5M round. The investor-specific amount is not given.",
+      "publishedAt": "2025-04-20",
+      "retrievedAt": "2026-10-15",
+      "kind": "primary"
+    },
+    {
+      "id": "tensor-office",
+      "url": "https://tensor.ventures/",
+      "publisher": "Tensor Ventures",
+      "title": "Team and contact",
+      "excerpt": "Contact in CZ",
+      "summary": "Lists Luxembourg fund entities and a Czech contact office. This establishes Czech presence, but main investment management location still requires confirmation.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-15",
+      "kind": "primary"
+    },
+    {
+      "id": "tensor-deal",
+      "url": "https://blog.tensor.ventures/p/tensor-wrapped-2024-the-annual-recap",
+      "publisher": "Tensor Ventures",
+      "title": "2024 annual recap",
+      "excerpt": "Our first investment from Fund 2 was in",
+      "summary": "Names Dynanic (Brnologic) as Fund 2’s first investment. Describes deep-tech investing and a €50M target for Fund 2, not a final close. Exact transaction date is unspecified.",
+      "publishedAt": "2024-12-23",
+      "retrievedAt": "2026-10-15",
+      "kind": "primary"
+    },
+    {
+      "id": "kaya-strategy",
+      "url": "https://www.kaya.vc/",
+      "publisher": "KAYA VC",
+      "title": "Fund strategy and offices",
+      "excerpt": "$1–3M",
+      "summary": "States pre-seed/seed tickets of $1M–$3M and CEE founders as its focus; lists four international offices. Shows $500M AUM and an $85M current fund without an explicit as-of date.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-15",
+      "kind": "primary"
+    },
+    {
+      "id": "kaya-office",
+      "url": "https://newsletter.kaya.vc/about/",
+      "publisher": "KAYA VC",
+      "title": "About KAYA VC",
+      "excerpt": "based in Prague",
+      "summary": "Describes KAYA as a Prague-based VC investing in early-stage companies across CEE.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-15",
+      "kind": "primary"
+    },
+    {
+      "id": "miton-strategy",
+      "url": "https://www.miton.cz/?entry_point=landing_page",
+      "publisher": "Miton",
+      "title": "Investment areas and portfolio",
+      "excerpt": "AI, augmented workforce",
+      "summary": "States AI, crypto/web3, e-commerce, gastrotech and mental-health investment areas. Lists Rossum in its portfolio and reports €450M portfolio value, which is not AUM. Stage, ticket and dated transaction evidence remain incomplete.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-15",
+      "kind": "primary"
+    },
+    {
+      "id": "cvca-discovery",
+      "url": "https://cvca.cz/en/membership/",
+      "publisher": "CVCA",
+      "title": "Membership directory",
+      "excerpt": "Full members",
+      "summary": "Discovery source only. Membership includes VC, PE and service providers. Neither membership nor a Czech address alone proves eligibility. Financial fields are not imported from this directory.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-15",
+      "kind": "institutional"
+    }
+  ],
+  "investors": [
+    {
+      "id": "credo",
+      "name": "Credo Ventures",
+      "initials": "CV",
+      "website": "https://www.credoventures.com/",
+      "description": "First checks for ambitious CEE founders and their global diaspora.",
+      "type": "VC candidate",
+      "office": {
+        "value": "Prague; also an office in Kraków",
+        "status": "supported",
+        "sources": [
+          "credo-strategy"
+        ]
+      },
+      "legalDomicile": {
+        "value": null,
+        "status": "not_checked",
+        "sources": [],
+        "note": "Not checked against a legal register."
+      },
+      "sectors": {
+        "value": [
+          "Sector agnostic"
+        ],
+        "status": "supported",
+        "sources": [
+          "credo-strategy"
+        ]
+      },
+      "stages": {
+        "value": [
+          "Pre-seed"
+        ],
+        "status": "supported",
+        "sources": [
+          "credo-strategy"
+        ]
+      },
+      "geography": {
+        "value": [
+          "CEE founders worldwide"
+        ],
+        "status": "supported",
+        "sources": [
+          "credo-strategy"
+        ]
+      },
+      "focus": {
+        "value": null,
+        "status": "not_found",
+        "sources": [],
+        "note": "Not found in the inspected sources."
+      },
+      "ticket": {
+        "value": {
+          "min": 1000000,
+          "max": 5000000,
+          "currency": "USD",
+          "scope": "Stated check range"
+        },
+        "status": "supported",
+        "sources": [
+          "credo-strategy"
+        ]
+      },
+      "capital": {
+        "value": null,
+        "status": "not_found",
+        "sources": [],
+        "note": "Not found in the inspected sources."
+      },
+      "investment": {
+        "value": {
+          "company": "ElevenLabs",
+          "announcedAt": "2024-01-22",
+          "transactionDate": null,
+          "roundSize": 80000000,
+          "currency": "USD",
+          "investorAmount": null,
+          "note": "Series B participation; whole round amount, not Credo’s contribution."
+        },
+        "status": "supported",
+        "sources": [
+          "credo-deal"
+        ]
+      },
+      "scopeStatus": "unresolved",
+      "evidenceStatus": "insufficient",
+      "reviewStatus": "pending",
+      "lastChecked": "2026-10-15",
+      "limitations": [
+        "Main management location needs explicit confirmation across its offices.",
+        "Founder origin is a condition; company location alone cannot establish geographic fit.",
+        "The cited deal is the latest captured here, not necessarily the latest actual investment."
+      ]
+    },
+    {
+      "id": "purple",
+      "name": "Purple Ventures",
+      "initials": "PV",
+      "website": "https://www.purple-ventures.com/",
+      "description": "Early technology companies with initial revenue and global ambitions.",
+      "type": "VC candidate",
+      "office": {
+        "value": null,
+        "status": "not_found",
+        "sources": [],
+        "note": "Not found in the inspected sources."
+      },
+      "legalDomicile": {
+        "value": null,
+        "status": "not_checked",
+        "sources": [],
+        "note": "Not checked against a legal register."
+      },
+      "sectors": {
+        "value": [
+          "Technology"
+        ],
+        "status": "supported",
+        "sources": [
+          "purple-strategy"
+        ]
+      },
+      "stages": {
+        "value": [
+          "Pre-seed",
+          "Seed"
+        ],
+        "status": "supported",
+        "sources": [
+          "purple-strategy"
+        ]
+      },
+      "geography": {
+        "value": [
+          "CEE"
+        ],
+        "status": "supported",
+        "sources": [
+          "purple-strategy"
+        ]
+      },
+      "focus": {
+        "value": null,
+        "status": "not_found",
+        "sources": [],
+        "note": "Not found in the inspected sources."
+      },
+      "ticket": {
+        "value": {
+          "min": 250000,
+          "max": 400000,
+          "currency": "EUR",
+          "scope": "Initial ticket; follow-ons separate"
+        },
+        "status": "supported",
+        "sources": [
+          "purple-strategy"
+        ]
+      },
+      "capital": {
+        "value": null,
+        "status": "not_found",
+        "sources": [],
+        "note": "Not found in the inspected sources."
+      },
+      "investment": {
+        "value": {
+          "company": "Flowlance",
+          "announcedAt": null,
+          "transactionDate": null,
+          "roundSize": null,
+          "currency": null,
+          "investorAmount": null,
+          "note": "Official portfolio says invested in 2024; no exact dated announcement captured."
+        },
+        "status": "supported",
+        "sources": [
+          "purple-strategy"
+        ]
+      },
+      "scopeStatus": "unresolved",
+      "evidenceStatus": "insufficient",
+      "reviewStatus": "pending",
+      "lastChecked": "2026-10-15",
+      "limitations": [
+        "CEE+ is conservatively normalized to CEE; additional countries need confirmation.",
+        "Main management office and a dated investment announcement remain unresolved."
+      ]
+    },
+    {
+      "id": "presto",
+      "name": "Presto Ventures",
+      "initials": "PR",
+      "website": "https://www.prestoventures.com/",
+      "description": "Advanced technologies in security, defense, and aerospace.",
+      "type": "VC candidate",
+      "office": {
+        "value": "Prague",
+        "status": "supported",
+        "sources": [
+          "presto-strategy"
+        ]
+      },
+      "legalDomicile": {
+        "value": null,
+        "status": "not_checked",
+        "sources": [],
+        "note": "Not checked against a legal register."
+      },
+      "sectors": {
+        "value": [
+          "Security",
+          "Defense",
+          "Aerospace"
+        ],
+        "status": "supported",
+        "sources": [
+          "presto-strategy"
+        ]
+      },
+      "stages": {
+        "value": [
+          "Seed",
+          "Series A"
+        ],
+        "status": "supported",
+        "sources": [
+          "presto-strategy"
+        ]
+      },
+      "geography": {
+        "value": [
+          "NATO & allies"
+        ],
+        "status": "supported",
+        "sources": [
+          "presto-strategy"
+        ]
+      },
+      "focus": {
+        "value": [
+          "Software",
+          "Hardware",
+          "Dual-use"
+        ],
+        "status": "supported",
+        "sources": [
+          "presto-strategy"
+        ]
+      },
+      "ticket": {
+        "value": {
+          "min": 500000,
+          "max": 5000000,
+          "currency": "EUR",
+          "scope": "Stated ticket range"
+        },
+        "status": "supported",
+        "sources": [
+          "presto-strategy"
+        ]
+      },
+      "capital": {
+        "value": null,
+        "status": "not_found",
+        "sources": [],
+        "note": "Not found in the inspected sources."
+      },
+      "investment": {
+        "value": {
+          "company": "Behavio",
+          "announcedAt": null,
+          "transactionDate": null,
+          "roundSize": null,
+          "currency": null,
+          "investorAmount": null,
+          "note": "Named in the official portfolio; a dated transaction source remains to be captured."
+        },
+        "status": "supported",
+        "sources": [
+          "presto-strategy"
+        ]
+      },
+      "scopeStatus": "unresolved",
+      "evidenceStatus": "insufficient",
+      "reviewStatus": "pending",
+      "lastChecked": "2026-10-15",
+      "limitations": [
+        "The new fund headline is not used as confirmed closed capital.",
+        "NATO & allies matching uses a documented small country mapping; other countries need review."
+      ]
+    },
+    {
+      "id": "look",
+      "name": "Look AI Ventures",
+      "initials": "LA",
+      "website": "https://lookai.vc/",
+      "description": "AI-first companies with technical depth, before Series A.",
+      "type": "VC candidate",
+      "office": {
+        "value": "Prague",
+        "status": "supported",
+        "sources": [
+          "look-strategy"
+        ]
+      },
+      "legalDomicile": {
+        "value": null,
+        "status": "not_checked",
+        "sources": [],
+        "note": "Not checked against a legal register."
+      },
+      "sectors": {
+        "value": [
+          "Artificial intelligence"
+        ],
+        "status": "supported",
+        "sources": [
+          "look-strategy"
+        ]
+      },
+      "stages": {
+        "value": [
+          "Pre-seed",
+          "Seed"
+        ],
+        "status": "supported",
+        "sources": [
+          "look-strategy"
+        ]
+      },
+      "geography": {
+        "value": [
+          "Global"
+        ],
+        "status": "supported",
+        "sources": [
+          "look-strategy"
+        ]
+      },
+      "focus": {
+        "value": null,
+        "status": "not_found",
+        "sources": [],
+        "note": "Not found in the inspected sources."
+      },
+      "ticket": {
+        "value": null,
+        "status": "not_found",
+        "sources": [],
+        "note": "Not found in the inspected sources."
+      },
+      "capital": {
+        "value": null,
+        "status": "not_found",
+        "sources": [],
+        "note": "Not found in the inspected sources."
+      },
+      "investment": {
+        "value": {
+          "company": "Sodex Innovations",
+          "announcedAt": "2026-07-23",
+          "transactionDate": null,
+          "roundSize": 4000000,
+          "currency": "EUR",
+          "investorAmount": null,
+          "note": "Company funding round; individual investor contribution is not disclosed."
+        },
+        "status": "supported",
+        "sources": [
+          "look-deal"
+        ]
+      },
+      "scopeStatus": "eligible",
+      "evidenceStatus": "sufficient",
+      "reviewStatus": "pending",
+      "lastChecked": "2026-10-15",
+      "limitations": [
+        "Pre-Series A is normalized to pre-seed and seed; financial contribution is unknown.",
+        "Independent human audit has not been performed."
+      ]
+    },
+    {
+      "id": "jt",
+      "name": "J&T Ventures",
+      "initials": "JT",
+      "website": "https://www.jtventures.cz/",
+      "description": "Early-stage companies across Central and Southeastern Europe.",
+      "type": "VC candidate",
+      "office": {
+        "value": "Prague",
+        "status": "supported",
+        "sources": [
+          "jt-strategy"
+        ]
+      },
+      "legalDomicile": {
+        "value": null,
+        "status": "not_checked",
+        "sources": [],
+        "note": "Not checked against a legal register."
+      },
+      "sectors": {
+        "value": [
+          "Sector agnostic"
+        ],
+        "status": "supported",
+        "sources": [
+          "jt-focus"
+        ]
+      },
+      "stages": {
+        "value": [
+          "Pre-seed",
+          "Seed",
+          "Series A"
+        ],
+        "status": "supported",
+        "sources": [
+          "jt-strategy"
+        ]
+      },
+      "geography": {
+        "value": [
+          "CEE",
+          "SEE",
+          "Baltics"
+        ],
+        "status": "supported",
+        "sources": [
+          "jt-strategy"
+        ]
+      },
+      "focus": {
+        "value": [
+          "B2B",
+          "B2C",
+          "Marketplaces"
+        ],
+        "status": "supported",
+        "sources": [
+          "jt-focus"
+        ]
+      },
+      "ticket": {
+        "value": {
+          "min": 300000,
+          "max": 3000000,
+          "currency": "EUR",
+          "scope": "Stated investment size; company lifetime allocation differs"
+        },
+        "status": "supported",
+        "sources": [
+          "jt-strategy"
+        ]
+      },
+      "capital": {
+        "value": null,
+        "status": "not_found",
+        "sources": [],
+        "note": "Not found in the inspected sources."
+      },
+      "investment": {
+        "value": {
+          "company": "grid.online",
+          "announcedAt": "2025-04-20",
+          "transactionDate": null,
+          "roundSize": 1500000,
+          "currency": "EUR",
+          "investorAmount": null,
+          "note": "Dated investor blog lists participation. Amount is for the whole round."
+        },
+        "status": "supported",
+        "sources": [
+          "jt-deal"
+        ]
+      },
+      "scopeStatus": "eligible",
+      "evidenceStatus": "sufficient",
+      "reviewStatus": "pending",
+      "lastChecked": "2026-10-15",
+      "limitations": [
+        "Independent human audit has not been performed."
+      ]
+    },
+    {
+      "id": "tensor",
+      "name": "Tensor Ventures",
+      "initials": "TV",
+      "website": "https://tensor.ventures/",
+      "description": "Deep-tech investing across scientific and industrial technologies.",
+      "type": "VC candidate",
+      "office": {
+        "value": "Prague contact office; main management location unresolved",
+        "status": "supported",
+        "sources": [
+          "tensor-office"
+        ]
+      },
+      "legalDomicile": {
+        "value": "Luxembourg fund entities",
+        "status": "supported",
+        "sources": [
+          "tensor-office"
+        ]
+      },
+      "sectors": {
+        "value": [
+          "Deep tech"
+        ],
+        "status": "supported",
+        "sources": [
+          "tensor-deal"
+        ]
+      },
+      "stages": {
+        "value": null,
+        "status": "not_found",
+        "sources": [],
+        "note": "Not found in the inspected sources."
+      },
+      "geography": {
+        "value": null,
+        "status": "not_found",
+        "sources": [],
+        "note": "Not found in the inspected sources."
+      },
+      "focus": {
+        "value": null,
+        "status": "not_found",
+        "sources": [],
+        "note": "Not found in the inspected sources."
+      },
+      "ticket": {
+        "value": null,
+        "status": "not_found",
+        "sources": [],
+        "note": "Not found in the inspected sources."
+      },
+      "capital": {
+        "value": [
+          {
+            "amount": 50000000,
+            "currency": "EUR",
+            "metric": "Fund target",
+            "scope": "Fund 2",
+            "asOf": "2024-12-23"
+          }
+        ],
+        "status": "supported",
+        "sources": [
+          "tensor-deal"
+        ]
+      },
+      "investment": {
+        "value": {
+          "company": "Dynanic (Brnologic)",
+          "announcedAt": "2024-12-23",
+          "transactionDate": null,
+          "roundSize": null,
+          "currency": null,
+          "investorAmount": null,
+          "note": "Annual recap documents the investment; publication date is not the deal date."
+        },
+        "status": "supported",
+        "sources": [
+          "tensor-deal"
+        ]
+      },
+      "scopeStatus": "unresolved",
+      "evidenceStatus": "insufficient",
+      "reviewStatus": "pending",
+      "lastChecked": "2026-10-15",
+      "limitations": [
+        "Czech presence alone does not prove the main management office.",
+        "€50M is a fundraising target, not confirmed commitments."
+      ]
+    },
+    {
+      "id": "kaya",
+      "name": "KAYA VC",
+      "initials": "KA",
+      "website": "https://www.kaya.vc/",
+      "description": "Early backing for ambitious founders from Central and Eastern Europe.",
+      "type": "VC candidate",
+      "office": {
+        "value": "Prague; international offices also listed",
+        "status": "supported",
+        "sources": [
+          "kaya-office",
+          "kaya-strategy"
+        ]
+      },
+      "legalDomicile": {
+        "value": null,
+        "status": "not_checked",
+        "sources": [],
+        "note": "Not checked against a legal register."
+      },
+      "sectors": {
+        "value": null,
+        "status": "not_found",
+        "sources": [],
+        "note": "Not found in the inspected sources."
+      },
+      "stages": {
+        "value": [
+          "Pre-seed",
+          "Seed"
+        ],
+        "status": "supported",
+        "sources": [
+          "kaya-strategy"
+        ]
+      },
+      "geography": {
+        "value": [
+          "CEE founders worldwide"
+        ],
+        "status": "supported",
+        "sources": [
+          "kaya-strategy"
+        ]
+      },
+      "focus": {
+        "value": null,
+        "status": "not_found",
+        "sources": [],
+        "note": "Not found in the inspected sources."
+      },
+      "ticket": {
+        "value": {
+          "min": 1000000,
+          "max": 3000000,
+          "currency": "USD",
+          "scope": "Stated ticket range"
+        },
+        "status": "supported",
+        "sources": [
+          "kaya-strategy"
+        ]
+      },
+      "capital": {
+        "value": [
+          {
+            "amount": 500000000,
+            "currency": "USD",
+            "metric": "AUM",
+            "scope": "Manager-reported total",
+            "asOf": null
+          },
+          {
+            "amount": 85000000,
+            "currency": "USD",
+            "metric": "Fund size",
+            "scope": "Current fund, as described on homepage",
+            "asOf": null
+          }
+        ],
+        "status": "supported",
+        "sources": [
+          "kaya-strategy"
+        ]
+      },
+      "investment": {
+        "value": null,
+        "status": "not_found",
+        "sources": [],
+        "note": "A dated investment announcement has not yet been established."
+      },
+      "scopeStatus": "unresolved",
+      "evidenceStatus": "insufficient",
+      "reviewStatus": "pending",
+      "lastChecked": "2026-10-15",
+      "limitations": [
+        "Capital figures have no explicit as-of date.",
+        "A dated investment announcement remains to be captured.",
+        "Founder origin is distinct from company geography."
+      ]
+    },
+    {
+      "id": "miton",
+      "name": "Miton",
+      "initials": "MI",
+      "website": "https://www.miton.cz/",
+      "description": "An investment group focused on selected technology and consumer areas.",
+      "type": "Investment group candidate",
+      "office": {
+        "value": null,
+        "status": "not_found",
+        "sources": [],
+        "note": "Not found in the inspected sources."
+      },
+      "legalDomicile": {
+        "value": null,
+        "status": "not_checked",
+        "sources": [],
+        "note": "Not checked against a legal register."
+      },
+      "sectors": {
+        "value": [
+          "Artificial intelligence",
+          "Web3",
+          "E-commerce",
+          "Mental health",
+          "Gastrotech"
+        ],
+        "status": "supported",
+        "sources": [
+          "miton-strategy"
+        ]
+      },
+      "stages": {
+        "value": null,
+        "status": "not_found",
+        "sources": [],
+        "note": "Not found in the inspected sources."
+      },
+      "geography": {
+        "value": null,
+        "status": "not_found",
+        "sources": [],
+        "note": "Not found in the inspected sources."
+      },
+      "focus": {
+        "value": null,
+        "status": "not_found",
+        "sources": [],
+        "note": "Not found in the inspected sources."
+      },
+      "ticket": {
+        "value": null,
+        "status": "not_found",
+        "sources": [],
+        "note": "Not found in the inspected sources."
+      },
+      "capital": {
+        "value": [
+          {
+            "amount": 450000000,
+            "currency": "EUR",
+            "metric": "Portfolio value",
+            "scope": "Current portfolio as described on homepage",
+            "asOf": null
+          }
+        ],
+        "status": "supported",
+        "sources": [
+          "miton-strategy"
+        ]
+      },
+      "investment": {
+        "value": {
+          "company": "Rossum",
+          "announcedAt": null,
+          "transactionDate": null,
+          "roundSize": null,
+          "currency": null,
+          "investorAmount": null,
+          "note": "Named in the official portfolio; dated investment proof not captured."
+        },
+        "status": "supported",
+        "sources": [
+          "miton-strategy"
+        ]
+      },
+      "scopeStatus": "unresolved",
+      "evidenceStatus": "insufficient",
+      "reviewStatus": "pending",
+      "lastChecked": "2026-10-15",
+      "limitations": [
+        "VC eligibility and main management location require review.",
+        "Portfolio value is not capital available for new investments."
+      ]
+    }
+  ]
+}

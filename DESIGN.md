@@ -1,0 +1,3 @@
+# Investor Atlas visual system
+
+Light desktop research workspace with cool neutral surfaces, charcoal text, muted blue actions, and amber evidence gaps. Segoe UI/system sans, 16px body, 14px secondary copy, tabular financial numbers. Spacing: 4/8/12/16/24/32px. Thin borders, modest radii, restrained drawer shadow. Stable header with Investors, Final draft count, and Methodology. Compact divided investor rows, left filters, right evidence drawer. Draft is an editable table. Comparison is a labeled grid with sticky names. Mobile uses a filter drawer and stacked draft rows. No decoration-only animation.

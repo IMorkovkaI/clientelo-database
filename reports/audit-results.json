@@ -1,0 +1,7 @@
+{
+  "status": "not_measured",
+  "humanReviewed": 0,
+  "precision": null,
+  "recall": null,
+  "note": "Provide a completed independent human audit CSV. Software tests are not audit evidence."
+}
