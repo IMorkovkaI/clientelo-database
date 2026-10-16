@@ -1,67 +1,71 @@
 import type { Dataset, DraftItem, Investor } from "./types";
 import { claimText, listText, ticketText, capitalText } from "./format";
-export function safeCell(value: unknown) {
-  const text = String(value ?? "");
-  return /^[\s]*[=+@-]/u.test(text) || /^[\t\r\n]/u.test(text)
-    ? `'${text}`
-    : text;
-}
-export function toCsv(rows: Record<string, unknown>[]) {
-  if (!rows.length) return "";
-  const headers = Object.keys(rows[0]);
-  const escape = (v: unknown) => `"${safeCell(v).replaceAll('"', '""')}"`;
-  return (
-    "\uFEFF" +
-    [
-      headers.map(escape).join(","),
-      ...rows.map((row) => headers.map((k) => escape(row[k])).join(",")),
-    ].join("\r\n")
-  );
-}
+import { safeCell, toCsv } from "./csv.mjs";
+import humanFieldReview from "../data/human-field-review.json";
+export { safeCell, toCsv } from "./csv.mjs";
 export function exportRows(draft: DraftItem[], dataset: Dataset) {
-  return draft.flatMap((item, index) => {
-    const i = dataset.investors.find((x) => x.id === item.id);
-    if (!i) return [];
-    const sourceIds = new Set(
-      Object.values(i).flatMap((v) =>
-        v && typeof v === "object" && "sources" in v ? v.sources : [],
-      ),
-    );
-    return [
-      {
-        order: index + 1,
-        investor_id: i.id,
-        name: i.name,
-        website: i.website,
-        office: claimText(i.office),
-        sectors: claimText(i.sectors, listText),
-        stages: claimText(i.stages, listText),
-        geography: claimText(i.geography, listText),
-        focus: claimText(i.focus, listText),
-        typical_ticket: claimText(i.ticket, ticketText),
-        ticket_status: i.ticket.status,
-        capital: claimText(i.capital, capitalText),
-        capital_status: i.capital.status,
-        documented_company: i.investment.value?.company ?? "",
-        announcement_date: i.investment.value?.announcedAt ?? "",
-        transaction_date: i.investment.value?.transactionDate ?? "",
-        round_size: i.investment.value?.roundSize ?? "",
-        round_currency: i.investment.value?.currency ?? "",
-        individual_contribution: i.investment.value?.investorAmount ?? "",
-        scope_status: i.scopeStatus,
-        evidence_status: i.evidenceStatus,
-        human_review: i.reviewStatus,
-        publication_status: dataset.publicationStatus,
-        release: dataset.version,
-        note: item.note,
-        limitations: i.limitations.join("; "),
-        sources: dataset.sources
-          .filter((s) => sourceIds.has(s.id))
-          .map((s) => s.url)
-          .join("\n"),
-      },
-    ];
-  });
+  return draft
+    .flatMap((item, index) => {
+      const i = dataset.investors.find((x) => x.id === item.id);
+      if (!i || i.scopeStatus !== "eligible") return [];
+      const sourceIds = new Set(
+        Object.values(i).flatMap((v) =>
+          v && typeof v === "object" && "sources" in v ? v.sources : [],
+        ),
+      );
+      return [
+        {
+          order: index + 1,
+          investor_id: i.id,
+          name: i.name,
+          website: i.website,
+          office: claimText(i.office),
+          legal_domicile: claimText(i.legalDomicile),
+          legal_identity_note: i.legalDomicile.note ?? "",
+          sectors: claimText(i.sectors, listText),
+          stages: claimText(i.stages, listText),
+          geography: claimText(i.geography, listText),
+          focus: claimText(i.focus, listText),
+          focus_basis: i.focus.basis ?? "stated_or_not_established",
+          focus_note: i.focus.note ?? "",
+          typical_ticket: claimText(i.ticket, ticketText),
+          ticket_status: i.ticket.status,
+          ticket_note: i.ticket.note ?? "",
+          capital: claimText(i.capital, capitalText),
+          capital_status: i.capital.status,
+          capital_note: i.capital.note ?? "",
+          documented_company: i.investment.value?.company ?? "",
+          evidence_publication_date:
+            i.investment.value?.evidencePublishedAt ?? "",
+          announcement_date: i.investment.value?.announcedAt ?? "",
+          transaction_date: i.investment.value?.transactionDate ?? "",
+          round_size: i.investment.value?.roundSize ?? "",
+          round_currency: i.investment.value?.currency ?? "",
+          individual_contribution: i.investment.value?.investorAmount ?? "",
+          scope_status: i.scopeStatus,
+          evidence_status: i.evidenceStatus,
+          source_review: i.reviewStatus,
+          reviewer: i.sourceReview?.reviewer ?? "",
+          reviewed_at: i.sourceReview?.reviewedAt ?? "",
+          review_note: i.sourceReview?.note ?? "",
+          human_review:
+            i.reviewStatus === "reviewed" ? "reviewed" : "not_performed",
+          human_review_scope: "Entity-level audit not performed",
+          human_field_review: humanFieldReview.investorIds.includes(i.id)
+            ? `User-reported source check of five fields in ${humanFieldReview.reviewedVersion}; later edits not covered`
+            : "not_performed",
+          publication_status: dataset.publicationStatus,
+          release: dataset.version,
+          note: item.note,
+          limitations: i.limitations.join("; "),
+          sources: dataset.sources
+            .filter((s) => sourceIds.has(s.id))
+            .map((s) => s.url)
+            .join("\n"),
+        },
+      ];
+    })
+    .map((row, index) => ({ ...row, order: index + 1 }));
 }
 function download(blob: Blob, filename: string) {
   const url = URL.createObjectURL(blob);
@@ -136,7 +140,9 @@ export async function exportDraft(
     .filter((s) => used.has(s.id))
     .forEach((s) => evidence.addRow(s));
   const readme = workbook.addWorksheet("Read me");
-  readme.addRow(["Research preview; independent human audit pending."]);
+  readme.addRow([
+    "Research preview. AI review is recorded per profile. User reported checking five fields in 15 prior-version profiles; this is not an entity-level audit or a review of later edits.",
+  ]);
   readme.addRow(["Release", dataset.version]);
   readme.addRow([
     "Amounts keep their original currency. Round size is not an individual contribution.",

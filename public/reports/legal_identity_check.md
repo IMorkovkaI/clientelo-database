@@ -1,0 +1,15 @@
+# Legal identity corroboration by IČO
+
+Checked 16 October 2026 by Codex. Kurzy (https://rejstrik-firem.kurzy.cz/) blocked automated access with robots.txt. No facts from an inaccessible Kurzy page were marked verified. The official Ministry of Finance ARES API was retrieved successfully as an alternative; minimal fields are saved in ../data/intake/legal-entities-2026-10-16.json.
+
+| Profile              | Matched entity and IČO               | Source of the brand/identifier link                                                                      | Register evidence                                                                                                                                    |
+| -------------------- | ------------------------------------ | -------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| JSK venture strategy | JSK Investments SICAV a.s., 23823445 | [Issuer statute](https://jsk-funds.cdn-stoone.co/jsk-funds/JSK%20SICAV_statut-podfond_VC_20260826-1.pdf) | [ARES](https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/23823445): Klimentská 1216/46, Praha; record updated 20 September 2026  |
+| Purple Ventures      | Purple Ventures s.r.o., 05775574     | [Official privacy policy](https://www.purple-ventures.com/privacy_policy_cz/)                            | [ARES](https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/05775574): Masarykova 409/26, Brno; record updated 6 April 2026         |
+| J&T Ventures         | J&T Ventures CG SICAV a.s., 08220867 | [Official contact page](https://www.jtventures.cz/kontakt)                                               | [ARES](https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08220867): Sokolovská 700/113a, Praha; record updated 21 September 2026 |
+
+Each ARES response returned the requested IČO, legal name, Czech registered address and registry-update date. Retrieval and registry-update dates are distinct; no publication date is invented. The canonical legalDomicile claim links the identifier source and ARES record. The source-review ledger records the additions. Investment participation evidence remains unchanged.
+
+These matches corroborate the named legal entities, not every manager, GP or fund sharing a brand. Purple's Luxembourg vehicles remain separate. J&T's contact identifier resolves to a SICAV vehicle and is not silently relabeled as its manager. JSK's group contact company has a different IČO. ARES is not used as proof of regulator authorization, investment strategy, management base or actual investing.
+
+The additions are outside the owner's earlier five-field review. Other profiles retain their existing explicit legal-identity gaps. Wider register matching remains future research, not a claim of complete registry verification.

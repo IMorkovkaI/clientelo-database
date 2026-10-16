@@ -5,19 +5,21 @@
     BlinkMacSystemFont,
     system-ui,
     sans-serif;
-  color: #263347;
-  background: #f5f7fa;
+  color: var(--ink);
+  background: oklch(0.977 0.006 260);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
-  --ink: #263347;
-  --muted: #647087;
-  --line: #e1e6ee;
-  --blue: #315cbd;
-  --blue-soft: #edf2fc;
-  --surface: #fefefe;
-  --amber: #856116;
+  --ink: oklch(0.32 0.04 260);
+  --muted: oklch(0.52 0.035 260);
+  --line: oklch(0.92 0.014 260);
+  --blue: oklch(0.49 0.16 264);
+  --blue-soft: oklch(0.96 0.016 264);
+  --surface: oklch(0.996 0.002 260);
+  --amber: oklch(0.48 0.09 82);
+  --input-surface: oklch(0.983 0.006 260);
+  --input-border: oklch(0.86 0.022 260);
   --radius: 8px;
 }
 * {
@@ -819,6 +821,23 @@ input[type="checkbox"] {
   display: flex;
   gap: 8px;
 }
+.export-group {
+  min-width: 0;
+  flex: none;
+  text-align: right;
+}
+.page-intro .export-description {
+  margin-top: 9px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.export-actions .button {
+  min-height: 42px;
+  font-size: 13px;
+}
+.button:active:not(:disabled) {
+  transform: translateY(1px);
+}
 .draft-toolbar {
   display: flex;
   gap: 18px;
@@ -827,6 +846,9 @@ input[type="checkbox"] {
 }
 .draft-toolbar > .small {
   margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
 }
 .draft-table-wrap {
   background: var(--surface);
@@ -851,7 +873,7 @@ input[type="checkbox"] {
 .draft-table td {
   border-top: 1px solid var(--line);
   padding: 23px 12px;
-  font-size: 12px;
+  font-size: 13px;
   vertical-align: middle;
 }
 .draft-table th:first-child,
@@ -876,7 +898,7 @@ input[type="checkbox"] {
 .draft-identity small {
   display: block;
   color: var(--muted);
-  font-size: 10px;
+  font-size: 11px;
   margin-top: 4px;
 }
 .order-controls {
@@ -901,19 +923,20 @@ input[type="checkbox"] {
   resize: vertical;
   min-height: 58px;
   max-height: 220px;
-  border: 1px solid transparent;
+  border: 1px solid var(--input-border);
   border-radius: 5px;
   padding: 8px;
-  background: transparent;
-  font-size: 12px;
-  color: #46566e;
+  background: var(--input-surface);
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--ink);
 }
 .draft-table textarea:hover,
 .draft-table textarea:focus,
 .comparison textarea:hover,
 .comparison textarea:focus {
-  border-color: #d6deea;
-  background: #fefefe;
+  border-color: var(--blue);
+  background: var(--surface);
 }
 .remove:hover {
   color: #a04747 !important;
@@ -1638,11 +1661,18 @@ input[type="checkbox"] {
   .details-link {
     font-size: 10px;
   }
+  .export-group {
+    width: 100%;
+    text-align: left;
+  }
   .export-actions {
     width: 100%;
   }
-  .export-actions .primary {
+  .export-actions .button {
     flex: 1;
+    min-width: 0;
+    padding-inline: 10px;
+    font-size: 12px;
   }
   .draft-toolbar {
     flex-wrap: wrap;

@@ -1,0 +1,848 @@
+{
+  "sourceUrl": "https://cvca.cz/en/membership/",
+  "retrievedAt": "2026-10-16",
+  "fullMembers": 27,
+  "associateMembers": 57,
+  "members": [
+    {
+      "name": "Abris Capital",
+      "membership": "full",
+      "directoryEntryDate": "2020-01-14",
+      "sourceUrl": "https://cvca.cz/en/abris-capital-2/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "profile_extracted",
+      "screeningCategory": "foreign_listed",
+      "result": "See extracted profile"
+    },
+    {
+      "name": "ARX Equity Partners",
+      "membership": "full",
+      "directoryEntryDate": "2020-01-14",
+      "sourceUrl": "https://cvca.cz/en/arx-equity-partners-2/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "profile_extracted",
+      "screeningCategory": "czech_pe",
+      "result": "See extracted profile"
+    },
+    {
+      "name": "Credo Ventures",
+      "membership": "full",
+      "directoryEntryDate": "2020-01-14",
+      "sourceUrl": "https://cvca.cz/en/credo-ventures-2/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "profile_extracted",
+      "screeningCategory": "vc_management_unresolved",
+      "result": "See extracted profile"
+    },
+    {
+      "name": "CVI",
+      "membership": "full",
+      "directoryEntryDate": "2023-05-12",
+      "sourceUrl": "https://cvca.cz/en/cvi-2/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "profile_extracted",
+      "screeningCategory": "foreign_listed",
+      "result": "See extracted profile"
+    },
+    {
+      "name": "Depo Ventures",
+      "membership": "full",
+      "directoryEntryDate": "2020-01-23",
+      "sourceUrl": "https://cvca.cz/en/depo-ventures-2/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "profile_extracted",
+      "screeningCategory": "czech_vc_candidates",
+      "result": "See extracted profile"
+    },
+    {
+      "name": "Enterprise Investors",
+      "membership": "full",
+      "directoryEntryDate": "2020-01-14",
+      "sourceUrl": "https://cvca.cz/en/enterprise-investors-2/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "profile_extracted",
+      "screeningCategory": "foreign_listed",
+      "result": "See extracted profile"
+    },
+    {
+      "name": "Espira Investments",
+      "membership": "full",
+      "directoryEntryDate": "2021-12-02",
+      "sourceUrl": "https://cvca.cz/en/espira-investments-2/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "profile_extracted",
+      "screeningCategory": "czech_pe",
+      "result": "See extracted profile"
+    },
+    {
+      "name": "EVERITA Capital",
+      "membership": "full",
+      "directoryEntryDate": "2020-01-23",
+      "sourceUrl": "https://cvca.cz/en/everita-capital-en/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "profile_extracted",
+      "screeningCategory": "czech_pe",
+      "result": "See extracted profile"
+    },
+    {
+      "name": "Genesis Capital Equity s.r.o.",
+      "membership": "full",
+      "directoryEntryDate": "2020-01-14",
+      "sourceUrl": "https://cvca.cz/en/genesis-capital-equity-s-r-o-2/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "profile_extracted",
+      "screeningCategory": "czech_pe",
+      "result": "See extracted profile"
+    },
+    {
+      "name": "i&i Biotech Investments",
+      "membership": "full",
+      "directoryEntryDate": "2020-01-18",
+      "sourceUrl": "https://cvca.cz/en/biotech-investments/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "profile_extracted",
+      "screeningCategory": "czech_vc_candidates",
+      "result": "See extracted profile"
+    },
+    {
+      "name": "Innova Capital",
+      "membership": "full",
+      "directoryEntryDate": "2020-01-14",
+      "sourceUrl": "https://cvca.cz/en/innova-capital-2/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "profile_extracted",
+      "screeningCategory": "foreign_listed",
+      "result": "See extracted profile"
+    },
+    {
+      "name": "Integral Capital Group",
+      "membership": "full",
+      "directoryEntryDate": "2020-01-14",
+      "sourceUrl": "https://cvca.cz/en/integral-capital-group-2/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "profile_extracted",
+      "screeningCategory": "foreign_listed",
+      "result": "See extracted profile"
+    },
+    {
+      "name": "Inven Capital",
+      "membership": "full",
+      "directoryEntryDate": "2020-01-14",
+      "sourceUrl": "https://cvca.cz/en/inven-capital-2/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "profile_extracted",
+      "screeningCategory": "czech_vc_candidates",
+      "result": "See extracted profile"
+    },
+    {
+      "name": "Jet Investment",
+      "membership": "full",
+      "directoryEntryDate": "2020-01-14",
+      "sourceUrl": "https://cvca.cz/en/jet-investment-2/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "profile_extracted",
+      "screeningCategory": "czech_mixed",
+      "result": "See extracted profile"
+    },
+    {
+      "name": "KAYA VC",
+      "membership": "full",
+      "directoryEntryDate": "2020-10-16",
+      "sourceUrl": "https://cvca.cz/en/kaya-vc-2/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "profile_extracted",
+      "screeningCategory": "czech_vc_candidates",
+      "result": "See extracted profile"
+    },
+    {
+      "name": "MAM Private Equity Fund SICAV a.s.",
+      "membership": "full",
+      "directoryEntryDate": "2020-01-14",
+      "sourceUrl": "https://cvca.cz/en/mam-private-equity-fund-sicav-a-s/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "profile_extracted",
+      "screeningCategory": "czech_pe",
+      "result": "See extracted profile"
+    },
+    {
+      "name": "Mid Europa Partners",
+      "membership": "full",
+      "directoryEntryDate": "2020-01-14",
+      "sourceUrl": "https://cvca.cz/en/mid-europa-partners-2/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "profile_extracted",
+      "screeningCategory": "foreign_listed",
+      "result": "See extracted profile"
+    },
+    {
+      "name": "Nation1",
+      "membership": "full",
+      "directoryEntryDate": "2020-01-14",
+      "sourceUrl": "https://cvca.cz/en/nation1-2/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "profile_extracted",
+      "screeningCategory": "czech_vc_candidates",
+      "result": "See extracted profile"
+    },
+    {
+      "name": "Orbit Capital",
+      "membership": "full",
+      "directoryEntryDate": "2020-01-12",
+      "sourceUrl": "https://cvca.cz/en/orbit-capital-2/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "profile_extracted",
+      "screeningCategory": "czech_mixed",
+      "result": "See extracted profile"
+    },
+    {
+      "name": "Sandberg Capital",
+      "membership": "full",
+      "directoryEntryDate": "2020-01-08",
+      "sourceUrl": "https://cvca.cz/en/sandberg-capital/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "profile_extracted",
+      "screeningCategory": "foreign_listed",
+      "result": "See extracted profile"
+    },
+    {
+      "name": "SkyLimit Investments",
+      "membership": "full",
+      "directoryEntryDate": "2020-01-14",
+      "sourceUrl": "https://cvca.cz/en/skylimit-investments-2/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "profile_extracted",
+      "screeningCategory": "czech_pe",
+      "result": "See extracted profile"
+    },
+    {
+      "name": "Stratum Partners",
+      "membership": "full",
+      "directoryEntryDate": "2024-08-13",
+      "sourceUrl": "https://cvca.cz/en/stratum-partners-en/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "profile_extracted",
+      "screeningCategory": "czech_pe",
+      "result": "See extracted profile"
+    },
+    {
+      "name": "Tensor Ventures",
+      "membership": "full",
+      "directoryEntryDate": "2023-06-20",
+      "sourceUrl": "https://cvca.cz/en/tensor-ventures/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "profile_extracted",
+      "screeningCategory": "vc_management_unresolved",
+      "result": "See extracted profile"
+    },
+    {
+      "name": "Thein",
+      "membership": "full",
+      "directoryEntryDate": "2024-03-18",
+      "sourceUrl": "https://cvca.cz/en/thein-2/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "profile_extracted",
+      "screeningCategory": "czech_pe",
+      "result": "See extracted profile"
+    },
+    {
+      "name": "Tilia Impact Ventures – Honorary Member",
+      "membership": "full",
+      "directoryEntryDate": "2020-01-06",
+      "sourceUrl": "https://cvca.cz/en/tilia-impact-ventures-honorary-member/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "profile_extracted",
+      "screeningCategory": "czech_vc_candidates",
+      "result": "See extracted profile"
+    },
+    {
+      "name": "V4C Investment Advisers Limited",
+      "membership": "full",
+      "directoryEntryDate": "2020-01-14",
+      "sourceUrl": "https://cvca.cz/en/v4c-investment-advisers-limited-2/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "profile_extracted",
+      "screeningCategory": "foreign_listed",
+      "result": "See extracted profile"
+    },
+    {
+      "name": "Versute Investments",
+      "membership": "full",
+      "directoryEntryDate": "2020-01-14",
+      "sourceUrl": "https://cvca.cz/en/versute-investments-2/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "profile_extracted",
+      "screeningCategory": "czech_pe",
+      "result": "See extracted profile"
+    },
+    {
+      "name": "Accolade",
+      "membership": "associate",
+      "directoryEntryDate": "2025-03-17",
+      "sourceUrl": "https://cvca.cz/en/accolade-2/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "profile_extracted",
+      "screeningCategory": "other_investment_or_unclear",
+      "result": "See extracted profile"
+    },
+    {
+      "name": "AKAT Czech Capital Market Association",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-26",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "association",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "Aon Central and Eastern Europe a.s.",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-26",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "insurance_services",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "ASB Czech Republic, s.r.o.",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-26",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "professional_services",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "BADOKH – Kuhn Dostál advokátní kancelář s.r.o.",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-25",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "legal_services",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "Baker & McKenzie s.r.o., advokátní kancelář",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-25",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "legal_services",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "BDO Czech Republic s.r.o.",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-25",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "professional_services",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "Bird & Bird, s.r.o.",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-25",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "legal_services",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "Bonuvis s.r.o.",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-25",
+      "sourceUrl": "https://cvca.cz/en/bonuvis-s-r-o-2/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "profile_extracted",
+      "screeningCategory": "other_investment_or_unclear",
+      "result": "See extracted profile"
+    },
+    {
+      "name": "Burza cenných papírů Praha, a.s.",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-25",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "exchange",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "Citibank Europe plc",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-24",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "banking",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "Clifford Chance LLP",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-24",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "legal_services",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "CMS Cameron Mckenna V.o.s.",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-24",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "legal_services",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "CORPIN, a.s.",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-24",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "corporate_finance_advisory",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "Česká exportní banka, a.s.",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-24",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "banking",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "Česká spořitelna",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-24",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "banking",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "Datasite Germany GmbH",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-23",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "transaction_software",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "Deloitte Česká republika",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-23",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "professional_services",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "Dentons Europe CS LLP",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-23",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "legal_services",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "DLA Piper Prague LLP",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-23",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "legal_services",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "EMUN investiční společnost, a.s.",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-22",
+      "sourceUrl": "https://cvca.cz/en/emun-investicni-spolecnost-a-s-2/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "profile_extracted",
+      "screeningCategory": "other_investment_or_unclear",
+      "result": "See extracted profile"
+    },
+    {
+      "name": "EY",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-22",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "professional_services",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "FARKASOVA INTERNATIONAL, s.r.o",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-21",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "recruitment",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "Forvis Mazars Česká republika",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-20",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "professional_services",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "Havel & Partners",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-19",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "legal_services",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "Chubb European Group Limited",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-19",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "insurance_services",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "INDUNA",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-18",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "fund_services",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "JSK Investments",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-17",
+      "sourceUrl": "https://cvca.cz/en/jsk-investments-en/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "profile_extracted",
+      "screeningCategory": "czech_mixed",
+      "result": "See extracted profile"
+    },
+    {
+      "name": "JŠK, advokátní kancelář, s.r.o.",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-17",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "legal_services",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "Kinstellar",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-16",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "legal_services",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "Komerční banka, a.s.",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-16",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "banking",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "Kocián Šolc Balaštík, advokátní kancelář",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-16",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "legal_services",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "KPMG Česká republika",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-16",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "professional_services",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "LHH",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-15",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "recruitment",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "Marsh s.r.o.",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-14",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "insurance_services",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "Pale Fire Capital SE",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-11",
+      "sourceUrl": "https://cvca.cz/en/pale-fire-capital-se-en/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "profile_extracted",
+      "screeningCategory": "czech_pe",
+      "result": "See extracted profile"
+    },
+    {
+      "name": "Patria Corporate Finance",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-11",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "corporate_finance_advisory",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "Pedersen & Partners",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-11",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "recruitment",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "PKF APOGEO Group, SE",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-11",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "professional_services",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "PricewaterhouseCoopers CZE",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-11",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "professional_services",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "PPF banka a.s.",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-11",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "banking",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "PRK Partners",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-11",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "legal_services",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "QI investiční společnost, a.s.",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-10",
+      "sourceUrl": "https://cvca.cz/en/qi-investicni-spolecnost-a-s-2/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "profile_extracted",
+      "screeningCategory": "other_investment_or_unclear",
+      "result": "See extracted profile"
+    },
+    {
+      "name": "Raiffeisenbank a.s.",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-09",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "banking",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "RENOMIA",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-09",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "insurance_services",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "RSJ Investments",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-09",
+      "sourceUrl": "https://cvca.cz/en/rsj-investments-2/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "profile_extracted",
+      "screeningCategory": "other_investment_or_unclear",
+      "result": "See extracted profile"
+    },
+    {
+      "name": "RSM CZ",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-09",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "professional_services",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "SpenglerFox Czech Republic s.r.o.",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-08",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "recruitment",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "Squire Patton Boggs, v.o.s., advokátní kancelář",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-08",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "legal_services",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "Stanton Chase Praha",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-08",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "recruitment",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "Sušánka & partneři",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-08",
+      "sourceUrl": "https://cvca.cz/en/susanka-partneri-2/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "profile_extracted",
+      "screeningCategory": "advisory_only",
+      "result": "See extracted profile"
+    },
+    {
+      "name": "TARPAN Partners s.r.o.",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-07",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "corporate_finance_advisory",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "TMF Czech, a.s.",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-07",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "professional_services",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "UniCredit Bank Czech Republic, a.s.",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-06",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "banking",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "White & Case, advokátní kancelář",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-04",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "legal_services",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "WOLF THEISS Rechtsanwälte GmbH & Co KG",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-04",
+      "sourceUrl": "https://cvca.cz/en/membership/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "directory_description_screened",
+      "screeningCategory": "legal_services",
+      "result": "No qualifying direct VC investment established by directory description; not added to investor profiles"
+    },
+    {
+      "name": "WOOD & Company Financial Services",
+      "membership": "associate",
+      "directoryEntryDate": "2020-01-04",
+      "sourceUrl": "https://cvca.cz/en/wood-company-financial-services-2/",
+      "retrievedAt": "2026-10-16",
+      "reviewDepth": "profile_extracted",
+      "screeningCategory": "other_investment_or_unclear",
+      "result": "See extracted profile"
+    }
+  ]
+}

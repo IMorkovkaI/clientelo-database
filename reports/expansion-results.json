@@ -1,0 +1,74 @@
+{
+  "version": "2026-10-16.1",
+  "asOf": "2026-10-16",
+  "currency": "EUR",
+  "status": "planning_assumptions_not_measured_costs",
+  "scenarios": [
+    {
+      "name": "low",
+      "institutional": 5349,
+      "familyOffices": 803,
+      "people": 2966,
+      "accepted": 8662,
+      "candidates": 14437,
+      "hours": {
+        "discoveryExtraction": 2406.1666666666665,
+        "acceptedVerification": 2887.3333333333335,
+        "rejectedVerification": 481.25,
+        "deduplication": 721.85,
+        "qualityAssurance": 433.1
+      },
+      "researchHours": 6929.700000000001,
+      "researchEUR": 173242.50000000003,
+      "engineeringEUR": 6000,
+      "collectionToolsEUR": 3609.25,
+      "contingencyEUR": 36570.350000000006,
+      "initialEUR": 219422.10000000003,
+      "annualMaintenanceEUR": 35351.5
+    },
+    {
+      "name": "middle",
+      "institutional": 8341,
+      "familyOffices": 1405,
+      "people": 9397,
+      "accepted": 17612,
+      "candidates": 35224,
+      "hours": {
+        "discoveryExtraction": 11741.333333333334,
+        "acceptedVerification": 10273.666666666666,
+        "rejectedVerification": 2935.3333333333335,
+        "deduplication": 2935.3333333333335,
+        "qualityAssurance": 880.6
+      },
+      "researchHours": 28766.266666666663,
+      "researchEUR": 1150650.6666666665,
+      "engineeringEUR": 16000,
+      "collectionToolsEUR": 26418,
+      "contingencyEUR": 238613.7333333333,
+      "initialEUR": 1431682.4,
+      "annualMaintenanceEUR": 262732.8
+    },
+    {
+      "name": "high",
+      "institutional": 12733,
+      "familyOffices": 2008,
+      "people": 19794,
+      "accepted": 31082,
+      "candidates": 77705,
+      "hours": {
+        "discoveryExtraction": 45327.916666666664,
+        "acceptedVerification": 25901.666666666668,
+        "rejectedVerification": 11655.75,
+        "deduplication": 10360.666666666666,
+        "qualityAssurance": 1554.1000000000001
+      },
+      "researchHours": 94800.1,
+      "researchEUR": 5688006,
+      "engineeringEUR": 40000,
+      "collectionToolsEUR": 116557.5,
+      "contingencyEUR": 1168912.7,
+      "initialEUR": 7013476.2,
+      "annualMaintenanceEUR": 1726766.4
+    }
+  ]
+}

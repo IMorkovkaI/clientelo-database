@@ -1,0 +1,40 @@
+{
+  "reviewedVersion": "2026-10-16-preview.4",
+  "reviewedAt": "2026-10-16",
+  "reviewer": "Project owner (reported in project chat)",
+  "profileCount": 15,
+  "counts": [
+    {
+      "field": "sectors",
+      "populated": 14,
+      "unknown": 1
+    },
+    {
+      "field": "stages",
+      "populated": 15,
+      "unknown": 0
+    },
+    {
+      "field": "geography",
+      "populated": 13,
+      "unknown": 2
+    },
+    {
+      "field": "focus",
+      "populated": 9,
+      "unknown": 6
+    },
+    {
+      "field": "ticket",
+      "populated": 11,
+      "unknown": 4
+    }
+  ],
+  "populatedFields": 62,
+  "unknownFields": 13,
+  "reportedIncorrectFields": 0,
+  "sourceAgreement": 1,
+  "supportedFields": 62,
+  "method": "Owner-reported manual source check, aggregate verdict supplied in project chat. One populated profile field is one observation; no independent cell-by-cell audit is claimed.",
+  "limitation": "Purposive sample; fields cluster within profiles and the reviewer saw the existing values. Unknowns and omissions are separate from correctness of supplied values. No population confidence interval, entity precision, recall, capital accuracy or validation of later edits/additions is implied."
+}

@@ -10,10 +10,12 @@
     "test": "vitest run",
     "test:e2e": "playwright test",
     "validate:data": "node scripts/validate-data.mjs",
-    "audit:report": "node scripts/audit-report.mjs",
-    "prepare:data": "node scripts/prepare-data.mjs",
-    "check": "npm run validate:data && npm test && npm run build",
-    "format": "prettier --write src tests scripts *.ts"
+    "review:report": "node scripts/source-review-report.mjs && node scripts/field-review-report.mjs",
+    "prepare:data": "npm run review:report && npm run estimate:report && npm run cvca:report && node scripts/prepare-data.mjs",
+    "check": "npm run validate:data && npm run review:report && npm run estimate:report && npm run cvca:report && npm test && npm run build",
+    "format": "prettier --write src tests scripts *.ts",
+    "estimate:report": "node scripts/estimate-expansion.mjs",
+    "cvca:report": "node scripts/cvca-report.mjs"
   },
   "dependencies": {
     "exceljs": "^4.4.0",

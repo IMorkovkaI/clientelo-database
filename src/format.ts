@@ -28,7 +28,8 @@ export function claimText<T>(
   format: (v: T) => string = String,
 ) {
   return claim.status === "supported" && claim.value !== null
-    ? format(claim.value)
+    ? format(claim.value) +
+        (claim.basis === "portfolio_observation" ? " (portfolio examples)" : "")
     : (missingLabels[claim.status as keyof typeof missingLabels] ??
         "Not found");
 }

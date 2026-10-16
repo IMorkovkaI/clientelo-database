@@ -1,0 +1,1913 @@
+{
+  "version": "2026-10-16.cvca-complete-1",
+  "retrievedAt": "2026-10-16",
+  "reviewer": "Codex",
+  "reviewerType": "ai",
+  "independent": false,
+  "status": "association_extraction_not_verified_investor_release",
+  "scope": "All 27 full member profiles plus 9 investment-related/ambiguous associate profiles. All other associate descriptions screened separately.",
+  "publicationDateNote": "Directory entry dates were observed on the membership index. They are not financial as-of dates, current update dates or investment dates. Individual profile publication dates remain unknown.",
+  "classificationNote": "Czech groups indicate listed Czech presence or earlier evidence, not a newly verified management base. Strategy and listed country are separate fields. Foreign-listed V4C has a GP address; actual management is unresolved. Mixed strategies are not forced into PE-only or VC-only.",
+  "financialNote": "Reported association observations may be stale. Preserve currencies, bounds, fund scope, targets and deployment plans. Capital figures are never inferred dry powder. Empty financial arrays mean not found in this source.",
+  "baselineNote": "Existing candidate IDs reused. New cvca-* IDs are intake IDs only. No original audit baseline, live inclusion status or user-editable template is altered.",
+  "records": [
+    {
+      "candidateId": "directory-1",
+      "name": "Abris Capital",
+      "membership": "full",
+      "source": {
+        "url": "https://cvca.cz/en/abris-capital-2/",
+        "publisher": "CVCA",
+        "kind": "institutional",
+        "publishedAt": null,
+        "retrievedAt": "2026-10-16",
+        "directoryEntryDate": "2020-01-14"
+      },
+      "listedLocation": {
+        "city": "Warsaw",
+        "country": "Poland",
+        "basis": "Address on CVCA profile; not independently confirmed main management base"
+      },
+      "group": "foreign_listed",
+      "strategy": [
+        "Growth PE",
+        "Buyouts",
+        "Expansion"
+      ],
+      "sectors": null,
+      "sectorStatus": "not_found",
+      "geography": [
+        "CEE"
+      ],
+      "investmentRanges": [
+        {
+          "min": 30000000,
+          "max": 70000000,
+          "currency": "EUR",
+          "scope": "Preferred investment amount; exact initial/follow-on basis unspecified"
+        }
+      ],
+      "capitalObservations": [
+        {
+          "amount": 502000000,
+          "currency": "EUR",
+          "metric": "Fund size",
+          "scope": "Abris Fund III",
+          "relation": "equal",
+          "asOf": null
+        },
+        {
+          "amount": 450000000,
+          "currency": "EUR",
+          "metric": "Fund size",
+          "scope": "Abris Fund II",
+          "relation": "equal",
+          "asOf": null
+        }
+      ],
+      "portfolioExamples": [
+        "AAA Auto"
+      ],
+      "investmentEvidenceDate": null,
+      "classificationNote": "Polish PE investor; user confirmed Polish identity. Do not sum historical funds into current AUM.",
+      "verificationStatus": "association_extraction_pending_primary_verification"
+    },
+    {
+      "candidateId": "directory-2",
+      "name": "ARX Equity Partners",
+      "membership": "full",
+      "source": {
+        "url": "https://cvca.cz/en/arx-equity-partners-2/",
+        "publisher": "CVCA",
+        "kind": "institutional",
+        "publishedAt": null,
+        "retrievedAt": "2026-10-16",
+        "directoryEntryDate": "2020-01-14"
+      },
+      "listedLocation": {
+        "city": "Prague",
+        "country": "Czechia",
+        "basis": "Address on CVCA profile; not independently confirmed main management base"
+      },
+      "group": "czech_pe",
+      "strategy": [
+        "Buyouts",
+        "Acquisitions",
+        "Expansion"
+      ],
+      "sectors": null,
+      "sectorStatus": "not_found",
+      "geography": [
+        "Central Europe"
+      ],
+      "investmentRanges": [
+        {
+          "min": 5000000,
+          "max": 50000000,
+          "currency": "EUR",
+          "scope": "Total transaction value, not investor contribution"
+        }
+      ],
+      "capitalObservations": [
+        {
+          "amount": 300000000,
+          "currency": "EUR",
+          "metric": "Funds managed as listed",
+          "scope": "Unspecified managed funds",
+          "relation": "equal",
+          "asOf": null
+        }
+      ],
+      "portfolioExamples": [
+        "Wieden",
+        "Promens Zlín",
+        "Brebeck Composite"
+      ],
+      "investmentEvidenceDate": null,
+      "classificationNote": "PE strategy; listed transaction range is not a typical equity cheque.",
+      "verificationStatus": "association_extraction_pending_primary_verification"
+    },
+    {
+      "candidateId": "credo",
+      "name": "Credo Ventures",
+      "membership": "full",
+      "source": {
+        "url": "https://cvca.cz/en/credo-ventures-2/",
+        "publisher": "CVCA",
+        "kind": "institutional",
+        "publishedAt": null,
+        "retrievedAt": "2026-10-16",
+        "directoryEntryDate": "2020-01-14"
+      },
+      "listedLocation": {
+        "city": "Prague",
+        "country": "Czechia",
+        "basis": "Address on CVCA profile; not independently confirmed main management base"
+      },
+      "group": "vc_management_unresolved",
+      "strategy": [
+        "Startup investing",
+        "Growth",
+        "Expansion"
+      ],
+      "sectors": [
+        "IT",
+        "Internet",
+        "Mobile communications"
+      ],
+      "sectorStatus": "reported",
+      "geography": [
+        "CEE"
+      ],
+      "investmentRanges": [
+        {
+          "min": 50000,
+          "max": 10000000,
+          "currency": "EUR",
+          "scope": "Preferred investment amount; exact initial/follow-on basis unspecified"
+        }
+      ],
+      "capitalObservations": [
+        {
+          "amount": 170000000,
+          "currency": "EUR",
+          "metric": "Funds managed as listed",
+          "scope": "Unspecified managed funds",
+          "relation": "equal",
+          "asOf": null
+        }
+      ],
+      "portfolioExamples": [
+        "Codasip",
+        "Deepnote",
+        "Productboard"
+      ],
+      "investmentEvidenceDate": null,
+      "classificationNote": "Existing primary-source review lists Prague and Krakow without a settled main base. Preserve current unresolved status. Association EUR range differs from official USD 1–5m; do not overwrite the current profile.",
+      "verificationStatus": "association_extraction_pending_primary_verification"
+    },
+    {
+      "candidateId": "directory-3",
+      "name": "CVI",
+      "membership": "full",
+      "source": {
+        "url": "https://cvca.cz/en/cvi-2/",
+        "publisher": "CVCA",
+        "kind": "institutional",
+        "publishedAt": null,
+        "retrievedAt": "2026-10-16",
+        "directoryEntryDate": "2023-05-12"
+      },
+      "listedLocation": {
+        "city": "Warsaw",
+        "country": "Poland",
+        "basis": "Address on CVCA profile; not independently confirmed main management base"
+      },
+      "group": "foreign_listed",
+      "strategy": [
+        "Private debt",
+        "Mezzanine",
+        "Occasional minority equity"
+      ],
+      "sectors": [],
+      "sectorStatus": "explicitly_sector_agnostic",
+      "geography": [
+        "CEE"
+      ],
+      "investmentRanges": [
+        {
+          "min": 2000000,
+          "max": 15000000,
+          "currency": "EUR",
+          "scope": "Mainly financing/debt, not a VC equity cheque"
+        }
+      ],
+      "capitalObservations": [
+        {
+          "amount": 800000000,
+          "currency": "EUR",
+          "metric": "Funds managed as listed",
+          "scope": "Unspecified managed funds",
+          "relation": "equal",
+          "asOf": null
+        }
+      ],
+      "portfolioExamples": [
+        "Saunia",
+        "Algotech"
+      ],
+      "investmentEvidenceDate": null,
+      "classificationNote": "Polish-listed private-debt investor; occasional equity does not establish VC.",
+      "verificationStatus": "association_extraction_pending_primary_verification"
+    },
+    {
+      "candidateId": "directory-4",
+      "name": "Depo Ventures",
+      "membership": "full",
+      "source": {
+        "url": "https://cvca.cz/en/depo-ventures-2/",
+        "publisher": "CVCA",
+        "kind": "institutional",
+        "publishedAt": null,
+        "retrievedAt": "2026-10-16",
+        "directoryEntryDate": "2020-01-23"
+      },
+      "listedLocation": {
+        "city": "Prague",
+        "country": "Czechia",
+        "basis": "Address on CVCA profile; not independently confirmed main management base"
+      },
+      "group": "czech_vc_candidates",
+      "strategy": [
+        "VC"
+      ],
+      "sectors": [],
+      "sectorStatus": "explicitly_sector_agnostic",
+      "geography": [
+        "CEE"
+      ],
+      "investmentRanges": [
+        {
+          "min": 50000,
+          "max": 300000,
+          "currency": "EUR",
+          "scope": "Preferred investment amount; exact initial/follow-on basis unspecified"
+        }
+      ],
+      "capitalObservations": [
+        {
+          "amount": 5500000,
+          "currency": "EUR",
+          "metric": "Funds managed as listed",
+          "scope": "Unspecified managed funds",
+          "relation": "equal",
+          "asOf": null
+        }
+      ],
+      "portfolioExamples": [
+        "Tatum",
+        "Spendee",
+        "KardiAI"
+      ],
+      "investmentEvidenceDate": null,
+      "classificationNote": "VC with Prague presence; verify main base and dated participation before acceptance. Tatum duplicate removed.",
+      "verificationStatus": "association_extraction_pending_primary_verification"
+    },
+    {
+      "candidateId": "directory-5",
+      "name": "Enterprise Investors",
+      "membership": "full",
+      "source": {
+        "url": "https://cvca.cz/en/enterprise-investors-2/",
+        "publisher": "CVCA",
+        "kind": "institutional",
+        "publishedAt": null,
+        "retrievedAt": "2026-10-16",
+        "directoryEntryDate": "2020-01-14"
+      },
+      "listedLocation": {
+        "city": "Warsaw",
+        "country": "Poland",
+        "basis": "Address on CVCA profile; not independently confirmed main management base"
+      },
+      "group": "foreign_listed",
+      "strategy": [
+        "Buyouts",
+        "Expansion"
+      ],
+      "sectors": null,
+      "sectorStatus": "not_found",
+      "geography": [
+        "CEE"
+      ],
+      "investmentRanges": [
+        {
+          "min": 20000000,
+          "max": 50000000,
+          "currency": "EUR",
+          "scope": "Preferred investment amount; exact initial/follow-on basis unspecified"
+        }
+      ],
+      "capitalObservations": [
+        {
+          "amount": 2500000000,
+          "currency": "EUR",
+          "metric": "Funds managed as listed",
+          "scope": "Managed funds, scope unspecified",
+          "relation": "greater_than",
+          "asOf": null
+        }
+      ],
+      "portfolioExamples": [],
+      "investmentEvidenceDate": null,
+      "classificationNote": "Polish-listed PE investor. Capital is over EUR 2.5bn, not exactly that amount.",
+      "verificationStatus": "association_extraction_pending_primary_verification"
+    },
+    {
+      "candidateId": "directory-6",
+      "name": "Espira Investments",
+      "membership": "full",
+      "source": {
+        "url": "https://cvca.cz/en/espira-investments-2/",
+        "publisher": "CVCA",
+        "kind": "institutional",
+        "publishedAt": null,
+        "retrievedAt": "2026-10-16",
+        "directoryEntryDate": "2021-12-02"
+      },
+      "listedLocation": {
+        "city": "Prague",
+        "country": "Czechia",
+        "basis": "Address on CVCA profile; not independently confirmed main management base"
+      },
+      "group": "czech_pe",
+      "strategy": [
+        "Growth PE",
+        "Acquisition financing",
+        "Buyouts",
+        "Restructuring"
+      ],
+      "sectors": null,
+      "sectorStatus": "not_found",
+      "geography": [
+        "CEE",
+        "Czechia",
+        "Slovakia"
+      ],
+      "investmentRanges": [
+        {
+          "min": 1000000,
+          "max": 3000000,
+          "currency": "EUR",
+          "scope": "Preferred investment amount; exact initial/follow-on basis unspecified"
+        }
+      ],
+      "capitalObservations": [
+        {
+          "amount": 30000000,
+          "currency": "EUR",
+          "metric": "Funds managed as listed",
+          "scope": "Managed funds, scope unspecified",
+          "relation": "less_than",
+          "asOf": null
+        }
+      ],
+      "portfolioExamples": [],
+      "investmentEvidenceDate": null,
+      "classificationNote": "PE strategy; capital is under EUR 30m. XXX portfolio and deal-count placeholders omitted.",
+      "verificationStatus": "association_extraction_pending_primary_verification"
+    },
+    {
+      "candidateId": "directory-7",
+      "name": "EVERITA Capital",
+      "membership": "full",
+      "source": {
+        "url": "https://cvca.cz/en/everita-capital-en/",
+        "publisher": "CVCA",
+        "kind": "institutional",
+        "publishedAt": null,
+        "retrievedAt": "2026-10-16",
+        "directoryEntryDate": "2020-01-23"
+      },
+      "listedLocation": {
+        "city": "Prague",
+        "country": "Czechia",
+        "basis": "Address on CVCA profile; not independently confirmed main management base"
+      },
+      "group": "czech_pe",
+      "strategy": [
+        "Growth PE"
+      ],
+      "sectors": [
+        "Healthcare",
+        "Education",
+        "Food production",
+        "Specialist manufacturing",
+        "Business services"
+      ],
+      "sectorStatus": "reported",
+      "geography": [
+        "Czechia",
+        "Croatia",
+        "Poland",
+        "Slovakia",
+        "Slovenia"
+      ],
+      "investmentRanges": [
+        {
+          "min": 2000000,
+          "max": 5000000,
+          "currency": "EUR",
+          "scope": "Preferred investment amount; exact initial/follow-on basis unspecified"
+        }
+      ],
+      "capitalObservations": [
+        {
+          "amount": 40000000,
+          "currency": "EUR",
+          "metric": "Fundraising target",
+          "scope": "Target fund",
+          "relation": "equal",
+          "asOf": null
+        }
+      ],
+      "portfolioExamples": [
+        "Clintrial",
+        "Pekarna Hrstić"
+      ],
+      "investmentEvidenceDate": null,
+      "classificationNote": "PE; EUR 40m is a target, not raised or available capital.",
+      "verificationStatus": "association_extraction_pending_primary_verification"
+    },
+    {
+      "candidateId": "directory-8",
+      "name": "Genesis Capital Equity s.r.o.",
+      "membership": "full",
+      "source": {
+        "url": "https://cvca.cz/en/genesis-capital-equity-s-r-o-2/",
+        "publisher": "CVCA",
+        "kind": "institutional",
+        "publishedAt": null,
+        "retrievedAt": "2026-10-16",
+        "directoryEntryDate": "2020-01-14"
+      },
+      "listedLocation": {
+        "city": "Prague",
+        "country": "Czechia",
+        "basis": "Address on CVCA profile; not independently confirmed main management base"
+      },
+      "group": "czech_pe",
+      "strategy": [
+        "Acquisitions",
+        "Buyouts",
+        "Consolidation",
+        "Growth PE"
+      ],
+      "sectors": null,
+      "sectorStatus": "not_found",
+      "geography": [
+        "Czechia",
+        "Slovakia",
+        "Poland",
+        "Hungary",
+        "Austria",
+        "Germany"
+      ],
+      "investmentRanges": [
+        {
+          "min": 10000000,
+          "max": 35000000,
+          "currency": "EUR",
+          "scope": "Equity ticket"
+        }
+      ],
+      "capitalObservations": [
+        {
+          "amount": 500000000,
+          "currency": "EUR",
+          "metric": "Funds managed as listed",
+          "scope": "Unspecified managed funds",
+          "relation": "equal",
+          "asOf": null
+        }
+      ],
+      "portfolioExamples": [
+        "Hecht Motors",
+        "Borcad CZ",
+        "TES Vsetín"
+      ],
+      "investmentEvidenceDate": null,
+      "classificationNote": "PE investor; equity ticket is explicitly distinguished from whole transaction size.",
+      "verificationStatus": "association_extraction_pending_primary_verification"
+    },
+    {
+      "candidateId": "directory-9",
+      "name": "i&i Biotech Investments",
+      "membership": "full",
+      "source": {
+        "url": "https://cvca.cz/en/biotech-investments/",
+        "publisher": "CVCA",
+        "kind": "institutional",
+        "publishedAt": null,
+        "retrievedAt": "2026-10-16",
+        "directoryEntryDate": "2020-01-18"
+      },
+      "listedLocation": {
+        "city": "Prague",
+        "country": "Czechia",
+        "basis": "Address on CVCA profile; not independently confirmed main management base"
+      },
+      "group": "czech_vc_candidates",
+      "strategy": [
+        "Biotechnology spin-off investing",
+        "Research commercialization"
+      ],
+      "sectors": [
+        "Biotechnology",
+        "Drug development",
+        "Diagnostics",
+        "Medical devices"
+      ],
+      "sectorStatus": "reported",
+      "geography": [
+        "Czechia",
+        "Europe"
+      ],
+      "investmentRanges": [],
+      "capitalObservations": [],
+      "portfolioExamples": [],
+      "investmentEvidenceDate": null,
+      "classificationNote": "Potential specialist VC based on spin-off mandate. Manager/fund relationship, main base and dated deal require verification. CVCA supplies no ticket or capital amount.",
+      "verificationStatus": "association_extraction_pending_primary_verification"
+    },
+    {
+      "candidateId": "directory-10",
+      "name": "Innova Capital",
+      "membership": "full",
+      "source": {
+        "url": "https://cvca.cz/en/innova-capital-2/",
+        "publisher": "CVCA",
+        "kind": "institutional",
+        "publishedAt": null,
+        "retrievedAt": "2026-10-16",
+        "directoryEntryDate": "2020-01-14"
+      },
+      "listedLocation": {
+        "city": "Warsaw",
+        "country": "Poland",
+        "basis": "Address on CVCA profile; not independently confirmed main management base"
+      },
+      "group": "foreign_listed",
+      "strategy": [
+        "Growth PE",
+        "Buyouts",
+        "Bridge financing",
+        "Replacement capital"
+      ],
+      "sectors": [
+        "Finance",
+        "TMT",
+        "Business services",
+        "Construction",
+        "Industrial",
+        "Automotive",
+        "Energy",
+        "Healthcare"
+      ],
+      "sectorStatus": "reported",
+      "geography": [
+        "Central Europe"
+      ],
+      "investmentRanges": [
+        {
+          "min": 20000000,
+          "max": 50000000,
+          "currency": "EUR",
+          "scope": "Preferred investment amount; exact initial/follow-on basis unspecified"
+        }
+      ],
+      "capitalObservations": [
+        {
+          "amount": 900000000,
+          "currency": "EUR",
+          "metric": "Funds managed as listed",
+          "scope": "Unspecified managed funds",
+          "relation": "equal",
+          "asOf": null
+        }
+      ],
+      "portfolioExamples": [],
+      "investmentEvidenceDate": null,
+      "classificationNote": "Polish-listed PE investor. Placeholder portfolio names omitted.",
+      "verificationStatus": "association_extraction_pending_primary_verification"
+    },
+    {
+      "candidateId": "directory-11",
+      "name": "Integral Capital Group",
+      "membership": "full",
+      "source": {
+        "url": "https://cvca.cz/en/integral-capital-group-2/",
+        "publisher": "CVCA",
+        "kind": "institutional",
+        "publishedAt": null,
+        "retrievedAt": "2026-10-16",
+        "directoryEntryDate": "2020-01-14"
+      },
+      "listedLocation": {
+        "city": "Budapest",
+        "country": "Hungary",
+        "basis": "Address on CVCA profile; not independently confirmed main management base"
+      },
+      "group": "foreign_listed",
+      "strategy": [
+        "PE"
+      ],
+      "sectors": [
+        "Healthcare",
+        "Industrial",
+        "TMT",
+        "Consumer",
+        "Business services"
+      ],
+      "sectorStatus": "reported",
+      "geography": [
+        "CEE",
+        "Bulgaria",
+        "Romania",
+        "Adria",
+        "Czechia",
+        "Slovenia",
+        "Slovakia",
+        "Hungary"
+      ],
+      "investmentRanges": [
+        {
+          "min": 5000000,
+          "max": 15000000,
+          "currency": "EUR",
+          "scope": "Preferred investment amount; exact initial/follow-on basis unspecified"
+        }
+      ],
+      "capitalObservations": [
+        {
+          "amount": 200000000,
+          "currency": "EUR",
+          "metric": "Funds managed as listed",
+          "scope": "Unspecified managed funds",
+          "relation": "equal",
+          "asOf": null
+        }
+      ],
+      "portfolioExamples": [
+        "Borcad",
+        "Codecool",
+        "Luminochem"
+      ],
+      "investmentEvidenceDate": null,
+      "classificationNote": "Hungarian-listed PE investor. Exited or exit-signed holdings are not represented as current holdings.",
+      "verificationStatus": "association_extraction_pending_primary_verification"
+    },
+    {
+      "candidateId": "directory-12",
+      "name": "Inven Capital",
+      "membership": "full",
+      "source": {
+        "url": "https://cvca.cz/en/inven-capital-2/",
+        "publisher": "CVCA",
+        "kind": "institutional",
+        "publishedAt": null,
+        "retrievedAt": "2026-10-16",
+        "directoryEntryDate": "2020-01-14"
+      },
+      "listedLocation": {
+        "city": "Prague",
+        "country": "Czechia",
+        "basis": "Address on CVCA profile; not independently confirmed main management base"
+      },
+      "group": "czech_vc_candidates",
+      "strategy": [
+        "Later-stage cleantech growth investing"
+      ],
+      "sectors": [
+        "Cleantech"
+      ],
+      "sectorStatus": "reported",
+      "geography": [
+        "EU",
+        "Israel",
+        "Norway",
+        "Liechtenstein",
+        "Switzerland"
+      ],
+      "investmentRanges": [
+        {
+          "min": 2000000,
+          "max": 30000000,
+          "currency": "EUR",
+          "scope": "Preferred investment amount; exact initial/follow-on basis unspecified"
+        }
+      ],
+      "capitalObservations": [
+        {
+          "amount": 250000000,
+          "currency": "EUR",
+          "metric": "Funds managed as listed",
+          "scope": "Subfunds A+B",
+          "relation": "equal",
+          "asOf": null
+        },
+        {
+          "amount": 250000000,
+          "currency": "EUR",
+          "metric": "Funds managed as listed",
+          "scope": "Subfunds C+D",
+          "relation": "equal",
+          "asOf": null
+        }
+      ],
+      "portfolioExamples": [
+        "Woltair",
+        "SunFire",
+        "tado"
+      ],
+      "investmentEvidenceDate": null,
+      "classificationNote": "Growth/venture candidate; confirm venture mandate and management with official sources. Two subfund group amounts retained separately; no inferred dry powder.",
+      "verificationStatus": "association_extraction_pending_primary_verification"
+    },
+    {
+      "candidateId": "directory-13",
+      "name": "Jet Investment",
+      "membership": "full",
+      "source": {
+        "url": "https://cvca.cz/en/jet-investment-2/",
+        "publisher": "CVCA",
+        "kind": "institutional",
+        "publishedAt": null,
+        "retrievedAt": "2026-10-16",
+        "directoryEntryDate": "2020-01-14"
+      },
+      "listedLocation": {
+        "city": "Brno",
+        "country": "Czechia",
+        "basis": "Address on CVCA profile; not independently confirmed main management base"
+      },
+      "group": "czech_mixed",
+      "strategy": [
+        "Buyouts",
+        "Growth",
+        "Turnaround",
+        "Late-stage venture"
+      ],
+      "sectors": [
+        "Manufacturing",
+        "Specialty chemicals",
+        "Advanced materials",
+        "Energy",
+        "Renewables",
+        "Aerospace",
+        "Automotive",
+        "Related services"
+      ],
+      "sectorStatus": "reported",
+      "geography": [
+        "Czechia",
+        "Slovakia",
+        "Austria",
+        "Germany",
+        "Poland"
+      ],
+      "investmentRanges": [
+        {
+          "min": 15000000,
+          "max": 80000000,
+          "currency": "EUR",
+          "scope": "Preferred investment amount; exact initial/follow-on basis unspecified"
+        }
+      ],
+      "capitalObservations": [
+        {
+          "amount": 290000000,
+          "currency": "EUR",
+          "metric": "Funds managed as listed",
+          "scope": "Unspecified managed funds",
+          "relation": "equal",
+          "asOf": null
+        }
+      ],
+      "portfolioExamples": [
+        "Fiberpreg CZ",
+        "MSV Metal Studénka",
+        "PBS Industry"
+      ],
+      "investmentEvidenceDate": null,
+      "classificationNote": "Mixed PE and explicit late-stage venture; identify the qualifying VC strategy/vehicle rather than exclude all venture activity.",
+      "verificationStatus": "association_extraction_pending_primary_verification"
+    },
+    {
+      "candidateId": "kaya",
+      "name": "KAYA VC",
+      "membership": "full",
+      "source": {
+        "url": "https://cvca.cz/en/kaya-vc-2/",
+        "publisher": "CVCA",
+        "kind": "institutional",
+        "publishedAt": null,
+        "retrievedAt": "2026-10-16",
+        "directoryEntryDate": "2020-10-16"
+      },
+      "listedLocation": {
+        "city": "Prague",
+        "country": "Czechia",
+        "basis": "Address on CVCA profile; not independently confirmed main management base"
+      },
+      "group": "czech_vc_candidates",
+      "strategy": [],
+      "sectors": null,
+      "sectorStatus": "not_found",
+      "geography": null,
+      "investmentRanges": [],
+      "capitalObservations": [],
+      "portfolioExamples": [],
+      "investmentEvidenceDate": null,
+      "classificationNote": "CVCA supplies only contact/location details. VC category relies on the existing primary-source-reviewed KAYA profile, not the name alone. Do not infer missing financial fields from this page.",
+      "verificationStatus": "association_extraction_pending_primary_verification"
+    },
+    {
+      "candidateId": "directory-14",
+      "name": "MAM Private Equity Fund SICAV a.s.",
+      "membership": "full",
+      "source": {
+        "url": "https://cvca.cz/en/mam-private-equity-fund-sicav-a-s/",
+        "publisher": "CVCA",
+        "kind": "institutional",
+        "publishedAt": null,
+        "retrievedAt": "2026-10-16",
+        "directoryEntryDate": "2020-01-14"
+      },
+      "listedLocation": {
+        "city": "Prague",
+        "country": "Czechia",
+        "basis": "Address on CVCA profile; not independently confirmed main management base"
+      },
+      "group": "czech_pe",
+      "strategy": [
+        "Buyouts",
+        "Leveraged acquisitions",
+        "Growth PE"
+      ],
+      "sectors": [],
+      "sectorStatus": "explicitly_sector_agnostic",
+      "geography": [
+        "CEE",
+        "Czechia",
+        "Slovakia"
+      ],
+      "investmentRanges": [
+        {
+          "min": 2000000,
+          "max": 8000000,
+          "currency": "EUR",
+          "scope": "Equity investment"
+        }
+      ],
+      "capitalObservations": [
+        {
+          "amount": 40000000,
+          "currency": "EUR",
+          "metric": "Funds managed as listed",
+          "scope": "Open fund",
+          "relation": "equal",
+          "asOf": null
+        }
+      ],
+      "portfolioExamples": [
+        "Raycom",
+        "Telco VNT",
+        "Comguard"
+      ],
+      "investmentEvidenceDate": null,
+      "classificationNote": "PE strategy. Reconcile fund-versus-manager identity before building a new manager record.",
+      "verificationStatus": "association_extraction_pending_primary_verification"
+    },
+    {
+      "candidateId": "directory-15",
+      "name": "Mid Europa Partners",
+      "membership": "full",
+      "source": {
+        "url": "https://cvca.cz/en/mid-europa-partners-2/",
+        "publisher": "CVCA",
+        "kind": "institutional",
+        "publishedAt": null,
+        "retrievedAt": "2026-10-16",
+        "directoryEntryDate": "2020-01-14"
+      },
+      "listedLocation": {
+        "city": "London",
+        "country": "United Kingdom",
+        "basis": "Address on CVCA profile; not independently confirmed main management base"
+      },
+      "group": "foreign_listed",
+      "strategy": [
+        "Acquisitions",
+        "Buyouts",
+        "Expansion",
+        "Consolidation"
+      ],
+      "sectors": [
+        "Consumer",
+        "Retail",
+        "Health services",
+        "Pharmacy",
+        "Technology",
+        "Media",
+        "Communications",
+        "Business services",
+        "Finance",
+        "Transport",
+        "Logistics"
+      ],
+      "sectorStatus": "reported",
+      "geography": null,
+      "investmentRanges": [
+        {
+          "min": 50000000,
+          "max": 200000000,
+          "currency": "EUR",
+          "scope": "Preferred investment amount; exact initial/follow-on basis unspecified"
+        }
+      ],
+      "capitalObservations": [
+        {
+          "amount": 5200000000,
+          "currency": "EUR",
+          "metric": "Funds managed as listed",
+          "scope": "Unspecified managed funds",
+          "relation": "equal",
+          "asOf": null
+        }
+      ],
+      "portfolioExamples": [
+        "Karneval",
+        "Oskar Mobil",
+        "Walmark"
+      ],
+      "investmentEvidenceDate": null,
+      "classificationNote": "Foreign-listed PE. Geography is XXX and remains unknown. Portfolio examples may be historical exits, not current holdings.",
+      "verificationStatus": "association_extraction_pending_primary_verification"
+    },
+    {
+      "candidateId": "directory-16",
+      "name": "Nation1",
+      "membership": "full",
+      "source": {
+        "url": "https://cvca.cz/en/nation1-2/",
+        "publisher": "CVCA",
+        "kind": "institutional",
+        "publishedAt": null,
+        "retrievedAt": "2026-10-16",
+        "directoryEntryDate": "2020-01-14"
+      },
+      "listedLocation": {
+        "city": "Prague",
+        "country": "Czechia",
+        "basis": "Address on CVCA profile; not independently confirmed main management base"
+      },
+      "group": "czech_vc_candidates",
+      "strategy": [
+        "Pre-seed",
+        "Seed",
+        "Startup financing"
+      ],
+      "sectors": [
+        "Technology"
+      ],
+      "sectorStatus": "reported",
+      "geography": [
+        "Czechia"
+      ],
+      "investmentRanges": [
+        {
+          "min": 50000,
+          "max": 1500000,
+          "currency": "EUR",
+          "scope": "Preferred investment amount; exact initial/follow-on basis unspecified"
+        }
+      ],
+      "capitalObservations": [
+        {
+          "amount": 35000000,
+          "currency": "EUR",
+          "metric": "Funds managed as listed",
+          "scope": "Unspecified managed funds",
+          "relation": "equal",
+          "asOf": null
+        }
+      ],
+      "portfolioExamples": [
+        "VRgineers",
+        "Snuggs",
+        "Buildiro"
+      ],
+      "investmentEvidenceDate": null,
+      "classificationNote": "VC candidate with Prague presence; verify current strategy, main management and a dated investment.",
+      "verificationStatus": "association_extraction_pending_primary_verification"
+    },
+    {
+      "candidateId": "directory-17",
+      "name": "Orbit Capital",
+      "membership": "full",
+      "source": {
+        "url": "https://cvca.cz/en/orbit-capital-2/",
+        "publisher": "CVCA",
+        "kind": "institutional",
+        "publishedAt": null,
+        "retrievedAt": "2026-10-16",
+        "directoryEntryDate": "2020-01-12"
+      },
+      "listedLocation": {
+        "city": "Prague",
+        "country": "Czechia",
+        "basis": "Address on CVCA profile; not independently confirmed main management base"
+      },
+      "group": "czech_mixed",
+      "strategy": [
+        "Growth equity",
+        "Venture debt"
+      ],
+      "sectors": [
+        "Technology",
+        "Technology-enabled scale-ups"
+      ],
+      "sectorStatus": "reported",
+      "geography": [
+        "CEE"
+      ],
+      "investmentRanges": [
+        {
+          "min": 6000000,
+          "max": 15000000,
+          "currency": "EUR",
+          "scope": "Growth equity"
+        },
+        {
+          "min": 2000000,
+          "max": 6000000,
+          "currency": "EUR",
+          "scope": "Venture debt"
+        }
+      ],
+      "capitalObservations": [
+        {
+          "amount": 200000000,
+          "currency": "EUR",
+          "metric": "Scale-up ambition, not confirmed AUM",
+          "scope": "Growth equity described as scaling to this amount",
+          "relation": "equal",
+          "asOf": null
+        },
+        {
+          "amount": 30000000,
+          "currency": "EUR",
+          "metric": "Funds managed as listed",
+          "scope": "Venture debt",
+          "relation": "equal",
+          "asOf": null
+        }
+      ],
+      "portfolioExamples": [
+        "Rohlik",
+        "Mews",
+        "Twisto CZ"
+      ],
+      "investmentEvidenceDate": null,
+      "classificationNote": "Keep equity and debt tickets separate. Growth equity requires a venture-boundary check; debt alone does not qualify. Scaling-to amount is not confirmed capital.",
+      "verificationStatus": "association_extraction_pending_primary_verification"
+    },
+    {
+      "candidateId": "directory-18",
+      "name": "Sandberg Capital",
+      "membership": "full",
+      "source": {
+        "url": "https://cvca.cz/en/sandberg-capital/",
+        "publisher": "CVCA",
+        "kind": "institutional",
+        "publishedAt": null,
+        "retrievedAt": "2026-10-16",
+        "directoryEntryDate": "2020-01-08"
+      },
+      "listedLocation": {
+        "city": "Bratislava",
+        "country": "Slovakia",
+        "basis": "Address on CVCA profile; not independently confirmed main management base"
+      },
+      "group": "foreign_listed",
+      "strategy": [
+        "Buy-and-build",
+        "Growth PE"
+      ],
+      "sectors": [
+        "IT",
+        "Education",
+        "Retail",
+        "Agriculture"
+      ],
+      "sectorStatus": "reported",
+      "geography": [
+        "CEE"
+      ],
+      "investmentRanges": [
+        {
+          "min": 5000000,
+          "max": 20000000,
+          "currency": "EUR",
+          "scope": "Preferred investment amount; exact initial/follow-on basis unspecified"
+        }
+      ],
+      "capitalObservations": [
+        {
+          "amount": 400000000,
+          "currency": "EUR",
+          "metric": "Funds managed as listed",
+          "scope": "Unspecified managed funds",
+          "relation": "equal",
+          "asOf": null
+        }
+      ],
+      "portfolioExamples": [
+        "Seyfor",
+        "Bakaláři",
+        "Revolgy"
+      ],
+      "investmentEvidenceDate": null,
+      "classificationNote": "Slovak-listed PE investor; Czech investments do not establish Czech management.",
+      "verificationStatus": "association_extraction_pending_primary_verification"
+    },
+    {
+      "candidateId": "directory-19",
+      "name": "SkyLimit Investments",
+      "membership": "full",
+      "source": {
+        "url": "https://cvca.cz/en/skylimit-investments-2/",
+        "publisher": "CVCA",
+        "kind": "institutional",
+        "publishedAt": null,
+        "retrievedAt": "2026-10-16",
+        "directoryEntryDate": "2020-01-14"
+      },
+      "listedLocation": {
+        "city": "Prague",
+        "country": "Czechia",
+        "basis": "Address on CVCA profile; not independently confirmed main management base"
+      },
+      "group": "czech_pe",
+      "strategy": [
+        "Buyouts",
+        "Leveraged buyouts",
+        "Consolidation",
+        "Occasional growth capital"
+      ],
+      "sectors": [
+        "Mechanical engineering"
+      ],
+      "sectorStatus": "reported",
+      "geography": [
+        "Czechia",
+        "Slovakia"
+      ],
+      "investmentRanges": [
+        {
+          "min": 1000000,
+          "max": 3000000,
+          "currency": "EUR",
+          "scope": "Preferred investment amount; exact initial/follow-on basis unspecified"
+        }
+      ],
+      "capitalObservations": [
+        {
+          "amount": 5000000,
+          "currency": "EUR",
+          "metric": "Funds managed as listed",
+          "scope": "Open investment structure",
+          "relation": "equal",
+          "asOf": null
+        }
+      ],
+      "portfolioExamples": [
+        "STS Olbramovice",
+        "INOX Technology",
+        "Ventos Energy Solutions"
+      ],
+      "investmentEvidenceDate": null,
+      "classificationNote": "PE strategy. Source says capital is growing but supplies no financial as-of date.",
+      "verificationStatus": "association_extraction_pending_primary_verification"
+    },
+    {
+      "candidateId": "directory-20",
+      "name": "Stratum Partners",
+      "membership": "full",
+      "source": {
+        "url": "https://cvca.cz/en/stratum-partners-en/",
+        "publisher": "CVCA",
+        "kind": "institutional",
+        "publishedAt": null,
+        "retrievedAt": "2026-10-16",
+        "directoryEntryDate": "2024-08-13"
+      },
+      "listedLocation": {
+        "city": "Prague",
+        "country": "Czechia",
+        "basis": "Address on CVCA profile; not independently confirmed main management base"
+      },
+      "group": "czech_pe",
+      "strategy": [
+        "Growth equity",
+        "Buyouts",
+        "Recapitalization"
+      ],
+      "sectors": [
+        "Manufacturing",
+        "Technology-enabled products/services",
+        "Digitalization",
+        "New energy",
+        "B2B/B2C services"
+      ],
+      "sectorStatus": "reported",
+      "geography": [
+        "Czechia",
+        "Slovakia",
+        "Neighbouring countries"
+      ],
+      "investmentRanges": [
+        {
+          "min": 2000000,
+          "max": 6000000,
+          "currency": "EUR",
+          "scope": "Preferred investment amount; exact initial/follow-on basis unspecified"
+        }
+      ],
+      "capitalObservations": [
+        {
+          "amount": 40000000,
+          "currency": "EUR",
+          "metric": "Funds managed as listed",
+          "scope": "Unspecified managed funds",
+          "relation": "equal",
+          "asOf": null
+        }
+      ],
+      "portfolioExamples": [
+        "Homecare Holding",
+        "R2B2",
+        "HC electronics"
+      ],
+      "investmentEvidenceDate": null,
+      "classificationNote": "PE/growth mandate; no explicit VC mandate established by the association page.",
+      "verificationStatus": "association_extraction_pending_primary_verification"
+    },
+    {
+      "candidateId": "tensor",
+      "name": "Tensor Ventures",
+      "membership": "full",
+      "source": {
+        "url": "https://cvca.cz/en/tensor-ventures/",
+        "publisher": "CVCA",
+        "kind": "institutional",
+        "publishedAt": null,
+        "retrievedAt": "2026-10-16",
+        "directoryEntryDate": "2023-06-20"
+      },
+      "listedLocation": {
+        "city": "Prague",
+        "country": "Czechia",
+        "basis": "Address on CVCA profile; not independently confirmed main management base"
+      },
+      "group": "vc_management_unresolved",
+      "strategy": [
+        "Deeptech investing"
+      ],
+      "sectors": [
+        "Deeptech"
+      ],
+      "sectorStatus": "reported",
+      "geography": [
+        "EU",
+        "United States"
+      ],
+      "investmentRanges": [
+        {
+          "min": 250000,
+          "max": 1000000,
+          "currency": "EUR",
+          "scope": "Preferred investment amount; exact initial/follow-on basis unspecified"
+        }
+      ],
+      "capitalObservations": [
+        {
+          "amount": 20000000,
+          "currency": "EUR",
+          "metric": "Funds managed as listed",
+          "scope": "Unspecified managed funds",
+          "relation": "equal",
+          "asOf": null
+        }
+      ],
+      "portfolioExamples": [
+        "Veracity Protocol",
+        "Tatum",
+        "Superface"
+      ],
+      "investmentEvidenceDate": null,
+      "classificationNote": "Existing primary review leaves main management unresolved between Czech presence and Luxembourg entities. Retain association figures separately from newer fund targets.",
+      "verificationStatus": "association_extraction_pending_primary_verification"
+    },
+    {
+      "candidateId": "directory-21",
+      "name": "Thein",
+      "membership": "full",
+      "source": {
+        "url": "https://cvca.cz/en/thein-2/",
+        "publisher": "CVCA",
+        "kind": "institutional",
+        "publishedAt": null,
+        "retrievedAt": "2026-10-16",
+        "directoryEntryDate": "2024-03-18"
+      },
+      "listedLocation": {
+        "city": "Prague",
+        "country": "Czechia",
+        "basis": "Address on CVCA profile; not independently confirmed main management base"
+      },
+      "group": "czech_pe",
+      "strategy": [
+        "Leveraged buyouts",
+        "Growth capital"
+      ],
+      "sectors": [
+        "Industry",
+        "Railways",
+        "IT infrastructure",
+        "Cybersecurity"
+      ],
+      "sectorStatus": "reported",
+      "geography": [
+        "Czechia",
+        "Slovakia"
+      ],
+      "investmentRanges": [
+        {
+          "min": 1000000,
+          "max": 5000000,
+          "currency": "EUR",
+          "scope": "Equity contribution"
+        }
+      ],
+      "capitalObservations": [
+        {
+          "amount": 40000000,
+          "currency": "EUR",
+          "metric": "Funds managed as listed",
+          "scope": "Unspecified managed funds",
+          "relation": "equal",
+          "asOf": null
+        }
+      ],
+      "portfolioExamples": [
+        "TOP ALULIT",
+        "PONEC",
+        "Thein Digital"
+      ],
+      "investmentEvidenceDate": null,
+      "classificationNote": "PE/industrial growth strategy; technology focus alone is not VC.",
+      "verificationStatus": "association_extraction_pending_primary_verification"
+    },
+    {
+      "candidateId": "directory-22",
+      "name": "Tilia Impact Ventures – Honorary Member",
+      "membership": "full",
+      "source": {
+        "url": "https://cvca.cz/en/tilia-impact-ventures-honorary-member/",
+        "publisher": "CVCA",
+        "kind": "institutional",
+        "publishedAt": null,
+        "retrievedAt": "2026-10-16",
+        "directoryEntryDate": "2020-01-06"
+      },
+      "listedLocation": {
+        "city": "Prague",
+        "country": "Czechia",
+        "basis": "Address on CVCA profile; not independently confirmed main management base"
+      },
+      "group": "czech_vc_candidates",
+      "strategy": [
+        "Social and environmental impact investing"
+      ],
+      "sectors": [
+        "Environment",
+        "Education",
+        "Inclusion",
+        "Civic engagement",
+        "Health",
+        "Wellbeing"
+      ],
+      "sectorStatus": "reported",
+      "geography": [
+        "Czechia",
+        "CEE"
+      ],
+      "investmentRanges": [
+        {
+          "min": 1000000,
+          "max": 5000000,
+          "currency": "CZK",
+          "scope": "Preferred investment amount"
+        }
+      ],
+      "capitalObservations": [
+        {
+          "amount": 62700000,
+          "currency": "CZK",
+          "metric": "Funds managed as listed",
+          "scope": "Unspecified managed funds",
+          "relation": "equal",
+          "asOf": null
+        }
+      ],
+      "portfolioExamples": [
+        "Datlab",
+        "MIWA",
+        "Cyrkl"
+      ],
+      "investmentEvidenceDate": null,
+      "classificationNote": "Impact venture candidate; confirm mandate and dated deals. The displayed tilia.vc link points to skylimit.cz on CVCA: do not use that destination to establish identity.",
+      "verificationStatus": "association_extraction_pending_primary_verification"
+    },
+    {
+      "candidateId": "directory-23",
+      "name": "V4C Investment Advisers Limited",
+      "membership": "full",
+      "source": {
+        "url": "https://cvca.cz/en/v4c-investment-advisers-limited-2/",
+        "publisher": "CVCA",
+        "kind": "institutional",
+        "publishedAt": null,
+        "retrievedAt": "2026-10-16",
+        "directoryEntryDate": "2020-01-14"
+      },
+      "listedLocation": {
+        "city": "Luxembourg",
+        "country": "Luxembourg",
+        "basis": "Address on CVCA profile; not independently confirmed main management base"
+      },
+      "group": "foreign_listed",
+      "strategy": [
+        "Buyouts",
+        "Expansion PE"
+      ],
+      "sectors": [],
+      "sectorStatus": "explicitly_sector_agnostic",
+      "geography": [
+        "CEE",
+        "Poland",
+        "Romania",
+        "Czechia"
+      ],
+      "investmentRanges": [
+        {
+          "min": 15000000,
+          "max": 25000000,
+          "currency": "EUR",
+          "scope": "Preferred investment amount; exact initial/follow-on basis unspecified"
+        }
+      ],
+      "capitalObservations": [
+        {
+          "amount": 156000000,
+          "currency": "EUR",
+          "metric": "Funds managed as listed",
+          "scope": "Unspecified managed funds",
+          "relation": "equal",
+          "asOf": null
+        }
+      ],
+      "portfolioExamples": [],
+      "investmentEvidenceDate": null,
+      "classificationNote": "Listed address is a Luxembourg general-partner entity, not proof of main management country. PE excludes it from VC regardless; label foreign-listed rather than confirmed Luxembourg-managed.",
+      "verificationStatus": "association_extraction_pending_primary_verification"
+    },
+    {
+      "candidateId": "directory-24",
+      "name": "Versute Investments",
+      "membership": "full",
+      "source": {
+        "url": "https://cvca.cz/en/versute-investments-2/",
+        "publisher": "CVCA",
+        "kind": "institutional",
+        "publishedAt": null,
+        "retrievedAt": "2026-10-16",
+        "directoryEntryDate": "2020-01-14"
+      },
+      "listedLocation": {
+        "city": "Prague",
+        "country": "Czechia",
+        "basis": "Address on CVCA profile; not independently confirmed main management base"
+      },
+      "group": "czech_pe",
+      "strategy": [
+        "Growth PE",
+        "Leveraged buyouts",
+        "Management buyouts"
+      ],
+      "sectors": [],
+      "sectorStatus": "explicitly_sector_agnostic",
+      "geography": [
+        "Czechia",
+        "Slovakia"
+      ],
+      "investmentRanges": [
+        {
+          "min": 1000000,
+          "max": 5000000,
+          "currency": "EUR",
+          "scope": "Invested equity"
+        }
+      ],
+      "capitalObservations": [
+        {
+          "amount": 40000000,
+          "currency": "EUR",
+          "metric": "Funds managed as listed",
+          "scope": "Open-ended structure",
+          "relation": "equal",
+          "asOf": null
+        }
+      ],
+      "portfolioExamples": [
+        "Tiyo",
+        "DCK Holoubkov Bohemia",
+        "BOCO PARDUBICE machines"
+      ],
+      "investmentEvidenceDate": null,
+      "classificationNote": "PE investor. Separate operating office from registered office; both are listed in Prague.",
+      "verificationStatus": "association_extraction_pending_primary_verification"
+    },
+    {
+      "candidateId": "directory-25",
+      "name": "Accolade",
+      "membership": "associate",
+      "source": {
+        "url": "https://cvca.cz/en/accolade-2/",
+        "publisher": "CVCA",
+        "kind": "institutional",
+        "publishedAt": null,
+        "retrievedAt": "2026-10-16",
+        "directoryEntryDate": "2025-03-17"
+      },
+      "listedLocation": {
+        "city": "Prague",
+        "country": "Czechia",
+        "basis": "Address on CVCA profile; not independently confirmed main management base"
+      },
+      "group": "other_investment_or_unclear",
+      "strategy": [
+        "Industrial property investing",
+        "Infrastructure ownership"
+      ],
+      "sectors": [
+        "Industrial property",
+        "Logistics infrastructure"
+      ],
+      "sectorStatus": "reported",
+      "geography": [
+        "Europe"
+      ],
+      "investmentRanges": [],
+      "capitalObservations": [],
+      "portfolioExamples": [
+        "Brno International Airport"
+      ],
+      "investmentEvidenceDate": null,
+      "classificationNote": "Real-estate/infrastructure investor, not VC. Tenant industries are not startup investment sectors; park counts are not capital.",
+      "verificationStatus": "association_extraction_pending_primary_verification"
+    },
+    {
+      "candidateId": "cvca-bonuvis",
+      "name": "Bonuvis s.r.o.",
+      "membership": "associate",
+      "source": {
+        "url": "https://cvca.cz/en/bonuvis-s-r-o-2/",
+        "publisher": "CVCA",
+        "kind": "institutional",
+        "publishedAt": null,
+        "retrievedAt": "2026-10-16",
+        "directoryEntryDate": "2020-01-25"
+      },
+      "listedLocation": {
+        "city": "Prague",
+        "country": "Czechia",
+        "basis": "Address on CVCA profile; not independently confirmed main management base"
+      },
+      "group": "other_investment_or_unclear",
+      "strategy": [
+        "Corporate-finance advisory",
+        "Investment-club management"
+      ],
+      "sectors": null,
+      "sectorStatus": "not_found",
+      "geography": [
+        "Europe",
+        "CEE"
+      ],
+      "investmentRanges": [],
+      "capitalObservations": [],
+      "portfolioExamples": [],
+      "investmentEvidenceDate": null,
+      "classificationNote": "Manages clubs for individuals/families. Identify direct investing entity and participation before qualifying; advisory activity alone is insufficient.",
+      "verificationStatus": "association_extraction_pending_primary_verification"
+    },
+    {
+      "candidateId": "cvca-emun",
+      "name": "EMUN investiční společnost, a.s.",
+      "membership": "associate",
+      "source": {
+        "url": "https://cvca.cz/en/emun-investicni-spolecnost-a-s-2/",
+        "publisher": "CVCA",
+        "kind": "institutional",
+        "publishedAt": null,
+        "retrievedAt": "2026-10-16",
+        "directoryEntryDate": "2020-01-22"
+      },
+      "listedLocation": {
+        "city": "Prague",
+        "country": "Czechia",
+        "basis": "Address on CVCA profile; not independently confirmed main management base"
+      },
+      "group": "other_investment_or_unclear",
+      "strategy": [
+        "Multi-family office",
+        "Asset management",
+        "Private-market funds",
+        "Co-investment structures"
+      ],
+      "sectors": null,
+      "sectorStatus": "not_found",
+      "geography": null,
+      "investmentRanges": [],
+      "capitalObservations": [
+        {
+          "amount": 10000000000,
+          "currency": "CZK",
+          "metric": "Invested and committed assets",
+          "scope": "Invested and committed assets across platform, not necessarily liquid AUM",
+          "relation": "greater_than",
+          "asOf": "2024-12-31"
+        }
+      ],
+      "portfolioExamples": [],
+      "investmentEvidenceDate": null,
+      "classificationNote": "Explicitly Prague-based family-office platform. Direct investment versus access-fund exposure needs verification. Preserve the actual financial as-of date.",
+      "verificationStatus": "association_extraction_pending_primary_verification"
+    },
+    {
+      "candidateId": "cvca-jsk-investments",
+      "name": "JSK Investments",
+      "membership": "associate",
+      "source": {
+        "url": "https://cvca.cz/en/jsk-investments-en/",
+        "publisher": "CVCA",
+        "kind": "institutional",
+        "publishedAt": null,
+        "retrievedAt": "2026-10-16",
+        "directoryEntryDate": "2020-01-17"
+      },
+      "listedLocation": {
+        "city": "Prague",
+        "country": "Czechia",
+        "basis": "Address on CVCA profile; not independently confirmed main management base"
+      },
+      "group": "czech_mixed",
+      "strategy": [
+        "Own-capital VC",
+        "Private/growth equity",
+        "Majority mid-market equity"
+      ],
+      "sectors": null,
+      "sectorStatus": "not_found",
+      "geography": [
+        "Global ambition in venture strategy; deployment geography unspecified"
+      ],
+      "investmentRanges": [],
+      "capitalObservations": [],
+      "portfolioExamples": [],
+      "investmentEvidenceDate": null,
+      "classificationNote": "Explicit VC and PE arms; potentially eligible venture activity after verification. Different entity from the JŠK law firm in the directory.",
+      "verificationStatus": "association_extraction_pending_primary_verification"
+    },
+    {
+      "candidateId": "cvca-pale-fire",
+      "name": "Pale Fire Capital SE",
+      "membership": "associate",
+      "source": {
+        "url": "https://cvca.cz/en/pale-fire-capital-se-en/",
+        "publisher": "CVCA",
+        "kind": "institutional",
+        "publishedAt": null,
+        "retrievedAt": "2026-10-16",
+        "directoryEntryDate": "2020-01-11"
+      },
+      "listedLocation": {
+        "city": "Prague",
+        "country": "Czechia",
+        "basis": "Address on CVCA profile; not independently confirmed main management base"
+      },
+      "group": "czech_pe",
+      "strategy": [
+        "Technology-led PE",
+        "Strategic stakes",
+        "Succession investments"
+      ],
+      "sectors": [
+        "Technology",
+        "AI-enabled businesses",
+        "Traditional industries"
+      ],
+      "sectorStatus": "reported",
+      "geography": null,
+      "investmentRanges": [],
+      "capitalObservations": [
+        {
+          "amount": 10000000000,
+          "currency": "CZK",
+          "metric": "Deployment plan",
+          "scope": "Planned deployment over five years; start date unspecified",
+          "relation": "up_to",
+          "asOf": null
+        }
+      ],
+      "portfolioExamples": [],
+      "investmentEvidenceDate": null,
+      "classificationNote": "PE strategy. Five-year deployment plan is not AUM, fund size or cash available.",
+      "verificationStatus": "association_extraction_pending_primary_verification"
+    },
+    {
+      "candidateId": "cvca-qi",
+      "name": "QI investiční společnost, a.s.",
+      "membership": "associate",
+      "source": {
+        "url": "https://cvca.cz/en/qi-investicni-spolecnost-a-s-2/",
+        "publisher": "CVCA",
+        "kind": "institutional",
+        "publishedAt": null,
+        "retrievedAt": "2026-10-16",
+        "directoryEntryDate": "2020-01-10"
+      },
+      "listedLocation": {
+        "city": "Prague",
+        "country": "Czechia",
+        "basis": "Address on CVCA profile; not independently confirmed main management base"
+      },
+      "group": "other_investment_or_unclear",
+      "strategy": [
+        "Investment management; details unclear"
+      ],
+      "sectors": null,
+      "sectorStatus": "not_found",
+      "geography": null,
+      "investmentRanges": [],
+      "capitalObservations": [],
+      "portfolioExamples": [],
+      "investmentEvidenceDate": null,
+      "classificationNote": "Heading names QI, body names Conseq. Identity/mandate mismatch and no direct-investment evidence; unresolved, not automatically a VC investor.",
+      "verificationStatus": "association_extraction_pending_primary_verification"
+    },
+    {
+      "candidateId": "cvca-rsj",
+      "name": "RSJ Investments",
+      "membership": "associate",
+      "source": {
+        "url": "https://cvca.cz/en/rsj-investments-2/",
+        "publisher": "CVCA",
+        "kind": "institutional",
+        "publishedAt": null,
+        "retrievedAt": "2026-10-16",
+        "directoryEntryDate": "2020-01-09"
+      },
+      "listedLocation": {
+        "city": "Prague",
+        "country": "Czechia",
+        "basis": "Address on CVCA profile; not independently confirmed main management base"
+      },
+      "group": "other_investment_or_unclear",
+      "strategy": [
+        "Multi-asset fund management",
+        "Real-estate investing"
+      ],
+      "sectors": [
+        "Real estate",
+        "Agriculture",
+        "Industry",
+        "Services",
+        "IT",
+        "Biotechnology",
+        "Healthy food",
+        "Renewables",
+        "Longevity"
+      ],
+      "sectorStatus": "reported",
+      "geography": null,
+      "investmentRanges": [],
+      "capitalObservations": [],
+      "portfolioExamples": [],
+      "investmentEvidenceDate": null,
+      "classificationNote": "Broad investment group with substantial property exposure. Verify direct startup equity strategy before considering a venture record.",
+      "verificationStatus": "association_extraction_pending_primary_verification"
+    },
+    {
+      "candidateId": "cvca-susanka",
+      "name": "Sušánka & partneři",
+      "membership": "associate",
+      "source": {
+        "url": "https://cvca.cz/en/susanka-partneri-2/",
+        "publisher": "CVCA",
+        "kind": "institutional",
+        "publishedAt": null,
+        "retrievedAt": "2026-10-16",
+        "directoryEntryDate": "2020-01-08"
+      },
+      "listedLocation": {
+        "city": "Prague",
+        "country": "Czechia",
+        "basis": "Address on CVCA profile; not independently confirmed main management base"
+      },
+      "group": "advisory_only",
+      "strategy": [
+        "Investment consulting",
+        "Wealth allocation advice"
+      ],
+      "sectors": null,
+      "sectorStatus": "not_found",
+      "geography": null,
+      "investmentRanges": [],
+      "capitalObservations": [],
+      "portfolioExamples": [],
+      "investmentEvidenceDate": null,
+      "classificationNote": "Describes advice and client exposure to VC/PE, not proof the adviser directly invests. Exclude from investor results on this evidence.",
+      "verificationStatus": "association_extraction_pending_primary_verification"
+    },
+    {
+      "candidateId": "cvca-wood",
+      "name": "WOOD & Company Financial Services",
+      "membership": "associate",
+      "source": {
+        "url": "https://cvca.cz/en/wood-company-financial-services-2/",
+        "publisher": "CVCA",
+        "kind": "institutional",
+        "publishedAt": null,
+        "retrievedAt": "2026-10-16",
+        "directoryEntryDate": "2020-01-04"
+      },
+      "listedLocation": {
+        "city": "Prague",
+        "country": "Czechia",
+        "basis": "Address on CVCA profile; not independently confirmed main management base"
+      },
+      "group": "other_investment_or_unclear",
+      "strategy": [
+        "Brokerage",
+        "Asset management",
+        "Investment banking",
+        "M&A advisory"
+      ],
+      "sectors": null,
+      "sectorStatus": "not_found",
+      "geography": [
+        "Central Europe"
+      ],
+      "investmentRanges": [],
+      "capitalObservations": [],
+      "portfolioExamples": [],
+      "investmentEvidenceDate": null,
+      "classificationNote": "Page focuses on intermediary services. A qualifying direct-investing vehicle/mandate is not established; do not inherit the wider group's investments.",
+      "verificationStatus": "association_extraction_pending_primary_verification"
+    }
+  ]
+}

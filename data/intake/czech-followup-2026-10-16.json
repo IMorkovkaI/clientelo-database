@@ -1,0 +1,155 @@
+{
+  "reviewedAt": "2026-10-16",
+  "reviewer": "Codex",
+  "reviewerType": "ai",
+  "independent": false,
+  "method": "Targeted follow-up of remaining Czech candidates; not an independent accuracy sample.",
+  "sources": [
+    {
+      "id": "n1-current",
+      "url": "https://n1.rocks/",
+      "publisher": "N1",
+      "title": "Current strategy, team and offices",
+      "excerpt": "Our team splits time between Prague and San Francisco",
+      "summary": "Current site names Marek Moravec, Jaroslav Trojan, Klara Kocarova and Ondrej Homola, and Prague, San Francisco and Luxembourg addresses. Reports USD 60M managed across two funds, USD 100k–1M typical first investments, early-stage AI/healthtech/frontier technology in Europe and the US. No main management base or exact financial as-of date is stated.",
+      "kind": "primary",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "id": "n1-cvca",
+      "url": "https://cvca.cz/en/nation1-2/",
+      "publisher": "CVCA",
+      "title": "Nation1 identity and older strategy",
+      "excerpt": "Jaroslav Trojan Managing Partner",
+      "summary": "Matches N1's Prague address and partner, corroborating Nation1/N1 identity. Older EUR 35M managed-capital and EUR 50k–1.5M ticket observations have no financial as-of date and are not substituted for the current website. A Prague address alone cannot resolve the management-base criterion.",
+      "kind": "institutional",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "id": "skylimit-about",
+      "url": "https://www.skylimit.cz/o-nas",
+      "publisher": "SkyLimit Industry",
+      "title": "Founder identity and buyout strategy",
+      "excerpt": "Zakladatelem fondu SkyLimit Industry SICAV a.s. je společnost SkyLimit Investments s.r.o.",
+      "summary": "Connects SkyLimit Investments to the Industry fund and states that it buys controlling stakes in established profitable engineering companies. The inspected strategy is buyout/industrial PE, outside the Czech VC pilot.",
+      "kind": "primary",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "id": "thein-industry",
+      "url": "https://www.theinindustry.com/industry/",
+      "publisher": "Thein Industry",
+      "title": "Industry strategy and investment director",
+      "excerpt": "Investovali jsme do 100% nebo majoritních podílů",
+      "summary": "Describes majority or full ownership of traditional engineering companies and names Filip Budnik as investment director. Supports industrial acquisitions, not a qualifying startup VC strategy; does not establish every activity of the wider Thein group.",
+      "kind": "primary",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "id": "thein-cvca",
+      "url": "https://cvca.cz/en/thein-2/",
+      "publisher": "CVCA",
+      "title": "Thein member strategy",
+      "excerpt": "LBO, Growth capital",
+      "summary": "Lists industry, railways, IT infrastructure and cybersecurity with the same investment director. Technology exposure is not itself proof of startup venture investment. The wider group's VC eligibility remains unresolved.",
+      "kind": "institutional",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16"
+    }
+  ],
+  "decisions": [
+    {
+      "candidateId": "directory-16",
+      "outcome": "unresolved",
+      "sourceIds": [
+        "n1-current",
+        "n1-cvca"
+      ],
+      "reason": "Nation1/N1 is a real early-stage investor, but the current team is split between Prague and San Francisco with no explicit main management base. Remains outside live profiles pending that evidence; Luxembourg fund presence alone neither admits nor excludes it.",
+      "observations": {
+        "website": "https://n1.rocks/",
+        "aliases": [
+          "Nation1",
+          "N1",
+          "N1 Ventures"
+        ],
+        "sectors": [
+          "Artificial intelligence",
+          "Healthtech",
+          "Frontier technology"
+        ],
+        "stages": [
+          "Early stage"
+        ],
+        "geography": [
+          "Europe",
+          "United States"
+        ],
+        "ticket": {
+          "min": 100000,
+          "max": 1000000,
+          "currency": "USD",
+          "scope": "Typical first investment; current site, as-of unknown"
+        },
+        "capital": {
+          "amount": 60000000,
+          "currency": "USD",
+          "metric": "Reported managed capital",
+          "scope": "Two funds; not available cash",
+          "asOf": null
+        },
+        "mainManagementBase": null
+      }
+    },
+    {
+      "candidateId": "directory-19",
+      "outcome": "out_of_scope",
+      "sourceIds": [
+        "skylimit-about"
+      ],
+      "reason": "Official source identifies SkyLimit Investments as founder of the Industry fund and describes controlling-stake purchases of established profitable engineering firms. Inspected PE/buyout strategy falls outside the VC pilot."
+    },
+    {
+      "candidateId": "directory-21",
+      "outcome": "unresolved",
+      "sourceIds": [
+        "thein-industry",
+        "thein-cvca"
+      ],
+      "reason": "Primary Industry page confirms majority/full acquisitions in traditional engineering; CVCA lists LBO/growth capital. No qualifying startup VC strategy established for the broader Thein group. Keep outside live profiles; do not infer VC from technology sectors."
+    }
+  ],
+  "profileChanges": [
+    {
+      "investorId": "credo",
+      "before": "unresolved",
+      "after": "eligible",
+      "sourceIds": [
+        "credo-headquarters",
+        "credo-manifesto",
+        "credo-strategy",
+        "credo-deal"
+      ]
+    },
+    {
+      "investorId": "directory-17",
+      "before": "discovery_only",
+      "after": "eligible",
+      "sourceIds": [
+        "orbit-headquarters",
+        "orbit-equity",
+        "orbit-cvca",
+        "orbit-mews"
+      ]
+    }
+  ],
+  "notUsed": [
+    "Nation1 public LinkedIn page could not be retrieved. An unrelated London advertising company named Nation1 was excluded from identity evidence.",
+    "Thein group website could not be retrieved; accessible Industry sources do not establish the full group's strategy.",
+    "Upheal participation is named in a primary article, but its displayed date is 2026-10-09 while Credo's newsroom labels it 2025-01-25. Retained Credo's unambiguous ElevenLabs evidence instead of inventing a recent transaction date."
+  ]
+}

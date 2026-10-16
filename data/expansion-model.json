@@ -1,0 +1,121 @@
+{
+  "version": "2026-10-16.1",
+  "asOf": "2026-10-16",
+  "currency": "EUR",
+  "status": "planning_assumptions_not_measured_costs",
+  "sources": [
+    {
+      "id": "nvca",
+      "publisher": "NVCA",
+      "period": "2025",
+      "url": "https://nvca.org/2026-nvca-yearbook/",
+      "count": 2984,
+      "unit": "US VC firms",
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "id": "invest-europe",
+      "publisher": "Invest Europe",
+      "period": "2025",
+      "url": "https://www.investeurope.eu/publications-policy/publications/2026/positioned-for-the-challenge-capital-under-management-dry-powder-2025/",
+      "count": 3243,
+      "unit": "European PE and VC firms",
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "id": "deloitte",
+      "publisher": "Deloitte",
+      "period": "2024",
+      "url": "https://www.deloitte.com/global/en/services/deloitte-private/research/defining-the-family-office-landscape.html",
+      "count": 8030,
+      "unit": "Estimated global single family offices",
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "id": "eban",
+      "publisher": "EBAN",
+      "period": "2024",
+      "url": "https://www.eban.org/wp-content/uploads/2025/12/Stats-Compendium-2024.pdf",
+      "count": 47600,
+      "unit": "Network-affiliated European angels",
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "id": "unh",
+      "publisher": "University of New Hampshire, Center for Venture Research",
+      "period": "2024",
+      "url": "https://paulcollege.unh.edu/sites/default/files/media/2025-12/FY%202024%20Analysis%20Report%20Final.pdf",
+      "count": 445535,
+      "unit": "Estimated active US angels",
+      "retrievedAt": "2026-10-16"
+    }
+  ],
+  "institutionalRegionalOverlap": 0.05,
+  "qaFraction": 0.1,
+  "qaMinutes": 30,
+  "contingency": 0.2,
+  "maintenanceEngineeringHours": 80,
+  "hostingToolsAnnualEUR": 1200,
+  "scenarios": [
+    {
+      "name": "low",
+      "additionalInstitutionalPopulation": 3000,
+      "institutionalPublicYield": 0.6,
+      "familyOfficePublicYield": 0.1,
+      "angelPublicYield": 0.005,
+      "otherRegionsPublicAngels": 500,
+      "crossCategoryDuplicates": 0.05,
+      "candidateAcceptance": 0.6,
+      "discoveryExtractionMinutes": 10,
+      "acceptedVerificationMinutes": 20,
+      "rejectedVerificationMinutes": 5,
+      "deduplicationMinutes": 3,
+      "researchHourlyEUR": 25,
+      "engineeringHours": 100,
+      "engineeringHourlyEUR": 60,
+      "toolsPerCandidateEUR": 0.25,
+      "refreshesPerYear": 0.5,
+      "refreshMinutes": 10
+    },
+    {
+      "name": "middle",
+      "additionalInstitutionalPopulation": 6000,
+      "institutionalPublicYield": 0.7,
+      "familyOfficePublicYield": 0.175,
+      "angelPublicYield": 0.015,
+      "otherRegionsPublicAngels": 2000,
+      "crossCategoryDuplicates": 0.08,
+      "candidateAcceptance": 0.5,
+      "discoveryExtractionMinutes": 20,
+      "acceptedVerificationMinutes": 35,
+      "rejectedVerificationMinutes": 10,
+      "deduplicationMinutes": 5,
+      "researchHourlyEUR": 40,
+      "engineeringHours": 200,
+      "engineeringHourlyEUR": 80,
+      "toolsPerCandidateEUR": 0.75,
+      "refreshesPerYear": 1,
+      "refreshMinutes": 15
+    },
+    {
+      "name": "high",
+      "additionalInstitutionalPopulation": 10000,
+      "institutionalPublicYield": 0.8,
+      "familyOfficePublicYield": 0.25,
+      "angelPublicYield": 0.03,
+      "otherRegionsPublicAngels": 5000,
+      "crossCategoryDuplicates": 0.1,
+      "candidateAcceptance": 0.4,
+      "discoveryExtractionMinutes": 35,
+      "acceptedVerificationMinutes": 50,
+      "rejectedVerificationMinutes": 15,
+      "deduplicationMinutes": 8,
+      "researchHourlyEUR": 60,
+      "engineeringHours": 400,
+      "engineeringHourlyEUR": 100,
+      "toolsPerCandidateEUR": 1.5,
+      "refreshesPerYear": 2,
+      "refreshMinutes": 20
+    }
+  ]
+}

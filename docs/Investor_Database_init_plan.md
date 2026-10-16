@@ -350,7 +350,6 @@ Projekt je úspěšně dokončen teprve, když:
 /data/exports/investors_verified.xlsx
 /data/exports/all_candidates.csv
 /data/exports/evidence_sources.csv
-/data/audit/manual_review_template.csv
 /reports/methodology.md
 /reports/pilot_results.md
 /reports/global_estimate.md

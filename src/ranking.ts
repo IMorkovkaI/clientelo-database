@@ -32,7 +32,15 @@ export interface Match {
 }
 const geographyContains: Record<string, string[]> = {
   CEE: ["Czechia", "Poland", "Slovakia"],
-  Europe: ["Czechia", "Poland", "Slovakia", "Germany", "United Kingdom"],
+  Europe: [
+    "Czechia",
+    "Poland",
+    "Slovakia",
+    "Germany",
+    "United Kingdom",
+    "Austria",
+    "Switzerland",
+  ],
   "NATO & allies": [
     "Czechia",
     "Poland",
@@ -62,7 +70,9 @@ export function matches(investor: Investor, filters: Filters): Match[] {
       state =
         claim.value.includes(requested) || broad
           ? "match"
-          : originConditional
+          : originConditional ||
+              claim.basis === "portfolio_observation" ||
+              (key === "stages" && claim.value.includes("Early stage"))
             ? "unknown"
             : "mismatch";
     }
@@ -71,7 +81,9 @@ export function matches(investor: Investor, filters: Filters): Match[] {
       state,
       explanation:
         state === "match"
-          ? `${LABELS[key]} matches`
+          ? claim.basis === "portfolio_observation"
+            ? `${LABELS[key]} appears in portfolio; current mandate needs confirmation`
+            : `${LABELS[key]} matches`
           : state === "mismatch"
             ? `${requested} is outside the documented ${LABELS[key].toLowerCase()} focus`
             : `${LABELS[key]} needs confirmation`,
@@ -100,8 +112,11 @@ export function matches(investor: Investor, filters: Filters): Match[] {
   }
   return result;
 }
+export function evidenceDate(investor: Investor) {
+  return investor.investment.value?.evidencePublishedAt ?? null;
+}
 export function isRecent(investor: Investor, asOf: string) {
-  const date = investor.investment.value?.announcedAt;
+  const date = evidenceDate(investor);
   if (!date) return false;
   const cutoff = new Date(`${asOf}T00:00:00Z`);
   cutoff.setUTCMonth(cutoff.getUTCMonth() - 36);
@@ -115,7 +130,7 @@ export function rankInvestors(
   return investors
     .filter(
       (i) =>
-        i.scopeStatus !== "ineligible" &&
+        i.scopeStatus === "eligible" &&
         i.name.toLowerCase().includes(filters.query.trim().toLowerCase()),
     )
     .map((investor) => {
@@ -163,9 +178,9 @@ export function rankInvestors(
         return Number(a.potential) - Number(b.potential);
       if (filters.sort === "name")
         return a.investor.name.localeCompare(b.investor.name);
-      const dateOrder = (
-        b.investor.investment.value?.announcedAt ?? ""
-      ).localeCompare(a.investor.investment.value?.announcedAt ?? "");
+      const dateOrder = (evidenceDate(b.investor) ?? "").localeCompare(
+        evidenceDate(a.investor) ?? "",
+      );
       if (filters.sort === "recent")
         return dateOrder || a.investor.name.localeCompare(b.investor.name);
       return (

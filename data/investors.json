@@ -1,6 +1,6 @@
 {
-  "version": "2026-10-15-preview.1",
-  "asOf": "2026-10-15",
+  "version": "2026-10-16-preview.6",
+  "asOf": "2026-10-16",
   "publicationStatus": "research_preview",
   "sources": [
     {
@@ -11,7 +11,7 @@
       "excerpt": "Leading Pre-Seed rounds.",
       "summary": "States $1M–$5M checks, a CEE-founder and diaspora mandate, and Prague and Kraków offices. Describes backing founders without a fixed thesis.",
       "publishedAt": null,
-      "retrievedAt": "2026-10-15",
+      "retrievedAt": "2026-10-16",
       "kind": "primary"
     },
     {
@@ -22,7 +22,7 @@
       "excerpt": "joined by Sequoia Capital, SV Angel, Smash Capital, BroadLight Capital and Credo Ventures",
       "summary": "Names Credo as a participant in the $80M round. Does not disclose Credo’s individual contribution.",
       "publishedAt": "2024-01-22",
-      "retrievedAt": "2026-10-15",
+      "retrievedAt": "2026-10-16",
       "kind": "primary"
     },
     {
@@ -31,9 +31,9 @@
       "publisher": "Purple Ventures",
       "title": "Investment strategy and portfolio",
       "excerpt": "€250k to €400k",
-      "summary": "States initial tickets of €250k–€400k and pre-seed/seed focus on CEE+ technology businesses with initial revenue. Lists Flowlance as a 2024 investment. Exact announcement date and main management location need further evidence.",
+      "summary": "States €250k–€400k initial tickets, pre-seed/seed and CEE+ technology companies with initial revenue. The site republishes a description of Purple as Brno-based and lists its Brno office. The management-base judgment uses this description, not the address alone.",
       "publishedAt": null,
-      "retrievedAt": "2026-10-15",
+      "retrievedAt": "2026-10-16",
       "kind": "primary"
     },
     {
@@ -42,9 +42,9 @@
       "publisher": "Presto Ventures",
       "title": "Investment approach, portfolio and contact",
       "excerpt": "Tickets ranging from €500k to €5M.",
-      "summary": "States seed to Series A, security/defense/aerospace, software and hardware, NATO and allied markets, and a Prague office. Lists Behavio as a portfolio company. A separately dated transaction source is still needed.",
+      "summary": "States seed to Series A, security/defense/aerospace, software and hardware, NATO and allied markets, and a Prague office. Current focus relates to the new fund; older portfolio investments can have a broader strategy.",
       "publishedAt": null,
-      "retrievedAt": "2026-10-15",
+      "retrievedAt": "2026-10-16",
       "kind": "primary"
     },
     {
@@ -55,7 +55,7 @@
       "excerpt": "pre-Series A venture capital fund based in Prague",
       "summary": "States a global AI strategy with European emphasis, pre-Series A companies and an operational team in Prague. Ticket range not found in the inspected source.",
       "publishedAt": null,
-      "retrievedAt": "2026-10-15",
+      "retrievedAt": "2026-10-16",
       "kind": "primary"
     },
     {
@@ -66,7 +66,7 @@
       "excerpt": "Look AI Ventures has joined Sodex Innovations' €4M funding round",
       "summary": "Documents participation in a €4M company round. Individual contribution not disclosed. This is an announcement date, not a confirmed closing date.",
       "publishedAt": "2026-07-23",
-      "retrievedAt": "2026-10-15",
+      "retrievedAt": "2026-10-16",
       "kind": "primary"
     },
     {
@@ -77,7 +77,7 @@
       "excerpt": "€300K – €3M",
       "summary": "States pre-seed to Series A, CEE/SEE/Baltics, equity and convertible instruments, a Prague office, and preferred technology sectors. €6M maximum company allocation is distinct from the initial ticket.",
       "publishedAt": null,
-      "retrievedAt": "2026-10-15",
+      "retrievedAt": "2026-10-16",
       "kind": "primary"
     },
     {
@@ -88,7 +88,7 @@
       "excerpt": "Sector Agnostic",
       "summary": "States sector agnostic, B2B, B2C and marketplace interests, with Prague office details.",
       "publishedAt": null,
-      "retrievedAt": "2026-10-15",
+      "retrievedAt": "2026-10-16",
       "kind": "primary"
     },
     {
@@ -99,7 +99,7 @@
       "excerpt": "investici 1,5 milionu eur od fondů Reflex Capital, J&T Ventures a Grid Invest",
       "summary": "Dated blog entry names grid.online and the three investors in a €1.5M round. The investor-specific amount is not given.",
       "publishedAt": "2025-04-20",
-      "retrievedAt": "2026-10-15",
+      "retrievedAt": "2026-10-16",
       "kind": "primary"
     },
     {
@@ -108,9 +108,9 @@
       "publisher": "Tensor Ventures",
       "title": "Team and contact",
       "excerpt": "Contact in CZ",
-      "summary": "Lists Luxembourg fund entities and a Czech contact office. This establishes Czech presence, but main investment management location still requires confirmation.",
+      "summary": "Describes seed and Series A deep-tech investing, Luxembourg fund entities and a Prague contact office. The management-base decision now also uses EIF's explicit Czech team-location table; the address alone was insufficient.",
       "publishedAt": null,
-      "retrievedAt": "2026-10-15",
+      "retrievedAt": "2026-10-16",
       "kind": "primary"
     },
     {
@@ -121,7 +121,7 @@
       "excerpt": "Our first investment from Fund 2 was in",
       "summary": "Names Dynanic (Brnologic) as Fund 2’s first investment. Describes deep-tech investing and a €50M target for Fund 2, not a final close. Exact transaction date is unspecified.",
       "publishedAt": "2024-12-23",
-      "retrievedAt": "2026-10-15",
+      "retrievedAt": "2026-10-16",
       "kind": "primary"
     },
     {
@@ -132,7 +132,7 @@
       "excerpt": "$1–3M",
       "summary": "States pre-seed/seed tickets of $1M–$3M and CEE founders as its focus; lists four international offices. Shows $500M AUM and an $85M current fund without an explicit as-of date.",
       "publishedAt": null,
-      "retrievedAt": "2026-10-15",
+      "retrievedAt": "2026-10-16",
       "kind": "primary"
     },
     {
@@ -143,7 +143,7 @@
       "excerpt": "based in Prague",
       "summary": "Describes KAYA as a Prague-based VC investing in early-stage companies across CEE.",
       "publishedAt": null,
-      "retrievedAt": "2026-10-15",
+      "retrievedAt": "2026-10-16",
       "kind": "primary"
     },
     {
@@ -152,9 +152,9 @@
       "publisher": "Miton",
       "title": "Investment areas and portfolio",
       "excerpt": "AI, augmented workforce",
-      "summary": "States AI, crypto/web3, e-commerce, gastrotech and mental-health investment areas. Lists Rossum in its portfolio and reports €450M portfolio value, which is not AUM. Stage, ticket and dated transaction evidence remain incomplete.",
+      "summary": "States AI, crypto/web3, e-commerce, gastrotech and mental-health interests. Reports €450M portfolio value without an explicit as-of date; this is not AUM or investable capital.",
       "publishedAt": null,
-      "retrievedAt": "2026-10-15",
+      "retrievedAt": "2026-10-16",
       "kind": "primary"
     },
     {
@@ -167,6 +167,611 @@
       "publishedAt": null,
       "retrievedAt": "2026-10-15",
       "kind": "institutional"
+    },
+    {
+      "id": "purple-capital",
+      "url": "https://purple.group/company-detail/purple-ventures",
+      "publisher": "Purple Group",
+      "title": "Purple Ventures fund vehicles",
+      "excerpt": "target size of €40 million",
+      "summary": "Describes a €15M first fund and a current vehicle targeting €40M. No explicit financial as-of date. The target is not a confirmed close.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "sloneek-round-2024",
+      "url": "https://www.sloneek.com/blog/investment/",
+      "publisher": "Sloneek",
+      "title": "Sloneek raises €3.6M",
+      "excerpt": "Leading the current late-seed round is fund Purple Ventures II",
+      "summary": "Reports a €3.6M late-seed round led by Purple Ventures II with Venture to Future Fund and Vision Ventures. Separately confirms a €1M round in 2022 from Presto Ventures and Vision Ventures. No individual contributions given.",
+      "publishedAt": "2024-09-07",
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "presto-capital",
+      "url": "https://csg.com/en/news/presto-tech-horizons",
+      "publisher": "CSG",
+      "title": "Presto Tech Horizons launch",
+      "excerpt": "With a target size of €150 million",
+      "summary": "Partner announcement describes the joint Presto Tech Horizons fund with a €150M target. It does not establish a final close or total Presto AUM.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "presto-base",
+      "url": "https://www.slovca.sk/files/attachments/SLOVCA%20CVCA-Activity-Report-2022.pdf",
+      "publisher": "CVCA / SLOVCA",
+      "title": "2022 deal activity report, printed page 19",
+      "excerpt": "Prague-based Presto Ventures",
+      "summary": "The report describes Presto as Prague-based in its Keboola entry. Historical institutional corroboration, paired with the current official Prague office; not a current legal-register check.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16",
+      "kind": "institutional"
+    },
+    {
+      "id": "kaya-deal",
+      "url": "https://newsletter.kaya.vc/ceefarers-jun-2024/",
+      "publisher": "KAYA VC",
+      "title": "CEEfarers, June 2024",
+      "excerpt": "Yoneda Labs",
+      "summary": "June newsletter names KAYA among Yoneda Labs investors in its May-round recap. The list says $4.6M while a linked headline says $4M; scope is unresolved, so no round amount is imported. Publication is not an exact announcement or closing date.",
+      "publishedAt": "2024-06-12",
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "miton-approach",
+      "url": "https://www.miton.cz/o-nas/",
+      "publisher": "Miton",
+      "title": "About Miton: approach, tickets and office",
+      "excerpt": "300k-2M €",
+      "summary": "Describes investing its own capital at pre-seed, seed and Series A, typical initial €300k–€2M investments and follow-ons separately. Shows its operational office at Corso IIa, Křižíkova 148/34, Prague.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "miton-ace",
+      "url": "https://www.miton.cz/blog/miton-investuje-do-ace-stravu-pro-padel-uz-pouziva-vice-nez-polovina-ceskych-hracu/",
+      "publisher": "Miton",
+      "title": "Miton invests in ACE",
+      "excerpt": "1. 10. 2026",
+      "summary": "Announces an investment agreement with ACE. The amount is described only as millions of crowns, without an exact figure. Closing date and individual amount remain unset.",
+      "publishedAt": "2026-10-01",
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "tensor-valka",
+      "url": "https://blog.tensor.ventures/p/new-investment-valkaai-building-the",
+      "publisher": "Tensor Ventures",
+      "title": "New investment: ValkaAI",
+      "excerpt": "€12 million pre-seed investment in ValkaAI",
+      "summary": "Names Tensor as a participant in ValkaAI’s €12M pre-seed round led by Rockaway Ventures. The full round is not Tensor’s contribution.",
+      "publishedAt": "2026-03-03",
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "credo-capital",
+      "url": "https://cvca.cz/en/cvca-awards-2022-en/",
+      "publisher": "CVCA",
+      "title": "CVCA Awards 2022: VC fund manager",
+      "excerpt": "fourth fund sized EUR 75 million",
+      "summary": "Historical 2022 award profile reports a €75M fourth fund. This is neither current total AUM nor available capital; the page gives no exact financial as-of date.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16",
+      "kind": "institutional"
+    },
+    {
+      "id": "cvca-promotion-eif-team",
+      "url": "https://www.eif.org/files/attachments/eif-equity-fundmanagers-all-countries-dec-2025.pdf",
+      "publisher": "European Investment Fund",
+      "title": "Equity fund partners, as at 31 December 2025, page 2",
+      "excerpt": "Team location",
+      "summary": "The table places Biotech Investments S.R.O (i&i Bio), Tilia Impact Partners, KAYA Advisory and Tensor Advisory s.r.o in Czech Republic. The country is team location, not fund domicile. Report reference date is 2025-12-31; publication date is not established.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16",
+      "kind": "institutional"
+    },
+    {
+      "id": "depo-current",
+      "url": "https://depoventures.com/",
+      "publisher": "DEPO Ventures",
+      "title": "Current investment criteria and Prague office",
+      "excerpt": "Ticket €250K - 500K",
+      "summary": "Publishes inception/pre-seed investing in defence, space, fintech, Industry 4.0 and energy, Europe/CEE/diaspora and a Prague office. EUR 9M is deployed capital, not fund size or available capital. Current strategy supersedes the undated generalist CVCA observation.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "depo-base",
+      "url": "https://momenta.vc/about",
+      "publisher": "Momenta",
+      "title": "Former DEPO employee biography",
+      "excerpt": "a pre-seed generalist fund based in Prague",
+      "summary": "Kateryna Kovalenko's biography describes her prior DEPO role and Prague base. Historical management-location corroboration paired with DEPO's current office and partner information; not a legal-register check.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "depo-team",
+      "url": "https://depoventures.com/about-depo",
+      "publisher": "DEPO Ventures",
+      "title": "Management team and investment activities",
+      "excerpt": "Managing partner, co-founder",
+      "summary": "Names Michal Ciffra and Petr Sima as managing partners and describes direct pre-seed investment activity; contact office is Prague.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "depo-tatum",
+      "url": "https://tatum.io/about/investment",
+      "publisher": "Tatum",
+      "title": "Tatum funding announcement",
+      "excerpt": "Tensor Ventures, Depo Ventures",
+      "summary": "Announcement dated 12 October 2022 lists DEPO among investors in USD 41.5M financing. This is total financing, not DEPO's contribution; historical evidence does not establish current capacity.",
+      "publishedAt": "2022-10-12",
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "ibio-current",
+      "url": "https://www.inibio.eu/",
+      "publisher": "i&i Bio",
+      "title": "Strategy, team and fund/adviser distinction",
+      "excerpt": "Our sweet spot lies between €0.5M and €2M.",
+      "summary": "Describes early-stage life-science investment across Europe with CEE emphasis, drug discovery, medtech, diagnostics and AI. Business-creation support starts at EUR 150k, separate from the typical EUR 0.5M–2M investment. Lists Luxembourg fund headquarters and Prague investment adviser Biotech Investments s.r.o.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "ibio-deal",
+      "url": "https://www.inibio.eu/news/iqure-seed",
+      "publisher": "i&i Bio / iQure Pharma",
+      "title": "iQure financing announcement",
+      "excerpt": "i&i Biotech Fund, a Prague-based life sciences fund",
+      "summary": "Dated announcement confirms i&i participation in iQure's USD 4M financing. Individual amount unknown. The body says Prague-based while boilerplate says Luxembourg-based; EIF's team-location table and the fund/adviser distinction explain why domicile is not management location.",
+      "publishedAt": "2025-01-07",
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "ibio-capital",
+      "url": "https://www.inibio.eu/news/%C4%8Desk%C3%A1-spo%C5%99itelna-is-the-first-bank-in-the-czech-republic-to-invest-eur-5-million-in-an-academic-investment-fund-i%26i-bio-focused-on-drug-development-and-medical-innovations",
+      "publisher": "i&i Bio",
+      "title": "Ceska sporitelna investment in i&i Bio",
+      "excerpt": "a total of EUR 53 million",
+      "summary": "The announcement states EUR 53M investment capital following Ceska sporitelna's contribution. This is a historical fund-capital observation as announced on 20 September 2023, not current dry powder.",
+      "publishedAt": "2023-09-20",
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "inven-current",
+      "url": "https://www.invencapital.cz/",
+      "publisher": "Inven Capital",
+      "title": "Climate-tech investment criteria, team and capital",
+      "excerpt": "2-30m EUR",
+      "summary": "States Europe and Israel, climate tech and EUR 2M–30M tickets. Describes EUR 500M supplied by institutional/corporate investors, with no financial as-of date. Shows managing director and investment team with Prague contact; no current available-capital estimate.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "inven-base",
+      "url": "https://www.cez.cz/cs/o-cez/skupina-cez/vyznamne-spolecnosti-skupiny-cez/inven-capital-sicav/kontakty",
+      "publisher": "CEZ Group",
+      "title": "Inven Capital company contact",
+      "excerpt": "Pod křížkem 1773/2",
+      "summary": "Owner identifies Inven Capital SICAV's Prague 4 contact. Paired with EIB's Czech venture-fund description and current official investment team; management-base conclusion is an explicit combined-source inference.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "inven-eib",
+      "url": "https://www.eib.org/en/press/all/2023-047-expanding-strategic-partnership-eib-supports-investments-in-climate-friendly-startups-providing-a-further-eur50-million-to-the-czech-fund-inven-capital",
+      "publisher": "European Investment Bank",
+      "title": "Inven co-investment partnership",
+      "excerpt": "a Czech venture capital fund",
+      "summary": "Institutional co-investor describes Czech VC identity and later-stage growth strategy in revenue-generating cleantech companies. Historical release refers to 2023 and over EUR 500M managed, but an exact publication day was not established; current capital record uses the official website instead.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16",
+      "kind": "institutional"
+    },
+    {
+      "id": "inven-vytal",
+      "url": "https://www.cez.cz/nextcez/en/media/press-releases/inven-capital-invests-in-vytal-a-german-company-that-reduces-the-environmental-impact-in-gastronomy-via-high-tech-platform-and-smart-packaging-209550",
+      "publisher": "CEZ Group",
+      "title": "Inven investment in Vytal",
+      "excerpt": "Inven Capital with NRW.Ventures backed vytal with EUR 8 million.",
+      "summary": "11 March 2025 announcement confirms participation. EUR 8M is the joint extension, taking total growth financing to EUR 14.2M. Inven's own contribution and legal closing date are not disclosed.",
+      "publishedAt": "2025-03-11",
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "tilia-current",
+      "url": "https://tilia.vc/",
+      "publisher": "Tilia Impact Ventures",
+      "title": "Current early-stage impact strategy",
+      "excerpt": "0.3 - 1.2m EUR initial ticket",
+      "summary": "Current home page states EUR 0.3M–1.2M initial equity/convertible tickets, early stage, sector-agnostic impact and CEE+. Its EUR 37M+ unlocked from co-investors is not Tilia AUM. Legacy /homepage-en page differs and is not used as the current ticket source.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "tilia-strategy",
+      "url": "https://tilia.vc/sfdr/",
+      "publisher": "Tilia Impact Ventures",
+      "title": "Fund II investment strategy",
+      "excerpt": "typically in seed of startup/Series A stages",
+      "summary": "Describes Fund II's VC strategy, seed/startup/Series A investments, with social and environmental impact integrated into the business model; managed by Tilia Impact Ventures II GP.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "tilia-capital",
+      "url": "https://engage.eif.org/eif-annual-report-2023/social-impact-skills-human-capital",
+      "publisher": "European Investment Fund",
+      "title": "2023 annual report: Tilia Fund II",
+      "excerpt": "a total size of €26.5m",
+      "summary": "Reports Tilia Impact Ventures II fund size of EUR 26.5M and EIF commitment of EUR 18.8M for the 2023 reporting period. Exact financial as-of/publication date is unspecified; not current available capital.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16",
+      "kind": "institutional"
+    },
+    {
+      "id": "tilia-faceup",
+      "url": "https://www.faceup.com/en/blog/series-a",
+      "publisher": "FaceUp",
+      "title": "FaceUp Series A announcement",
+      "excerpt": "Tilia Impact Ventures, a Prague-based impact fund",
+      "summary": "19 May 2026 release names Tilia as a returning investor in the USD 5M Series A. It explicitly describes Tilia as Prague-based. Individual ticket is not disclosed.",
+      "publishedAt": "2026-05-19",
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "jet-current",
+      "url": "https://ventures.jetinvestment.cz/",
+      "publisher": "Jet Ventures",
+      "title": "Venture investment criteria",
+      "excerpt": "late-seed to Series A",
+      "summary": "States B2B industrial tech in Czechia, Germany, Austria, Slovakia and Poland. Initial ticket up to EUR 2M, average EUR 1.5M and follow-on up to EUR 2.5M; no lower bound for a typical range. Describes AI, data, manufacturing, IoT, supply chain, robotics and cyber interests. Marketing wording about capital is not treated as a confirmed fund close.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "jet-capital",
+      "url": "https://www.jetinvestment.cz/en/venture-capital",
+      "publisher": "Jet Investment",
+      "title": "Jet Venture 1 fund target",
+      "excerpt": "target size of Jet Venture 1 fund",
+      "summary": "Identifies Jet Venture 1 as a 2024 venture fund with EUR 50M target. Distinguishes it from PE and real-estate activities. No confirmed final close or group AUM is imported.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "jet-base",
+      "url": "https://www.jetinvestment.cz/en/news/marek-malik-jet-investment-engineering-over-arms-industry",
+      "publisher": "Jet Investment",
+      "title": "Management and headquarters interview",
+      "excerpt": "Brno, where the company was founded and remains headquartered",
+      "summary": "Officially republished interview places Jet headquarters in Brno and describes the managing partner commuting between Brno and Prague. Used with the dedicated venture-team website; other group offices do not establish separate pilot entities.",
+      "publishedAt": "2026-03-05",
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "jet-headmade",
+      "url": "https://www.jetinvestment.cz/en/news/jet-investment-expands-its-venture-capital-portfolio-with-german-start-up-headmade-materials",
+      "publisher": "Jet Investment",
+      "title": "Headmade Materials investment",
+      "excerpt": "Jet Investment enters the round with €1 million",
+      "summary": "30 September 2025 release identifies Jet Venture 1, a EUR 1.8M round and Jet's individual EUR 1M contribution. An actual investor amount is disclosed here; it does not define the typical ticket range.",
+      "publishedAt": "2025-09-30",
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "jsk-current",
+      "url": "https://www.jskinvestments.ventures/en",
+      "publisher": "JSK Investments",
+      "title": "Dedicated venture strategy",
+      "excerpt": "From €300K",
+      "summary": "Dedicated venture strategy states early-stage investments with Series B follow-ons, Europe/US, health and applied frontier technology. Fund I has a EUR 20M target, including EUR 10M internal capital; neither is claimed to be current available cash. Initial investments start at EUR 300k, with no published maximum. Describes a self-managed Czech SICAV, named investment leadership and Prague office.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "jsk-base",
+      "url": "https://www.jskinvestments.cz/cs/o-nas",
+      "publisher": "JSK Investments",
+      "title": "Investment group and operational offices",
+      "excerpt": "našich kanceláří v centru Prahy",
+      "summary": "Describes its operational offices in central Prague and the founders' investment activity. Combined with the dedicated VC leadership and self-managed fund description to support Czech management. Entity not independently checked against the register.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "jsk-mintneuro",
+      "url": "https://www.jskinvestments.cz/en/media/jsk-investments-sicav-a-s-invests-in-uk-neurotechnology-chip-developer-mint-neuro",
+      "publisher": "JSK Investments",
+      "title": "MintNeuro investment announcement",
+      "excerpt": "participated in a $5 million funding round",
+      "summary": "9 October 2026 announcement names participation in MintNeuro and quotes the director of JSK's VC sub-fund. USD 5M belongs to the full round; the individual contribution is not disclosed. Separate PE sub-fund is excluded from this profile's matching criteria.",
+      "publishedAt": "2026-10-09",
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "credo-headquarters",
+      "url": "https://www.linkedin.com/company/credo-ventures",
+      "publisher": "Credo Ventures",
+      "title": "Company profile and Stage V launch notice",
+      "excerpt": "Headquarters Prague 2; We’re launching Credo Stage V: a new $88M fund",
+      "summary": "Company-authored public profile, directly linked from credoventures.com, identifies Prague headquarters and the matching Karlovo namesti office. Also announces a USD 88M Stage V fund; only a relative post age is exposed, so the publication and financial as-of dates remain unknown. This is an announced fund-size observation, not independently verified closing or available cash.",
+      "kind": "primary",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "id": "credo-manifesto",
+      "url": "https://www.credoventures.com/manifesto",
+      "publisher": "Credo Ventures",
+      "title": "Manifesto",
+      "excerpt": "Prague, 2026",
+      "summary": "The current strategy statement is issued from Prague. Combined with the company's explicit headquarters declaration and operational office, this corroborates Czech management despite the Krakow office. The year is given but no exact publication day is stated.",
+      "kind": "primary",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "id": "orbit-headquarters",
+      "url": "https://www.linkedin.com/company/orbit-capital/",
+      "publisher": "Orbit Capital",
+      "title": "Company headquarters and strategies",
+      "excerpt": "Headquarters Praha 4, Prague",
+      "summary": "Company-authored profile links to orbitcapital.com and identifies Prague as headquarters and primary location, with an additional Warsaw office. Describes growth equity and debt in CEE and DACH. Its EUR 3M–15M range follows the debt description and is not imported as an equity ticket. Named staff overlap the official equity team.",
+      "kind": "primary",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "id": "orbit-equity",
+      "url": "https://orbitcapital.com/equity/",
+      "publisher": "Orbit Capital",
+      "title": "Growth equity strategy and team",
+      "excerpt": "We are here to grow innovative scale-ups.",
+      "summary": "Official equity page names partners Radovan Nesrsta and Wiktor Namysl, an investment committee member and operational team. This establishes a separate scale-up equity activity; the debt vehicle is not used as qualifying equity evidence.",
+      "kind": "primary",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "id": "orbit-cvca",
+      "url": "https://cvca.cz/en/orbit-capital-2/",
+      "publisher": "CVCA",
+      "title": "Orbit Capital member profile",
+      "excerpt": "Growth Equity: EUR 6 – 15 million",
+      "summary": "Separates an equity ticket of EUR 6M–15M from debt EUR 2M–6M; focuses on technology-enabled scale-ups in CEE and lists the Prague office and Radovan Nesrsta. Equity capital is described as scaling to EUR 200M, not an established raised amount. Financial as-of and profile publication dates are unknown.",
+      "kind": "institutional",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "id": "orbit-mews",
+      "url": "https://www.mews.com/en/press/series-c",
+      "publisher": "Mews",
+      "title": "Mews closes USD 185M Series C",
+      "excerpt": "with participation from Revaia, Derive Ventures and Orbit Capital",
+      "summary": "Announcement dated 15 December 2022 explicitly names Orbit in the equity investment. A separate debt facility is attributed to Columbia Lake Partners. USD 185M is the whole Series C, not Orbit's contribution; the precise settlement date is not stated.",
+      "kind": "primary",
+      "publishedAt": "2022-12-15",
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "id": "reflex-base",
+      "url": "https://www.reflexcapital.com/contact/",
+      "publisher": "Reflex Capital",
+      "title": "Operating offices and investment approach",
+      "excerpt": "Our offices can be found on Prague's river bank",
+      "summary": "Describes the Prague operating office, a separate US office and growth funding for companies with sustainable monthly revenue. No bounded startup ticket or fund capital is stated.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "reflex-headquarters",
+      "url": "https://www.linkedin.com/company/reflex-capital/",
+      "publisher": "Reflex Capital",
+      "title": "Public company profile",
+      "excerpt": "Headquarters",
+      "summary": "Company-authored public profile identifies Prague headquarters, early-stage VC, AI and e-commerce. Website, Prague address and partners match official pages. No login used.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "reflex-portfolio",
+      "url": "https://www.reflexcapital.com/founders/patrik-and-ondrej/",
+      "publisher": "Reflex Capital",
+      "title": "grid.online founders",
+      "excerpt": "grid.online",
+      "summary": "Official portfolio founder page connects the investor to grid.online; the dated co-investor report supplies participation date.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "rockaway-strategy",
+      "url": "https://rockawayventures.com/for-founders/",
+      "publisher": "Rockaway Ventures",
+      "title": "Founder investment strategy",
+      "excerpt": "Seed to Series A",
+      "summary": "States seed/Series A, CEE and DACH priority with selective worldwide opportunities, and technology sectors. Does not state a bounded ticket.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "rockaway-base",
+      "url": "https://rockawayventures.com/contact/",
+      "publisher": "Rockaway Ventures",
+      "title": "Contact and group relationship",
+      "excerpt": "160 00 Praha 6",
+      "summary": "Official venture site lists the Prague operational contact and parent relationship, matching the company profile.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "rockaway-headquarters",
+      "url": "https://www.linkedin.com/company/rockawayventures/",
+      "publisher": "Rockaway Ventures",
+      "title": "Public company profile",
+      "excerpt": "Headquarters",
+      "summary": "Identifies Prague headquarters, late seed/Series A, AI/deep tech/defense/energy and Central Europe/DACH with European founders in the US. Address and website match official contact.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "rockaway-remix",
+      "url": "https://www.rockawaycapital.com/en/news/rockaway-ventures-invests-in-remix-a-technology-platform-for-circular-fashion",
+      "publisher": "Rockaway Capital",
+      "title": "Rockaway Ventures investment in Remix",
+      "excerpt": "the fund is acquiring a 20% stake",
+      "summary": "Announces Remix Series A participation by Rockaway Ventures. Investment amount and closing date are not disclosed; stake percentage is not a monetary ticket.",
+      "publishedAt": "2025-12-19",
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "rockaway-capital-check",
+      "url": "https://rockawayventures.com/for-investors/",
+      "publisher": "Rockaway Ventures",
+      "title": "Dedicated venture fund information",
+      "excerpt": "Since 2022",
+      "summary": "Describes a dedicated VC fund and historical returns, but no numeric fund size or current AUM in the inspected text. Return multiples are not capital.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "rockaway-group-fund",
+      "url": "https://www.rockawaycapital.com/en/fund/rockaway-ventures",
+      "publisher": "Rockaway Capital",
+      "title": "Venture strategy within the group",
+      "excerpt": "Rockaway Ventures",
+      "summary": "Inspected the dedicated venture page; no supported monetary fund total or bounded startup ticket extracted. Group fundraising is not assigned to this strategy.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "miton-portfolio",
+      "url": "https://www.miton.cz/en/portfolio/",
+      "publisher": "Miton",
+      "title": "Portfolio descriptions",
+      "excerpt": "B2B online platform",
+      "summary": "Pecosta is described as B2B; Knihobot, Displate and Scuk as marketplaces; Wavepaths as software and Qerko as SaaS. These support observed portfolio categories, not an exclusive future mandate.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "purple-portfolio",
+      "url": "https://www.purple-ventures.com/",
+      "publisher": "Purple Ventures",
+      "title": "Portfolio company descriptions",
+      "excerpt": "Bitreport is a B2B SaaS platform",
+      "summary": "Bitreport and Sloneek descriptions support observed B2B/software exposure. Portfolio slides repeat content and include logos; use readable company descriptions, not logos alone. No exclusive business-model mandate established.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "jsk-statute",
+      "url": "https://jsk-funds.cdn-stoone.co/jsk-funds/JSK%20SICAV_statut-podfond_VC_20260826-1.pdf",
+      "publisher": "JSK Investments SICAV a.s.",
+      "title": "Venture sub-fund statute, effective 26 August 2026",
+      "excerpt": "IČO: 23823445",
+      "summary": "Pages 1-2 identify the SICAV, Prague registered office and register file B 30026. Page 5 sets primary pre-seed/seed focus and conditional Series A, with Series B generally follow-on. Effective date is not assumed publication date. Text inspected; PDF screenshot retrieval failed.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "purple-legal-page",
+      "url": "https://www.purple-ventures.com/privacy_policy_cz/",
+      "publisher": "Purple Ventures",
+      "title": "Privacy policy: legal company identity",
+      "excerpt": "Purple Ventures s.r.o., IČO: 057 75 574",
+      "summary": "Identifies the Czech website company, Purple Ventures s.r.o., with its Brno registered office and IČO. This does not establish the domicile of the Luxembourg fund vehicles.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "jt-legal-page",
+      "url": "https://www.jtventures.cz/kontakt",
+      "publisher": "J&T Ventures",
+      "title": "Contact: company identifier",
+      "excerpt": "IČO: 08220867",
+      "summary": "Publishes IČO 08220867 and a Prague address. ARES resolves that identifier to J&T Ventures CG SICAV a.s.; this is a named vehicle, not proof that every group fund has the same legal domicile.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16",
+      "kind": "primary"
+    },
+    {
+      "id": "jsk-ares",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/23823445",
+      "publisher": "Ministry of Finance of the Czech Republic, ARES",
+      "title": "Legal entity 23823445: JSK Investments SICAV a.s.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16",
+      "excerpt": "JSK Investments SICAV a.s.; 23823445",
+      "summary": "ARES identifies this legal entity at Klimentská 1216/46, Nové Město, 11000 Praha 1, Czechia. Registry record updated 2026-09-20; this is not a publication date or investment evidence.",
+      "kind": "institutional"
+    },
+    {
+      "id": "purple-ares",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/05775574",
+      "publisher": "Ministry of Finance of the Czech Republic, ARES",
+      "title": "Legal entity 05775574: Purple Ventures s.r.o.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16",
+      "excerpt": "Purple Ventures s.r.o.; 05775574",
+      "summary": "ARES identifies this legal entity at Masarykova 409/26, Brno-město, 60200 Brno, Czechia. Registry record updated 2026-04-06; this is not a publication date or investment evidence.",
+      "kind": "institutional"
+    },
+    {
+      "id": "jt-ares",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08220867",
+      "publisher": "Ministry of Finance of the Czech Republic, ARES",
+      "title": "Legal entity 08220867: J&T Ventures CG SICAV a.s.",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16",
+      "excerpt": "J&T Ventures CG SICAV a.s.; 08220867",
+      "summary": "ARES identifies this legal entity at Sokolovská 700/113a, Karlín, 18600 Praha 8, Czechia. Registry record updated 2026-09-21; this is not a publication date or investment evidence.",
+      "kind": "institutional"
     }
   ],
   "investors": [
@@ -176,13 +781,16 @@
       "initials": "CV",
       "website": "https://www.credoventures.com/",
       "description": "First checks for ambitious CEE founders and their global diaspora.",
-      "type": "VC candidate",
+      "type": "VC fund manager",
       "office": {
-        "value": "Prague; also an office in Kraków",
+        "value": "Prague headquarters; also an office in Kraków",
         "status": "supported",
         "sources": [
+          "credo-headquarters",
+          "credo-manifesto",
           "credo-strategy"
-        ]
+        ],
+        "note": "Main Czech base inferred from an explicit company headquarters declaration, its Prague-issued manifesto and matching operational contact, not from the address alone."
       },
       "legalDomicile": {
         "value": null,
@@ -236,10 +844,27 @@
         ]
       },
       "capital": {
-        "value": null,
-        "status": "not_found",
-        "sources": [],
-        "note": "Not found in the inspected sources."
+        "value": [
+          {
+            "amount": 75000000,
+            "currency": "EUR",
+            "metric": "Fund size",
+            "scope": "Fund IV in CVCA’s 2022 awards profile; historical observation, not current total capital",
+            "asOf": null
+          },
+          {
+            "amount": 88000000,
+            "currency": "USD",
+            "metric": "Fund size",
+            "scope": "Stage V size announced in the company's public launch post; exact date and final-close status not established. Not total AUM or available capital.",
+            "asOf": null
+          }
+        ],
+        "status": "supported",
+        "sources": [
+          "credo-capital",
+          "credo-headquarters"
+        ]
       },
       "investment": {
         "value": {
@@ -249,22 +874,33 @@
           "roundSize": 80000000,
           "currency": "USD",
           "investorAmount": null,
-          "note": "Series B participation; whole round amount, not Credo’s contribution."
+          "note": "Series B participation; whole round amount, not Credo’s contribution.",
+          "evidencePublishedAt": "2024-01-22"
         },
         "status": "supported",
         "sources": [
           "credo-deal"
         ]
       },
-      "scopeStatus": "unresolved",
-      "evidenceStatus": "insufficient",
-      "reviewStatus": "pending",
-      "lastChecked": "2026-10-15",
+      "scopeStatus": "eligible",
+      "evidenceStatus": "sufficient",
+      "reviewStatus": "agent_reviewed",
+      "lastChecked": "2026-10-16",
       "limitations": [
-        "Main management location needs explicit confirmation across its offices.",
         "Founder origin is a condition; company location alone cannot establish geographic fit.",
-        "The cited deal is the latest captured here, not necessarily the latest actual investment."
-      ]
+        "The cited deal is the latest captured here, not necessarily the latest actual investment.",
+        "€75M is a historical Fund IV figure from a 2022 profile, not current AUM or available capital.",
+        "Headquarters is self-reported and corroborated by operational sources; legal-register verification is separate.",
+        "Stage V's USD 88M announcement has no exact date in the inspected public view; do not sum it with Fund IV or treat it as dry powder."
+      ],
+      "sourceReview": {
+        "reviewer": "Codex",
+        "reviewerType": "ai",
+        "reviewedAt": "2026-10-16",
+        "independent": false,
+        "outcome": "eligible",
+        "note": "Company profile linked from the official website explicitly identifies Prague headquarters, corroborated by the Prague-issued manifesto and operational address. Existing dated ElevenLabs participation establishes VC activity. Czech management criterion is now met."
+      }
     },
     {
       "id": "purple",
@@ -272,18 +908,23 @@
       "initials": "PV",
       "website": "https://www.purple-ventures.com/",
       "description": "Early technology companies with initial revenue and global ambitions.",
-      "type": "VC candidate",
+      "type": "VC investor",
       "office": {
-        "value": null,
-        "status": "not_found",
-        "sources": [],
-        "note": "Not found in the inspected sources."
+        "value": "Brno",
+        "status": "supported",
+        "sources": [
+          "purple-strategy"
+        ],
+        "note": "Brno-based description republished on the official site, corroborated by its office details. Management-base inference is explicit; legal identity is not register-verified."
       },
       "legalDomicile": {
-        "value": null,
-        "status": "not_checked",
-        "sources": [],
-        "note": "Not checked against a legal register."
+        "value": "Czechia",
+        "status": "supported",
+        "sources": [
+          "purple-legal-page",
+          "purple-ares"
+        ],
+        "note": "Czechia applies to Purple Ventures s.r.o., IČO 05775574, matched through its privacy policy to ARES. Registered office: Masarykova 409/26, Brno. The fund and GP vehicles may have different domiciles; no group-wide domicile is inferred."
       },
       "sectors": {
         "value": [
@@ -314,10 +955,16 @@
         ]
       },
       "focus": {
-        "value": null,
-        "status": "not_found",
-        "sources": [],
-        "note": "Not found in the inspected sources."
+        "value": [
+          "B2B",
+          "Software"
+        ],
+        "status": "supported",
+        "sources": [
+          "purple-portfolio"
+        ],
+        "note": "Observed in Bitreport and Sloneek descriptions. No inference from logos alone; no claim of an exclusive future focus.",
+        "basis": "portfolio_observation"
       },
       "ticket": {
         "value": {
@@ -332,34 +979,60 @@
         ]
       },
       "capital": {
-        "value": null,
-        "status": "not_found",
-        "sources": [],
-        "note": "Not found in the inspected sources."
+        "value": [
+          {
+            "amount": 15000000,
+            "currency": "EUR",
+            "metric": "Fund size",
+            "scope": "First fund, as described by Purple Group; historical vehicle",
+            "asOf": null
+          },
+          {
+            "amount": 40000000,
+            "currency": "EUR",
+            "metric": "Fund target",
+            "scope": "Current vehicle target on Purple Group website; not a confirmed close",
+            "asOf": null
+          }
+        ],
+        "status": "supported",
+        "sources": [
+          "purple-capital"
+        ]
       },
       "investment": {
         "value": {
-          "company": "Flowlance",
-          "announcedAt": null,
+          "company": "Sloneek",
+          "announcedAt": "2024-09-07",
+          "evidencePublishedAt": "2024-09-07",
           "transactionDate": null,
-          "roundSize": null,
-          "currency": null,
+          "roundSize": 3600000,
+          "currency": "EUR",
           "investorAmount": null,
-          "note": "Official portfolio says invested in 2024; no exact dated announcement captured."
+          "note": "Purple Ventures II led this late-seed round. €3.6M is the total round, not Purple’s contribution."
         },
         "status": "supported",
         "sources": [
-          "purple-strategy"
+          "sloneek-round-2024"
         ]
       },
-      "scopeStatus": "unresolved",
-      "evidenceStatus": "insufficient",
-      "reviewStatus": "pending",
-      "lastChecked": "2026-10-15",
+      "scopeStatus": "eligible",
+      "evidenceStatus": "sufficient",
+      "reviewStatus": "agent_reviewed",
+      "lastChecked": "2026-10-16",
       "limitations": [
         "CEE+ is conservatively normalized to CEE; additional countries need confirmation.",
-        "Main management office and a dated investment announcement remain unresolved."
-      ]
+        "Fund figures have no explicit as-of date; €40M is a target.",
+        "Brno management base is inferred from the official narrative and office; ARES corroborates the Czech company but does not establish all fund domiciles."
+      ],
+      "sourceReview": {
+        "reviewer": "Codex",
+        "reviewerType": "ai",
+        "reviewedAt": "2026-10-16",
+        "independent": false,
+        "outcome": "eligible",
+        "note": "Official site describes Purple as Brno-based; strategy and Sloneek’s dated announcement establish venture investment. Brno base is an explicit inference from narrative plus office evidence. ARES legal-entity corroboration added by IČO on 16 October 2026; not an investment or regulatory-authorisation check."
+      }
     },
     {
       "id": "presto",
@@ -367,13 +1040,15 @@
       "initials": "PR",
       "website": "https://www.prestoventures.com/",
       "description": "Advanced technologies in security, defense, and aerospace.",
-      "type": "VC candidate",
+      "type": "VC investor",
       "office": {
         "value": "Prague",
         "status": "supported",
         "sources": [
-          "presto-strategy"
-        ]
+          "presto-strategy",
+          "presto-base"
+        ],
+        "note": "Current operational office corroborates the institutional report’s historical Prague-based description."
       },
       "legalDomicile": {
         "value": null,
@@ -435,34 +1110,54 @@
         ]
       },
       "capital": {
-        "value": null,
-        "status": "not_found",
-        "sources": [],
-        "note": "Not found in the inspected sources."
+        "value": [
+          {
+            "amount": 150000000,
+            "currency": "EUR",
+            "metric": "Fund target",
+            "scope": "Joint Presto Tech Horizons fund with CSG; not total Presto capital or confirmed commitments",
+            "asOf": null
+          }
+        ],
+        "status": "supported",
+        "sources": [
+          "presto-capital"
+        ]
       },
       "investment": {
         "value": {
-          "company": "Behavio",
+          "company": "Sloneek",
           "announcedAt": null,
+          "evidencePublishedAt": "2024-09-07",
           "transactionDate": null,
-          "roundSize": null,
-          "currency": null,
+          "roundSize": 1000000,
+          "currency": "EUR",
           "investorAmount": null,
-          "note": "Named in the official portfolio; a dated transaction source remains to be captured."
+          "note": "The September 2024 company article retrospectively confirms Presto and Vision Ventures invested in a €1M round in 2022. This is not the Purple-led 2024 round. Exact announcement and closing dates are unknown."
         },
         "status": "supported",
         "sources": [
-          "presto-strategy"
+          "sloneek-round-2024"
         ]
       },
-      "scopeStatus": "unresolved",
-      "evidenceStatus": "insufficient",
-      "reviewStatus": "pending",
-      "lastChecked": "2026-10-15",
+      "scopeStatus": "eligible",
+      "evidenceStatus": "sufficient",
+      "reviewStatus": "agent_reviewed",
+      "lastChecked": "2026-10-16",
       "limitations": [
-        "The new fund headline is not used as confirmed closed capital.",
-        "NATO & allies matching uses a documented small country mapping; other countries need review."
-      ]
+        "Historical 2022 participation establishes investment activity, not current available capital.",
+        "Current security/defense focus and ticket refer to the present strategy; the historical portfolio is broader.",
+        "€150M is a joint fund target, not total AUM or a confirmed close.",
+        "NATO & allies matching uses a limited country mapping."
+      ],
+      "sourceReview": {
+        "reviewer": "Codex",
+        "reviewerType": "ai",
+        "reviewedAt": "2026-10-16",
+        "independent": false,
+        "outcome": "eligible",
+        "note": "Current Prague operational office corroborated by CVCA’s Prague-based description. Sloneek confirms Presto’s 2022 investment in a dated 2024 publication."
+      }
     },
     {
       "id": "look",
@@ -470,7 +1165,7 @@
       "initials": "LA",
       "website": "https://lookai.vc/",
       "description": "AI-first companies with technical depth, before Series A.",
-      "type": "VC candidate",
+      "type": "VC investor",
       "office": {
         "value": "Prague",
         "status": "supported",
@@ -538,7 +1233,8 @@
           "roundSize": 4000000,
           "currency": "EUR",
           "investorAmount": null,
-          "note": "Company funding round; individual investor contribution is not disclosed."
+          "note": "Company funding round; individual investor contribution is not disclosed.",
+          "evidencePublishedAt": "2026-07-23"
         },
         "status": "supported",
         "sources": [
@@ -547,12 +1243,20 @@
       },
       "scopeStatus": "eligible",
       "evidenceStatus": "sufficient",
-      "reviewStatus": "pending",
-      "lastChecked": "2026-10-15",
+      "reviewStatus": "agent_reviewed",
+      "lastChecked": "2026-10-16",
       "limitations": [
         "Pre-Series A is normalized to pre-seed and seed; financial contribution is unknown.",
         "Independent human audit has not been performed."
-      ]
+      ],
+      "sourceReview": {
+        "reviewer": "Codex",
+        "reviewerType": "ai",
+        "reviewedAt": "2026-10-16",
+        "independent": false,
+        "outcome": "eligible",
+        "note": "Rechecked Prague-based VC identity and strategy against the official site and Sodex participation against the dated announcement."
+      }
     },
     {
       "id": "jt",
@@ -560,7 +1264,7 @@
       "initials": "JT",
       "website": "https://www.jtventures.cz/",
       "description": "Early-stage companies across Central and Southeastern Europe.",
-      "type": "VC candidate",
+      "type": "VC investor",
       "office": {
         "value": "Prague",
         "status": "supported",
@@ -569,10 +1273,13 @@
         ]
       },
       "legalDomicile": {
-        "value": null,
-        "status": "not_checked",
-        "sources": [],
-        "note": "Not checked against a legal register."
+        "value": "Czechia",
+        "status": "supported",
+        "sources": [
+          "jt-legal-page",
+          "jt-ares"
+        ],
+        "note": "Czechia applies to J&T Ventures CG SICAV a.s., IČO 08220867, matched through the official contact page to ARES. Registered office: Sokolovská 700/113a, Prague. This identifies a vehicle, not all managers or funds under the J&T Ventures brand."
       },
       "sectors": {
         "value": [
@@ -642,7 +1349,8 @@
           "roundSize": 1500000,
           "currency": "EUR",
           "investorAmount": null,
-          "note": "Dated investor blog lists participation. Amount is for the whole round."
+          "note": "Dated investor blog lists participation. Amount is for the whole round.",
+          "evidencePublishedAt": "2025-04-20"
         },
         "status": "supported",
         "sources": [
@@ -651,11 +1359,19 @@
       },
       "scopeStatus": "eligible",
       "evidenceStatus": "sufficient",
-      "reviewStatus": "pending",
-      "lastChecked": "2026-10-15",
+      "reviewStatus": "agent_reviewed",
+      "lastChecked": "2026-10-16",
       "limitations": [
         "Independent human audit has not been performed."
-      ]
+      ],
+      "sourceReview": {
+        "reviewer": "Codex",
+        "reviewerType": "ai",
+        "reviewedAt": "2026-10-16",
+        "independent": false,
+        "outcome": "eligible",
+        "note": "Rechecked Prague VC identity, criteria and participation in the dated grid.online announcement. ARES legal-entity corroboration added by IČO on 16 October 2026; not an investment or regulatory-authorisation check."
+      }
     },
     {
       "id": "tensor",
@@ -665,11 +1381,13 @@
       "description": "Deep-tech investing across scientific and industrial technologies.",
       "type": "VC candidate",
       "office": {
-        "value": "Prague contact office; main management location unresolved",
+        "value": "Prague",
         "status": "supported",
         "sources": [
-          "tensor-office"
-        ]
+          "tensor-office",
+          "cvca-promotion-eif-team"
+        ],
+        "note": "EIF's December 2025 table places Tensor Advisory's investment team in Czechia. Together with the current Prague office this resolves the prior domicile-versus-management ambiguity; fund vehicles remain Luxembourg-based."
       },
       "legalDomicile": {
         "value": "Luxembourg fund entities",
@@ -688,10 +1406,14 @@
         ]
       },
       "stages": {
-        "value": null,
-        "status": "not_found",
-        "sources": [],
-        "note": "Not found in the inspected sources."
+        "value": [
+          "Seed",
+          "Series A"
+        ],
+        "status": "supported",
+        "sources": [
+          "tensor-office"
+        ]
       },
       "geography": {
         "value": null,
@@ -728,27 +1450,36 @@
       },
       "investment": {
         "value": {
-          "company": "Dynanic (Brnologic)",
-          "announcedAt": "2024-12-23",
+          "company": "ValkaAI",
+          "announcedAt": "2026-03-03",
+          "evidencePublishedAt": "2026-03-03",
           "transactionDate": null,
-          "roundSize": null,
-          "currency": null,
+          "roundSize": 12000000,
+          "currency": "EUR",
           "investorAmount": null,
-          "note": "Annual recap documents the investment; publication date is not the deal date."
+          "note": "Tensor is named among participants in the €12M pre-seed round. Individual contribution and closing date are unknown. A single pre-seed deal does not replace its stated seed/Series A mandate."
         },
         "status": "supported",
         "sources": [
-          "tensor-deal"
+          "tensor-valka"
         ]
       },
-      "scopeStatus": "unresolved",
-      "evidenceStatus": "insufficient",
-      "reviewStatus": "pending",
-      "lastChecked": "2026-10-15",
+      "scopeStatus": "eligible",
+      "evidenceStatus": "sufficient",
+      "reviewStatus": "agent_reviewed",
+      "lastChecked": "2026-10-16",
       "limitations": [
-        "Czech presence alone does not prove the main management office.",
-        "€50M is a fundraising target, not confirmed commitments."
-      ]
+        "€50M is a fundraising target, not confirmed commitments.",
+        "Czech management uses EIF team-location evidence as at 31 December 2025 with current office corroboration; Luxembourg fund domicile is distinct."
+      ],
+      "sourceReview": {
+        "reviewer": "Codex",
+        "reviewerType": "ai",
+        "reviewedAt": "2026-10-16",
+        "independent": false,
+        "outcome": "eligible",
+        "note": "EIF identifies Tensor Advisory's team in Czechia, corroborating the current Prague office. Existing dated ValkaAI evidence confirms direct VC activity; Luxembourg fund domicile is separate."
+      }
     },
     {
       "id": "kaya",
@@ -756,14 +1487,15 @@
       "initials": "KA",
       "website": "https://www.kaya.vc/",
       "description": "Early backing for ambitious founders from Central and Eastern Europe.",
-      "type": "VC candidate",
+      "type": "VC investor",
       "office": {
-        "value": "Prague; international offices also listed",
+        "value": "Prague; also offices in Warsaw, London and San Francisco",
         "status": "supported",
         "sources": [
           "kaya-office",
           "kaya-strategy"
-        ]
+        ],
+        "note": "The investor’s About page explicitly calls KAYA Prague-based, distinguishing its base from other offices."
       },
       "legalDomicile": {
         "value": null,
@@ -837,20 +1569,38 @@
         ]
       },
       "investment": {
-        "value": null,
-        "status": "not_found",
-        "sources": [],
-        "note": "A dated investment announcement has not yet been established."
+        "value": {
+          "company": "Yoneda Labs",
+          "announcedAt": null,
+          "evidencePublishedAt": "2024-06-12",
+          "transactionDate": null,
+          "roundSize": null,
+          "currency": "USD",
+          "investorAmount": null,
+          "note": "KAYA’s June newsletter names its participation in a May 2024 round. A $4.6M list entry and $4M linked headline have unresolved scope; round size is left unknown. Publication is not an exact investment announcement date."
+        },
+        "status": "supported",
+        "sources": [
+          "kaya-deal"
+        ]
       },
-      "scopeStatus": "unresolved",
-      "evidenceStatus": "insufficient",
-      "reviewStatus": "pending",
-      "lastChecked": "2026-10-15",
+      "scopeStatus": "eligible",
+      "evidenceStatus": "sufficient",
+      "reviewStatus": "agent_reviewed",
+      "lastChecked": "2026-10-16",
       "limitations": [
-        "Capital figures have no explicit as-of date.",
-        "A dated investment announcement remains to be captured.",
+        "Capital figures have no explicit financial as-of date and must not be added together.",
+        "Yoneda round amount has unresolved scope; exact announcement and transaction dates are unknown.",
         "Founder origin is distinct from company geography."
-      ]
+      ],
+      "sourceReview": {
+        "reviewer": "Codex",
+        "reviewerType": "ai",
+        "reviewedAt": "2026-10-16",
+        "independent": false,
+        "outcome": "eligible",
+        "note": "Official About page explicitly identifies Prague as the base despite international offices. Dated newsletter establishes Yoneda participation; amount ambiguity retained."
+      }
     },
     {
       "id": "miton",
@@ -858,12 +1608,14 @@
       "initials": "MI",
       "website": "https://www.miton.cz/",
       "description": "An investment group focused on selected technology and consumer areas.",
-      "type": "Investment group candidate",
+      "type": "VC investment group · own capital",
       "office": {
-        "value": null,
-        "status": "not_found",
-        "sources": [],
-        "note": "Not found in the inspected sources."
+        "value": "Prague",
+        "status": "supported",
+        "sources": [
+          "miton-approach"
+        ],
+        "note": "Operational office at Corso IIa, Křižíkova 148/34. Management-base judgment uses its team and operating-office presentation."
       },
       "legalDomicile": {
         "value": null,
@@ -885,10 +1637,15 @@
         ]
       },
       "stages": {
-        "value": null,
-        "status": "not_found",
-        "sources": [],
-        "note": "Not found in the inspected sources."
+        "value": [
+          "Pre-seed",
+          "Seed",
+          "Series A"
+        ],
+        "status": "supported",
+        "sources": [
+          "miton-approach"
+        ]
       },
       "geography": {
         "value": null,
@@ -897,16 +1654,29 @@
         "note": "Not found in the inspected sources."
       },
       "focus": {
-        "value": null,
-        "status": "not_found",
-        "sources": [],
-        "note": "Not found in the inspected sources."
+        "value": [
+          "B2B",
+          "Software",
+          "Marketplaces"
+        ],
+        "status": "supported",
+        "sources": [
+          "miton-portfolio"
+        ],
+        "note": "Observed in named portfolio descriptions: Pecosta (B2B), Wavepaths/Qerko (software), Knihobot/Displate/Scuk (marketplaces). This is historical exposure, not a complete or exclusive investment mandate.",
+        "basis": "portfolio_observation"
       },
       "ticket": {
-        "value": null,
-        "status": "not_found",
-        "sources": [],
-        "note": "Not found in the inspected sources."
+        "value": {
+          "min": 300000,
+          "max": 2000000,
+          "currency": "EUR",
+          "scope": "Typical initial investment; follow-ons separate"
+        },
+        "status": "supported",
+        "sources": [
+          "miton-approach"
+        ]
       },
       "capital": {
         "value": [
@@ -925,27 +1695,1151 @@
       },
       "investment": {
         "value": {
-          "company": "Rossum",
+          "company": "ACE",
+          "announcedAt": "2026-10-01",
+          "evidencePublishedAt": "2026-10-01",
+          "transactionDate": null,
+          "roundSize": null,
+          "currency": "CZK",
+          "investorAmount": null,
+          "note": "Miton announces an investment agreement as an equal partner. The source says millions of crowns without an exact amount; settlement is not confirmed."
+        },
+        "status": "supported",
+        "sources": [
+          "miton-ace"
+        ]
+      },
+      "scopeStatus": "eligible",
+      "evidenceStatus": "sufficient",
+      "reviewStatus": "agent_reviewed",
+      "lastChecked": "2026-10-16",
+      "limitations": [
+        "Invests its own capital and qualifies by venture investment activity; it is not presented as a conventional externally funded VC vehicle.",
+        "Portfolio value is not AUM or capital available for new investments.",
+        "ACE exact contribution and closing date are unknown.",
+        "Geographic investment mandate was not established in the inspected sources."
+      ],
+      "sourceReview": {
+        "reviewer": "Codex",
+        "reviewerType": "ai",
+        "reviewedAt": "2026-10-16",
+        "independent": false,
+        "outcome": "eligible",
+        "note": "Own-capital venture investment group with Prague operational office, stated startup stages and ticket range, and dated ACE agreement. Included by activity, not fund legal form."
+      }
+    },
+    {
+      "id": "directory-4",
+      "name": "DEPO Ventures",
+      "initials": "DV",
+      "website": "https://depoventures.com/",
+      "description": "Pre-seed investment in technologies supporting European infrastructure.",
+      "type": "VC investor",
+      "legalDomicile": {
+        "value": null,
+        "status": "not_checked",
+        "sources": [],
+        "note": "Not independently checked against a legal register."
+      },
+      "office": {
+        "value": "Prague",
+        "status": "supported",
+        "sources": [
+          "depo-current",
+          "depo-base",
+          "depo-team"
+        ],
+        "note": "Management-base inference: current partner/office information and a former employee's Prague-based description."
+      },
+      "sectors": {
+        "value": [
+          "Defense",
+          "Space",
+          "Fintech",
+          "Industrial technology",
+          "Energy"
+        ],
+        "status": "supported",
+        "sources": [
+          "depo-current"
+        ]
+      },
+      "stages": {
+        "value": [
+          "Pre-seed"
+        ],
+        "status": "supported",
+        "sources": [
+          "depo-current"
+        ],
+        "note": "Inception normalized to pre-seed."
+      },
+      "geography": {
+        "value": [
+          "Europe",
+          "CEE"
+        ],
+        "status": "supported",
+        "sources": [
+          "depo-current"
+        ],
+        "note": "Also backs the diaspora; country eligibility needs case-specific confirmation."
+      },
+      "focus": {
+        "value": [
+          "Technology",
+          "Critical infrastructure"
+        ],
+        "status": "supported",
+        "sources": [
+          "depo-current"
+        ]
+      },
+      "ticket": {
+        "value": {
+          "min": 250000,
+          "max": 500000,
+          "currency": "EUR",
+          "scope": "Published current ticket; initial/follow-on distinction unspecified"
+        },
+        "status": "supported",
+        "sources": [
+          "depo-current"
+        ]
+      },
+      "capital": {
+        "value": null,
+        "status": "not_found",
+        "sources": [
+          "depo-current"
+        ],
+        "note": "Current total fund capital not established. EUR 9M deployed on the official site is not AUM; the old CVCA EUR 5.5M figure has unclear scope and date."
+      },
+      "investment": {
+        "value": {
+          "company": "Tatum",
+          "evidencePublishedAt": "2022-10-12",
+          "announcedAt": "2022-10-12",
+          "transactionDate": null,
+          "roundSize": 41500000,
+          "currency": "USD",
+          "investorAmount": null,
+          "note": "Total financing, not DEPO's contribution. Historical participation; closing date unspecified."
+        },
+        "status": "supported",
+        "sources": [
+          "depo-tatum"
+        ]
+      },
+      "scopeStatus": "eligible",
+      "evidenceStatus": "sufficient",
+      "reviewStatus": "agent_reviewed",
+      "lastChecked": "2026-10-16",
+      "limitations": [
+        "CVCA's old ticket and sector-agnostic description are superseded by current official criteria.",
+        "Current total capital remains unknown.",
+        "Czech management is a combined-source inference, not a register audit."
+      ],
+      "sourceReview": {
+        "reviewer": "Codex",
+        "reviewerType": "ai",
+        "reviewedAt": "2026-10-16",
+        "independent": false,
+        "outcome": "eligible",
+        "note": "Current strategy, dated Tatum participation and corroborated Prague operations meet the Czech VC pilot rules."
+      }
+    },
+    {
+      "id": "directory-9",
+      "name": "i&i Bio",
+      "initials": "IB",
+      "website": "https://www.inibio.eu/",
+      "description": "Early-stage European life-science ventures managed through a Czech investment team.",
+      "type": "VC investor",
+      "legalDomicile": {
+        "value": null,
+        "status": "not_checked",
+        "sources": [],
+        "note": "Not independently checked against a legal register."
+      },
+      "office": {
+        "value": "Prague",
+        "status": "supported",
+        "sources": [
+          "cvca-promotion-eif-team",
+          "ibio-current",
+          "ibio-deal"
+        ],
+        "note": "EIF records Biotech Investments' team in Czechia; official site gives the Prague adviser. Luxembourg describes the fund headquarters, not the investment-team location."
+      },
+      "sectors": {
+        "value": [
+          "Biotech",
+          "Healthtech",
+          "Medtech",
+          "Artificial intelligence"
+        ],
+        "status": "supported",
+        "sources": [
+          "ibio-current"
+        ]
+      },
+      "stages": {
+        "value": [
+          "Early stage"
+        ],
+        "status": "supported",
+        "sources": [
+          "ibio-current"
+        ],
+        "note": "No uniform seed/Series-A boundary is assumed."
+      },
+      "geography": {
+        "value": [
+          "Europe",
+          "CEE"
+        ],
+        "status": "supported",
+        "sources": [
+          "ibio-current"
+        ]
+      },
+      "focus": {
+        "value": [
+          "Life sciences",
+          "Drug discovery",
+          "Diagnostics"
+        ],
+        "status": "supported",
+        "sources": [
+          "ibio-current"
+        ]
+      },
+      "ticket": {
+        "value": {
+          "min": 500000,
+          "max": 2000000,
+          "currency": "EUR",
+          "scope": "Typical investment sweet spot; EUR 150k business-creation entry is separate"
+        },
+        "status": "supported",
+        "sources": [
+          "ibio-current"
+        ]
+      },
+      "capital": {
+        "value": [
+          {
+            "amount": 53000000,
+            "currency": "EUR",
+            "metric": "Fund size",
+            "scope": "Fund I capital reported following Ceska sporitelna participation; historical figure, not remaining capital",
+            "asOf": "2023-09-20"
+          }
+        ],
+        "status": "supported",
+        "sources": [
+          "ibio-capital"
+        ]
+      },
+      "investment": {
+        "value": {
+          "company": "iQure Pharma",
+          "evidencePublishedAt": "2025-01-07",
+          "announcedAt": "2025-01-07",
+          "transactionDate": null,
+          "roundSize": 4000000,
+          "currency": "USD",
+          "investorAmount": null,
+          "note": "Syndicated round; i&i's own contribution and closing date unknown."
+        },
+        "status": "supported",
+        "sources": [
+          "ibio-deal"
+        ]
+      },
+      "scopeStatus": "eligible",
+      "evidenceStatus": "sufficient",
+      "reviewStatus": "agent_reviewed",
+      "lastChecked": "2026-10-16",
+      "limitations": [
+        "Fund and manager are represented as one investment organization, not two investor records.",
+        "EIF team-location evidence is as at 31 December 2025; the current website corroborates the Prague adviser.",
+        "Historical fund size is not current investable capital."
+      ],
+      "sourceReview": {
+        "reviewer": "Codex",
+        "reviewerType": "ai",
+        "reviewedAt": "2026-10-16",
+        "independent": false,
+        "outcome": "eligible",
+        "note": "EIF identifies the investment team in Czechia; current Prague adviser and dated iQure participation support inclusion despite Luxembourg fund headquarters."
+      }
+    },
+    {
+      "id": "directory-12",
+      "name": "Inven Capital",
+      "initials": "IC",
+      "website": "https://www.invencapital.cz/",
+      "description": "Growth-stage climate-tech ventures across Europe and Israel.",
+      "type": "VC investor",
+      "legalDomicile": {
+        "value": null,
+        "status": "not_checked",
+        "sources": [],
+        "note": "Not independently checked against a legal register."
+      },
+      "office": {
+        "value": "Prague",
+        "status": "supported",
+        "sources": [
+          "inven-current",
+          "inven-base",
+          "inven-eib"
+        ],
+        "note": "Combined-source inference from official investment leadership, owner-confirmed Prague operations and EIB's Czech VC description."
+      },
+      "sectors": {
+        "value": [
+          "Climate tech",
+          "Energy"
+        ],
+        "status": "supported",
+        "sources": [
+          "inven-current",
+          "inven-eib"
+        ]
+      },
+      "stages": {
+        "value": [
+          "Growth"
+        ],
+        "status": "supported",
+        "sources": [
+          "inven-eib"
+        ],
+        "note": "Later-stage venture growth, not a PE buyout strategy."
+      },
+      "geography": {
+        "value": [
+          "Europe",
+          "Israel"
+        ],
+        "status": "supported",
+        "sources": [
+          "inven-current"
+        ]
+      },
+      "focus": {
+        "value": [
+          "Decarbonisation",
+          "Climate impact"
+        ],
+        "status": "supported",
+        "sources": [
+          "inven-current",
+          "inven-eib"
+        ]
+      },
+      "ticket": {
+        "value": {
+          "min": 2000000,
+          "max": 30000000,
+          "currency": "EUR",
+          "scope": "Published ticket; initial versus lifetime commitment not specified"
+        },
+        "status": "supported",
+        "sources": [
+          "inven-current"
+        ]
+      },
+      "capital": {
+        "value": [
+          {
+            "amount": 500000000,
+            "currency": "EUR",
+            "metric": "Fund size",
+            "scope": "Aggregate institutional/corporate capital described by Inven across fund generations; not remaining capital or net asset value",
+            "asOf": null
+          }
+        ],
+        "status": "supported",
+        "sources": [
+          "inven-current"
+        ]
+      },
+      "investment": {
+        "value": {
+          "company": "Vytal",
+          "evidencePublishedAt": "2025-03-11",
+          "announcedAt": "2025-03-11",
+          "transactionDate": null,
+          "roundSize": 14200000,
+          "currency": "EUR",
+          "investorAmount": null,
+          "note": "Total growth round EUR 14.2M includes EUR 8M jointly from Inven and NRW.Venture. Neither amount is Inven's individual ticket."
+        },
+        "status": "supported",
+        "sources": [
+          "inven-vytal"
+        ]
+      },
+      "scopeStatus": "eligible",
+      "evidenceStatus": "sufficient",
+      "reviewStatus": "agent_reviewed",
+      "lastChecked": "2026-10-16",
+      "limitations": [
+        "Management-base determination is an explicit combined-source inference.",
+        "Aggregate capital lacks an exact financial as-of date.",
+        "Individual Vytal contribution is not disclosed."
+      ],
+      "sourceReview": {
+        "reviewer": "Codex",
+        "reviewerType": "ai",
+        "reviewedAt": "2026-10-16",
+        "independent": false,
+        "outcome": "eligible",
+        "note": "Official team and owner evidence corroborate Czech operations; EIB confirms VC strategy and CEZ's dated Vytal release confirms investment."
+      }
+    },
+    {
+      "id": "directory-22",
+      "name": "Tilia Impact Ventures",
+      "initials": "TI",
+      "website": "https://tilia.vc/",
+      "description": "Early-stage ventures with environmental or social impact built into the business.",
+      "type": "VC investor",
+      "legalDomicile": {
+        "value": null,
+        "status": "not_checked",
+        "sources": [],
+        "note": "Not independently checked against a legal register."
+      },
+      "office": {
+        "value": "Prague",
+        "status": "supported",
+        "sources": [
+          "cvca-promotion-eif-team",
+          "tilia-current",
+          "tilia-faceup"
+        ],
+        "note": "EIF's Czech team location and FaceUp's explicit Prague-based description corroborate the official office."
+      },
+      "sectors": {
+        "value": [
+          "Sector agnostic"
+        ],
+        "status": "supported",
+        "sources": [
+          "tilia-current"
+        ]
+      },
+      "stages": {
+        "value": [
+          "Seed",
+          "Series A"
+        ],
+        "status": "supported",
+        "sources": [
+          "tilia-strategy"
+        ]
+      },
+      "geography": {
+        "value": [
+          "CEE"
+        ],
+        "status": "supported",
+        "sources": [
+          "tilia-current"
+        ],
+        "note": "CEE+ is normalized to CEE; additional markets need confirmation."
+      },
+      "focus": {
+        "value": [
+          "Impact",
+          "Environmental impact",
+          "Social impact"
+        ],
+        "status": "supported",
+        "sources": [
+          "tilia-current",
+          "tilia-strategy"
+        ]
+      },
+      "ticket": {
+        "value": {
+          "min": 300000,
+          "max": 1200000,
+          "currency": "EUR",
+          "scope": "Initial equity or convertible investment, current main homepage"
+        },
+        "status": "supported",
+        "sources": [
+          "tilia-current"
+        ]
+      },
+      "capital": {
+        "value": [
+          {
+            "amount": 26500000,
+            "currency": "EUR",
+            "metric": "Fund size",
+            "scope": "Fund II size reported in EIF's 2023 annual report; exact as-of day unknown and not current dry powder",
+            "asOf": null
+          }
+        ],
+        "status": "supported",
+        "sources": [
+          "tilia-capital"
+        ]
+      },
+      "investment": {
+        "value": {
+          "company": "FaceUp",
+          "evidencePublishedAt": "2026-05-19",
+          "announcedAt": "2026-05-19",
+          "transactionDate": null,
+          "roundSize": 5000000,
+          "currency": "USD",
+          "investorAmount": null,
+          "note": "Series A total. Tilia is a returning investor; individual contribution and closing date not disclosed."
+        },
+        "status": "supported",
+        "sources": [
+          "tilia-faceup"
+        ]
+      },
+      "scopeStatus": "eligible",
+      "evidenceStatus": "sufficient",
+      "reviewStatus": "agent_reviewed",
+      "lastChecked": "2026-10-16",
+      "limitations": [
+        "Legacy /homepage-en states EUR 0.3M–1.5M; current main page and Czech page state EUR 0.3M–1.2M.",
+        "CVCA's CZK figure is retained only in the historical extraction, not merged as current capital.",
+        "CVCA's misdirected website hyperlink is not used."
+      ],
+      "sourceReview": {
+        "reviewer": "Codex",
+        "reviewerType": "ai",
+        "reviewedAt": "2026-10-16",
+        "independent": false,
+        "outcome": "eligible",
+        "note": "Czech team/Prague base, an explicit venture strategy and FaceUp's dated participation announcement satisfy the pilot criteria."
+      }
+    },
+    {
+      "id": "directory-13",
+      "name": "Jet Ventures (Jet Investment)",
+      "initials": "JV",
+      "website": "https://ventures.jetinvestment.cz/",
+      "description": "Jet Investment's dedicated industrial-tech venture activity.",
+      "type": "VC investor",
+      "legalDomicile": {
+        "value": null,
+        "status": "not_checked",
+        "sources": [],
+        "note": "Not independently checked against a legal register."
+      },
+      "office": {
+        "value": "Brno",
+        "status": "supported",
+        "sources": [
+          "jet-base",
+          "jet-current"
+        ],
+        "note": "Jet Investment's headquarters are explicitly in Brno; profile covers its dedicated venture team, not a separate duplicate manager."
+      },
+      "sectors": {
+        "value": [
+          "Industrial technology",
+          "Artificial intelligence",
+          "Manufacturing",
+          "Robotics",
+          "Cybersecurity"
+        ],
+        "status": "supported",
+        "sources": [
+          "jet-current"
+        ]
+      },
+      "stages": {
+        "value": [
+          "Seed",
+          "Series A"
+        ],
+        "status": "supported",
+        "sources": [
+          "jet-current"
+        ],
+        "note": "Seed here means late seed."
+      },
+      "geography": {
+        "value": [
+          "Czechia",
+          "Germany",
+          "Austria",
+          "Slovakia",
+          "Poland"
+        ],
+        "status": "supported",
+        "sources": [
+          "jet-current"
+        ]
+      },
+      "focus": {
+        "value": [
+          "B2B",
+          "Industrial technology"
+        ],
+        "status": "supported",
+        "sources": [
+          "jet-current"
+        ]
+      },
+      "ticket": {
+        "value": null,
+        "status": "not_found",
+        "sources": [
+          "jet-current"
+        ],
+        "note": "No complete range published: initial investment up to EUR 2M, average EUR 1.5M; follow-on up to EUR 2.5M. No lower bound is invented for ranking."
+      },
+      "capital": {
+        "value": [
+          {
+            "amount": 50000000,
+            "currency": "EUR",
+            "metric": "Fund target",
+            "scope": "Jet Venture 1 target, not confirmed final close. Separate from group PE and real-estate capital.",
+            "asOf": null
+          }
+        ],
+        "status": "supported",
+        "sources": [
+          "jet-capital"
+        ]
+      },
+      "investment": {
+        "value": {
+          "company": "Headmade Materials",
+          "evidencePublishedAt": "2025-09-30",
+          "announcedAt": "2025-09-30",
+          "transactionDate": null,
+          "roundSize": 1800000,
+          "currency": "EUR",
+          "investorAmount": 1000000,
+          "note": "Jet Venture 1 led the round; individual EUR 1M contribution is explicitly disclosed."
+        },
+        "status": "supported",
+        "sources": [
+          "jet-headmade"
+        ]
+      },
+      "scopeStatus": "eligible",
+      "evidenceStatus": "sufficient",
+      "reviewStatus": "agent_reviewed",
+      "lastChecked": "2026-10-16",
+      "limitations": [
+        "Parent group has PE and real-estate strategies; only venture criteria are matched.",
+        "EUR 50M remains a target despite different marketing language on the founder site.",
+        "Published average and ceiling do not define a complete typical-ticket range."
+      ],
+      "sourceReview": {
+        "reviewer": "Codex",
+        "reviewerType": "ai",
+        "reviewedAt": "2026-10-16",
+        "independent": false,
+        "outcome": "eligible",
+        "note": "The dedicated Jet venture strategy, Brno headquarters and dated Headmade investment qualify. Parent PE activity is excluded from profile criteria."
+      }
+    },
+    {
+      "id": "cvca-jsk-investments",
+      "name": "JSK Investments — Venture Capital",
+      "initials": "JS",
+      "website": "https://www.jskinvestments.ventures/en",
+      "description": "JSK's dedicated venture strategy in health and applied frontier technology.",
+      "type": "VC investor",
+      "legalDomicile": {
+        "value": "Czechia",
+        "status": "supported",
+        "sources": [
+          "jsk-statute",
+          "jsk-current",
+          "jsk-ares"
+        ],
+        "note": "JSK Investments SICAV a.s., IČO 23823445, matched from the issuer statute to ARES; registered office Klimentská 1216/46, Prague. Group contact entity IČO 21285241 is different. ARES corroborates identity and domicile, not regulatory authorization or investment activity."
+      },
+      "office": {
+        "value": "Prague",
+        "status": "supported",
+        "sources": [
+          "jsk-current",
+          "jsk-base"
+        ],
+        "note": "Self-managed fund with identified venture leadership and a description of its operating offices in central Prague."
+      },
+      "sectors": {
+        "value": [
+          "Healthtech",
+          "Medtech",
+          "Artificial intelligence",
+          "Deep tech",
+          "Robotics",
+          "Climate tech"
+        ],
+        "status": "supported",
+        "sources": [
+          "jsk-current"
+        ]
+      },
+      "stages": {
+        "value": [
+          "Pre-seed",
+          "Seed",
+          "Series A"
+        ],
+        "status": "supported",
+        "sources": [
+          "jsk-current",
+          "jsk-statute"
+        ],
+        "note": "Statute §4.1 prioritizes pre-seed/seed; Series A generally requires another VC/family-office participant or follow-on. Series B generally follow-on and excluded from initial-stage matching."
+      },
+      "geography": {
+        "value": [
+          "Europe",
+          "United States"
+        ],
+        "status": "supported",
+        "sources": [
+          "jsk-current"
+        ],
+        "note": "Other geographies considered selectively, not normalized to global."
+      },
+      "focus": {
+        "value": [
+          "Health",
+          "Applied frontier technology"
+        ],
+        "status": "supported",
+        "sources": [
+          "jsk-current"
+        ]
+      },
+      "ticket": {
+        "value": null,
+        "status": "not_found",
+        "sources": [
+          "jsk-current"
+        ],
+        "note": "Initial investment from EUR 300k; upper bound not published. No bounded range is invented."
+      },
+      "capital": {
+        "value": [
+          {
+            "amount": 20000000,
+            "currency": "EUR",
+            "metric": "Fund target",
+            "scope": "JSK Venture Capital Fund I target; includes EUR 10M internal capital as described on site. Excludes PE sub-fund.",
+            "asOf": null
+          }
+        ],
+        "status": "supported",
+        "sources": [
+          "jsk-current"
+        ],
+        "note": "Website portfolio counter reads \"7 / up to 20\" under target portfolio size. This is company count, not investors in the fund, capital or a focus criterion."
+      },
+      "investment": {
+        "value": {
+          "company": "MintNeuro",
+          "evidencePublishedAt": "2026-10-09",
+          "announcedAt": "2026-10-09",
+          "transactionDate": null,
+          "roundSize": 5000000,
+          "currency": "USD",
+          "investorAmount": null,
+          "note": "Total funding round; announcement attributes investment to the venture sub-fund, individual contribution unknown."
+        },
+        "status": "supported",
+        "sources": [
+          "jsk-mintneuro"
+        ]
+      },
+      "scopeStatus": "eligible",
+      "evidenceStatus": "sufficient",
+      "reviewStatus": "agent_reviewed",
+      "lastChecked": "2026-10-16",
+      "limitations": [
+        "The group and its VC sub-fund are represented once; PE investments are not used for matching.",
+        "No upper ticket bound published.",
+        "Fund target is not confirmed closed or available capital.",
+        "Issuer states CNB self-management authorization; regulator listing was not independently checked. Statute identifies the legal entity; the group contact company is different."
+      ],
+      "sourceReview": {
+        "reviewer": "Codex",
+        "reviewerType": "ai",
+        "reviewedAt": "2026-10-16",
+        "independent": false,
+        "outcome": "eligible",
+        "note": "Named venture strategy and self-managed investment leadership, Prague operations and dated MintNeuro investment meet pilot rules. ARES legal-entity corroboration added by IČO on 16 October 2026; not an investment or regulatory-authorisation check."
+      }
+    },
+    {
+      "id": "directory-17",
+      "name": "Orbit Capital — Growth Equity",
+      "initials": "OC",
+      "website": "https://orbitcapital.com/equity/",
+      "type": "Growth-stage venture equity",
+      "description": "Equity for technology scale-ups. This profile covers Orbit's growth equity activity; its debt strategy is separate.",
+      "office": {
+        "value": "Prague headquarters; also an office in Warsaw",
+        "status": "supported",
+        "sources": [
+          "orbit-headquarters",
+          "orbit-equity",
+          "orbit-cvca"
+        ],
+        "note": "Main Czech base inferred from the company's explicit headquarters/primary-location declaration, corroborated by the same investment team and Prague association contact."
+      },
+      "legalDomicile": {
+        "value": null,
+        "status": "not_checked",
+        "sources": [],
+        "note": "Manager and fund legal entities have not been verified against registers."
+      },
+      "sectors": {
+        "value": [
+          "Technology"
+        ],
+        "status": "supported",
+        "sources": [
+          "orbit-cvca"
+        ],
+        "note": "Technology and technology-enabled scale-ups; no narrower exclusive sector mandate assumed."
+      },
+      "stages": {
+        "value": [
+          "Growth"
+        ],
+        "status": "supported",
+        "sources": [
+          "orbit-equity",
+          "orbit-cvca"
+        ],
+        "note": "Scale-up equity; the Mews Series C is a transaction example, not a universal entry stage."
+      },
+      "geography": {
+        "value": [
+          "CEE"
+        ],
+        "status": "supported",
+        "sources": [
+          "orbit-cvca"
+        ],
+        "note": "Equity-specific association mandate. The broader company profile mentions DACH too, but does not separate each vehicle's mandate."
+      },
+      "focus": {
+        "value": [
+          "Technology-enabled scale-ups"
+        ],
+        "status": "supported",
+        "sources": [
+          "orbit-cvca",
+          "orbit-equity"
+        ]
+      },
+      "ticket": {
+        "value": {
+          "min": 6000000,
+          "max": 15000000,
+          "currency": "EUR",
+          "scope": "Growth equity ticket as reported by CVCA; financial as-of date unknown"
+        },
+        "status": "supported",
+        "sources": [
+          "orbit-cvca"
+        ],
+        "note": "Association-reported equity range, requiring current confirmation. The company's EUR 3M–15M statement appears with its debt strategy and is not substituted for equity."
+      },
+      "capital": {
+        "value": null,
+        "status": "not_found",
+        "sources": [
+          "orbit-cvca"
+        ],
+        "note": "CVCA describes equity capital as scaling to EUR 200M. That aspiration does not establish raised fund size, AUM or available cash. Debt fund amounts are excluded."
+      },
+      "investment": {
+        "value": {
+          "company": "Mews",
+          "evidencePublishedAt": "2022-12-15",
+          "announcedAt": "2022-12-15",
+          "transactionDate": null,
+          "roundSize": 185000000,
+          "currency": "USD",
+          "investorAmount": null,
+          "note": "Explicit equity participation in the Series C. USD 185M is the entire round; Orbit's contribution and exact settlement date are unknown. Mews separately names Columbia Lake Partners for debt."
+        },
+        "status": "supported",
+        "sources": [
+          "orbit-mews"
+        ]
+      },
+      "scopeStatus": "eligible",
+      "evidenceStatus": "sufficient",
+      "reviewStatus": "agent_reviewed",
+      "lastChecked": "2026-10-16",
+      "limitations": [
+        "Included through scale-up venture equity, not its private-debt vehicle or traditional buyouts.",
+        "Ticket range is undated association information and needs current confirmation.",
+        "Equity capital amount remains unknown; debt amounts and the EUR 200M scaling aspiration are excluded.",
+        "Named equity evidence is historical and does not establish current willingness or capacity to invest.",
+        "Headquarters is self-reported and operationally corroborated; legal entities are not register-verified."
+      ],
+      "sourceReview": {
+        "reviewer": "Codex",
+        "reviewerType": "ai",
+        "reviewedAt": "2026-10-16",
+        "independent": false,
+        "outcome": "eligible",
+        "note": "Explicit Prague headquarters, matching official equity team and Mews' dated equity announcement meet the Czech VC pilot rules. Growth equity is scoped separately from debt; financial uncertainty remains visible."
+      }
+    },
+    {
+      "id": "reflex",
+      "name": "Reflex Capital",
+      "initials": "RC",
+      "website": "https://www.reflexcapital.com/",
+      "type": "VC investor",
+      "description": "Prague-based early-stage investor with AI and e-commerce interests.",
+      "office": {
+        "value": "Prague",
+        "status": "supported",
+        "sources": [
+          "reflex-base",
+          "reflex-headquarters"
+        ],
+        "note": "Explicit public headquarters statement corroborated by the official operating-office description; US office is separate."
+      },
+      "legalDomicile": {
+        "value": null,
+        "status": "not_checked",
+        "sources": [],
+        "note": "Not checked against a legal register."
+      },
+      "sectors": {
+        "value": [
+          "Artificial intelligence",
+          "E-commerce"
+        ],
+        "status": "supported",
+        "sources": [
+          "reflex-headquarters"
+        ]
+      },
+      "stages": {
+        "value": [
+          "Early stage"
+        ],
+        "status": "supported",
+        "sources": [
+          "reflex-headquarters"
+        ],
+        "note": "Broad early-stage strategy; exact seed/Series A boundaries are not established."
+      },
+      "geography": {
+        "value": null,
+        "status": "not_found",
+        "sources": [
+          "reflex-base",
+          "reflex-headquarters"
+        ],
+        "note": "Office locations and CEE startup interests do not establish an exhaustive investment-country mandate."
+      },
+      "focus": {
+        "value": null,
+        "status": "not_found",
+        "sources": [
+          "reflex-base",
+          "reflex-portfolio"
+        ],
+        "note": "No explicit business-model mandate established in inspected strategy and founder pages."
+      },
+      "ticket": {
+        "value": null,
+        "status": "not_found",
+        "sources": [
+          "reflex-base",
+          "jt-deal"
+        ],
+        "note": "No bounded typical ticket in the inspected sources. A single grid.online investment does not establish a typical range."
+      },
+      "capital": {
+        "value": null,
+        "status": "not_found",
+        "sources": [
+          "reflex-base",
+          "reflex-headquarters"
+        ],
+        "note": "No fund-size or AUM amount established in the inspected public strategy/profile pages."
+      },
+      "investment": {
+        "value": {
+          "company": "grid.online",
+          "evidencePublishedAt": "2025-04-20",
           "announcedAt": null,
+          "transactionDate": null,
+          "roundSize": 1500000,
+          "currency": "EUR",
+          "investorAmount": null,
+          "note": "Co-investor publication retrospectively names Reflex in the EUR 1.5M round. Original announcement, settlement and contribution are not established here."
+        },
+        "status": "supported",
+        "sources": [
+          "jt-deal",
+          "reflex-portfolio"
+        ]
+      },
+      "limitations": [
+        "Early stage is not automatically mapped to every funding round.",
+        "Investment-country mandate, bounded typical ticket and capital remain unknown.",
+        "Legal entity register check not completed."
+      ],
+      "scopeStatus": "eligible",
+      "evidenceStatus": "sufficient",
+      "reviewStatus": "agent_reviewed",
+      "lastChecked": "2026-10-16",
+      "sourceReview": {
+        "reviewer": "Codex",
+        "reviewerType": "ai",
+        "reviewedAt": "2026-10-16",
+        "independent": false,
+        "outcome": "eligible",
+        "note": "Explicit Prague headquarters, corroborated operating office, early-stage VC strategy and dated grid.online participation meet pilot rules despite financial gaps."
+      }
+    },
+    {
+      "id": "rockaway",
+      "name": "Rockaway Ventures",
+      "initials": "RV",
+      "website": "https://rockawayventures.com/",
+      "type": "VC investor",
+      "description": "Seed and Series A technology investing with a CEE and DACH emphasis.",
+      "office": {
+        "value": "Prague",
+        "status": "supported",
+        "sources": [
+          "rockaway-base",
+          "rockaway-headquarters"
+        ],
+        "note": "Explicit venture headquarters and matching operational contact, separate from parent-group strategies."
+      },
+      "legalDomicile": {
+        "value": null,
+        "status": "not_checked",
+        "sources": [],
+        "note": "Venture vehicle legal domicile not checked against a register; group address is not substituted."
+      },
+      "sectors": {
+        "value": [
+          "Artificial intelligence",
+          "Deep tech",
+          "Defense",
+          "Security",
+          "E-commerce",
+          "Climate tech"
+        ],
+        "status": "supported",
+        "sources": [
+          "rockaway-strategy",
+          "rockaway-headquarters"
+        ]
+      },
+      "stages": {
+        "value": [
+          "Seed",
+          "Series A"
+        ],
+        "status": "supported",
+        "sources": [
+          "rockaway-strategy"
+        ],
+        "note": "Late seed is emphasized on the company profile."
+      },
+      "geography": {
+        "value": [
+          "CEE",
+          "Germany",
+          "Austria",
+          "Switzerland"
+        ],
+        "status": "supported",
+        "sources": [
+          "rockaway-strategy"
+        ],
+        "note": "Core CEE/DACH mandate; other opportunities considered selectively. US founder-origin condition is not treated as unrestricted US coverage."
+      },
+      "focus": {
+        "value": null,
+        "status": "not_found",
+        "sources": [
+          "rockaway-strategy"
+        ],
+        "note": "Technology sectors are stated, but a general B2B/B2C/software/hardware mandate is not established."
+      },
+      "ticket": {
+        "value": null,
+        "status": "not_found",
+        "sources": [
+          "rockaway-strategy",
+          "rockaway-group-fund"
+        ],
+        "note": "No bounded startup investment range found in the inspected founder or dedicated fund pages."
+      },
+      "capital": {
+        "value": null,
+        "status": "not_found",
+        "sources": [
+          "rockaway-capital-check",
+          "rockaway-group-fund"
+        ],
+        "note": "Dedicated fund size/AUM not found in inspected fund pages. Parent-group fundraising and performance multiples are not venture capital totals."
+      },
+      "investment": {
+        "value": {
+          "company": "Remix",
+          "evidencePublishedAt": "2025-12-19",
+          "announcedAt": "2025-12-19",
           "transactionDate": null,
           "roundSize": null,
           "currency": null,
           "investorAmount": null,
-          "note": "Named in the official portfolio; dated investment proof not captured."
+          "note": "Parent announcement identifies a 20% stake in a Series A round; neither round amount nor investor contribution is disclosed."
         },
         "status": "supported",
         "sources": [
-          "miton-strategy"
+          "rockaway-remix"
         ]
       },
-      "scopeStatus": "unresolved",
-      "evidenceStatus": "insufficient",
-      "reviewStatus": "pending",
-      "lastChecked": "2026-10-15",
       "limitations": [
-        "VC eligibility and main management location require review.",
-        "Portfolio value is not capital available for new investments."
-      ]
+        "Dedicated venture activity only; parent PE and other funds are excluded.",
+        "Bounded typical ticket and venture capital amount remain unknown.",
+        "A 20% company stake is not a monetary investment size."
+      ],
+      "scopeStatus": "eligible",
+      "evidenceStatus": "sufficient",
+      "reviewStatus": "agent_reviewed",
+      "lastChecked": "2026-10-16",
+      "sourceReview": {
+        "reviewer": "Codex",
+        "reviewerType": "ai",
+        "reviewedAt": "2026-10-16",
+        "independent": false,
+        "outcome": "eligible",
+        "note": "Company-authored Prague headquarters, official contact, explicit seed/Series A strategy and dated Remix participation meet pilot rules. Unknown financial values remain visible."
+      }
     }
   ]
 }

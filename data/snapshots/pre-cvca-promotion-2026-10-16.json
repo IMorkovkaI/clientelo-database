@@ -1,0 +1,1420 @@
+{
+  "purpose": "Pre-promotion state, not a new accuracy reference or extension of the frozen baseline.",
+  "version": "2026-10-16-preview.2",
+  "capturedAt": "2026-10-16",
+  "investors": [
+    {
+      "id": "credo",
+      "name": "Credo Ventures",
+      "initials": "CV",
+      "website": "https://www.credoventures.com/",
+      "description": "First checks for ambitious CEE founders and their global diaspora.",
+      "type": "VC candidate",
+      "office": {
+        "value": "Prague; also an office in Kraków",
+        "status": "supported",
+        "sources": [
+          "credo-strategy"
+        ]
+      },
+      "legalDomicile": {
+        "value": null,
+        "status": "not_checked",
+        "sources": [],
+        "note": "Not checked against a legal register."
+      },
+      "sectors": {
+        "value": [
+          "Sector agnostic"
+        ],
+        "status": "supported",
+        "sources": [
+          "credo-strategy"
+        ]
+      },
+      "stages": {
+        "value": [
+          "Pre-seed"
+        ],
+        "status": "supported",
+        "sources": [
+          "credo-strategy"
+        ]
+      },
+      "geography": {
+        "value": [
+          "CEE founders worldwide"
+        ],
+        "status": "supported",
+        "sources": [
+          "credo-strategy"
+        ]
+      },
+      "focus": {
+        "value": null,
+        "status": "not_found",
+        "sources": [],
+        "note": "Not found in the inspected sources."
+      },
+      "ticket": {
+        "value": {
+          "min": 1000000,
+          "max": 5000000,
+          "currency": "USD",
+          "scope": "Stated check range"
+        },
+        "status": "supported",
+        "sources": [
+          "credo-strategy"
+        ]
+      },
+      "capital": {
+        "value": [
+          {
+            "amount": 75000000,
+            "currency": "EUR",
+            "metric": "Fund size",
+            "scope": "Fund IV in CVCA’s 2022 awards profile; historical observation, not current total capital",
+            "asOf": null
+          }
+        ],
+        "status": "supported",
+        "sources": [
+          "credo-capital"
+        ]
+      },
+      "investment": {
+        "value": {
+          "company": "ElevenLabs",
+          "announcedAt": "2024-01-22",
+          "transactionDate": null,
+          "roundSize": 80000000,
+          "currency": "USD",
+          "investorAmount": null,
+          "note": "Series B participation; whole round amount, not Credo’s contribution.",
+          "evidencePublishedAt": "2024-01-22"
+        },
+        "status": "supported",
+        "sources": [
+          "credo-deal"
+        ]
+      },
+      "scopeStatus": "unresolved",
+      "evidenceStatus": "insufficient",
+      "reviewStatus": "agent_reviewed",
+      "lastChecked": "2026-10-16",
+      "limitations": [
+        "Main management location needs explicit confirmation across its offices.",
+        "Founder origin is a condition; company location alone cannot establish geographic fit.",
+        "The cited deal is the latest captured here, not necessarily the latest actual investment.",
+        "€75M is a historical Fund IV figure from a 2022 profile, not current AUM or available capital."
+      ],
+      "sourceReview": {
+        "reviewer": "Codex",
+        "reviewerType": "ai",
+        "reviewedAt": "2026-10-16",
+        "independent": false,
+        "outcome": "unresolved",
+        "note": "Participation and VC strategy confirmed; Prague and Kraków offices do not identify the main management base. Keep Czech eligibility unresolved."
+      }
+    },
+    {
+      "id": "purple",
+      "name": "Purple Ventures",
+      "initials": "PV",
+      "website": "https://www.purple-ventures.com/",
+      "description": "Early technology companies with initial revenue and global ambitions.",
+      "type": "VC investor",
+      "office": {
+        "value": "Brno",
+        "status": "supported",
+        "sources": [
+          "purple-strategy"
+        ],
+        "note": "Brno-based description republished on the official site, corroborated by its office details. Management-base inference is explicit; legal identity is not register-verified."
+      },
+      "legalDomicile": {
+        "value": null,
+        "status": "not_checked",
+        "sources": [],
+        "note": "Not checked against a legal register."
+      },
+      "sectors": {
+        "value": [
+          "Technology"
+        ],
+        "status": "supported",
+        "sources": [
+          "purple-strategy"
+        ]
+      },
+      "stages": {
+        "value": [
+          "Pre-seed",
+          "Seed"
+        ],
+        "status": "supported",
+        "sources": [
+          "purple-strategy"
+        ]
+      },
+      "geography": {
+        "value": [
+          "CEE"
+        ],
+        "status": "supported",
+        "sources": [
+          "purple-strategy"
+        ]
+      },
+      "focus": {
+        "value": null,
+        "status": "not_found",
+        "sources": [],
+        "note": "Not found in the inspected sources."
+      },
+      "ticket": {
+        "value": {
+          "min": 250000,
+          "max": 400000,
+          "currency": "EUR",
+          "scope": "Initial ticket; follow-ons separate"
+        },
+        "status": "supported",
+        "sources": [
+          "purple-strategy"
+        ]
+      },
+      "capital": {
+        "value": [
+          {
+            "amount": 15000000,
+            "currency": "EUR",
+            "metric": "Fund size",
+            "scope": "First fund, as described by Purple Group; historical vehicle",
+            "asOf": null
+          },
+          {
+            "amount": 40000000,
+            "currency": "EUR",
+            "metric": "Fund target",
+            "scope": "Current vehicle target on Purple Group website; not a confirmed close",
+            "asOf": null
+          }
+        ],
+        "status": "supported",
+        "sources": [
+          "purple-capital"
+        ]
+      },
+      "investment": {
+        "value": {
+          "company": "Sloneek",
+          "announcedAt": "2024-09-07",
+          "evidencePublishedAt": "2024-09-07",
+          "transactionDate": null,
+          "roundSize": 3600000,
+          "currency": "EUR",
+          "investorAmount": null,
+          "note": "Purple Ventures II led this late-seed round. €3.6M is the total round, not Purple’s contribution."
+        },
+        "status": "supported",
+        "sources": [
+          "sloneek-round-2024"
+        ]
+      },
+      "scopeStatus": "eligible",
+      "evidenceStatus": "sufficient",
+      "reviewStatus": "agent_reviewed",
+      "lastChecked": "2026-10-16",
+      "limitations": [
+        "CEE+ is conservatively normalized to CEE; additional countries need confirmation.",
+        "Fund figures have no explicit as-of date; €40M is a target.",
+        "Brno management base is inferred from the official site’s narrative and office; legal identity remains unchecked against a register."
+      ],
+      "sourceReview": {
+        "reviewer": "Codex",
+        "reviewerType": "ai",
+        "reviewedAt": "2026-10-16",
+        "independent": false,
+        "outcome": "eligible",
+        "note": "Official site describes Purple as Brno-based; strategy and Sloneek’s dated announcement establish venture investment. Brno base is an explicit inference from narrative plus office evidence."
+      }
+    },
+    {
+      "id": "presto",
+      "name": "Presto Ventures",
+      "initials": "PR",
+      "website": "https://www.prestoventures.com/",
+      "description": "Advanced technologies in security, defense, and aerospace.",
+      "type": "VC investor",
+      "office": {
+        "value": "Prague",
+        "status": "supported",
+        "sources": [
+          "presto-strategy",
+          "presto-base"
+        ],
+        "note": "Current operational office corroborates the institutional report’s historical Prague-based description."
+      },
+      "legalDomicile": {
+        "value": null,
+        "status": "not_checked",
+        "sources": [],
+        "note": "Not checked against a legal register."
+      },
+      "sectors": {
+        "value": [
+          "Security",
+          "Defense",
+          "Aerospace"
+        ],
+        "status": "supported",
+        "sources": [
+          "presto-strategy"
+        ]
+      },
+      "stages": {
+        "value": [
+          "Seed",
+          "Series A"
+        ],
+        "status": "supported",
+        "sources": [
+          "presto-strategy"
+        ]
+      },
+      "geography": {
+        "value": [
+          "NATO & allies"
+        ],
+        "status": "supported",
+        "sources": [
+          "presto-strategy"
+        ]
+      },
+      "focus": {
+        "value": [
+          "Software",
+          "Hardware",
+          "Dual-use"
+        ],
+        "status": "supported",
+        "sources": [
+          "presto-strategy"
+        ]
+      },
+      "ticket": {
+        "value": {
+          "min": 500000,
+          "max": 5000000,
+          "currency": "EUR",
+          "scope": "Stated ticket range"
+        },
+        "status": "supported",
+        "sources": [
+          "presto-strategy"
+        ]
+      },
+      "capital": {
+        "value": [
+          {
+            "amount": 150000000,
+            "currency": "EUR",
+            "metric": "Fund target",
+            "scope": "Joint Presto Tech Horizons fund with CSG; not total Presto capital or confirmed commitments",
+            "asOf": null
+          }
+        ],
+        "status": "supported",
+        "sources": [
+          "presto-capital"
+        ]
+      },
+      "investment": {
+        "value": {
+          "company": "Sloneek",
+          "announcedAt": null,
+          "evidencePublishedAt": "2024-09-07",
+          "transactionDate": null,
+          "roundSize": 1000000,
+          "currency": "EUR",
+          "investorAmount": null,
+          "note": "The September 2024 company article retrospectively confirms Presto and Vision Ventures invested in a €1M round in 2022. This is not the Purple-led 2024 round. Exact announcement and closing dates are unknown."
+        },
+        "status": "supported",
+        "sources": [
+          "sloneek-round-2024"
+        ]
+      },
+      "scopeStatus": "eligible",
+      "evidenceStatus": "sufficient",
+      "reviewStatus": "agent_reviewed",
+      "lastChecked": "2026-10-16",
+      "limitations": [
+        "Historical 2022 participation establishes investment activity, not current available capital.",
+        "Current security/defense focus and ticket refer to the present strategy; the historical portfolio is broader.",
+        "€150M is a joint fund target, not total AUM or a confirmed close.",
+        "NATO & allies matching uses a limited country mapping."
+      ],
+      "sourceReview": {
+        "reviewer": "Codex",
+        "reviewerType": "ai",
+        "reviewedAt": "2026-10-16",
+        "independent": false,
+        "outcome": "eligible",
+        "note": "Current Prague operational office corroborated by CVCA’s Prague-based description. Sloneek confirms Presto’s 2022 investment in a dated 2024 publication."
+      }
+    },
+    {
+      "id": "look",
+      "name": "Look AI Ventures",
+      "initials": "LA",
+      "website": "https://lookai.vc/",
+      "description": "AI-first companies with technical depth, before Series A.",
+      "type": "VC investor",
+      "office": {
+        "value": "Prague",
+        "status": "supported",
+        "sources": [
+          "look-strategy"
+        ]
+      },
+      "legalDomicile": {
+        "value": null,
+        "status": "not_checked",
+        "sources": [],
+        "note": "Not checked against a legal register."
+      },
+      "sectors": {
+        "value": [
+          "Artificial intelligence"
+        ],
+        "status": "supported",
+        "sources": [
+          "look-strategy"
+        ]
+      },
+      "stages": {
+        "value": [
+          "Pre-seed",
+          "Seed"
+        ],
+        "status": "supported",
+        "sources": [
+          "look-strategy"
+        ]
+      },
+      "geography": {
+        "value": [
+          "Global"
+        ],
+        "status": "supported",
+        "sources": [
+          "look-strategy"
+        ]
+      },
+      "focus": {
+        "value": null,
+        "status": "not_found",
+        "sources": [],
+        "note": "Not found in the inspected sources."
+      },
+      "ticket": {
+        "value": null,
+        "status": "not_found",
+        "sources": [],
+        "note": "Not found in the inspected sources."
+      },
+      "capital": {
+        "value": null,
+        "status": "not_found",
+        "sources": [],
+        "note": "Not found in the inspected sources."
+      },
+      "investment": {
+        "value": {
+          "company": "Sodex Innovations",
+          "announcedAt": "2026-07-23",
+          "transactionDate": null,
+          "roundSize": 4000000,
+          "currency": "EUR",
+          "investorAmount": null,
+          "note": "Company funding round; individual investor contribution is not disclosed.",
+          "evidencePublishedAt": "2026-07-23"
+        },
+        "status": "supported",
+        "sources": [
+          "look-deal"
+        ]
+      },
+      "scopeStatus": "eligible",
+      "evidenceStatus": "sufficient",
+      "reviewStatus": "agent_reviewed",
+      "lastChecked": "2026-10-16",
+      "limitations": [
+        "Pre-Series A is normalized to pre-seed and seed; financial contribution is unknown.",
+        "Independent human audit has not been performed."
+      ],
+      "sourceReview": {
+        "reviewer": "Codex",
+        "reviewerType": "ai",
+        "reviewedAt": "2026-10-16",
+        "independent": false,
+        "outcome": "eligible",
+        "note": "Rechecked Prague-based VC identity and strategy against the official site and Sodex participation against the dated announcement."
+      }
+    },
+    {
+      "id": "jt",
+      "name": "J&T Ventures",
+      "initials": "JT",
+      "website": "https://www.jtventures.cz/",
+      "description": "Early-stage companies across Central and Southeastern Europe.",
+      "type": "VC investor",
+      "office": {
+        "value": "Prague",
+        "status": "supported",
+        "sources": [
+          "jt-strategy"
+        ]
+      },
+      "legalDomicile": {
+        "value": null,
+        "status": "not_checked",
+        "sources": [],
+        "note": "Not checked against a legal register."
+      },
+      "sectors": {
+        "value": [
+          "Sector agnostic"
+        ],
+        "status": "supported",
+        "sources": [
+          "jt-focus"
+        ]
+      },
+      "stages": {
+        "value": [
+          "Pre-seed",
+          "Seed",
+          "Series A"
+        ],
+        "status": "supported",
+        "sources": [
+          "jt-strategy"
+        ]
+      },
+      "geography": {
+        "value": [
+          "CEE",
+          "SEE",
+          "Baltics"
+        ],
+        "status": "supported",
+        "sources": [
+          "jt-strategy"
+        ]
+      },
+      "focus": {
+        "value": [
+          "B2B",
+          "B2C",
+          "Marketplaces"
+        ],
+        "status": "supported",
+        "sources": [
+          "jt-focus"
+        ]
+      },
+      "ticket": {
+        "value": {
+          "min": 300000,
+          "max": 3000000,
+          "currency": "EUR",
+          "scope": "Stated investment size; company lifetime allocation differs"
+        },
+        "status": "supported",
+        "sources": [
+          "jt-strategy"
+        ]
+      },
+      "capital": {
+        "value": null,
+        "status": "not_found",
+        "sources": [],
+        "note": "Not found in the inspected sources."
+      },
+      "investment": {
+        "value": {
+          "company": "grid.online",
+          "announcedAt": "2025-04-20",
+          "transactionDate": null,
+          "roundSize": 1500000,
+          "currency": "EUR",
+          "investorAmount": null,
+          "note": "Dated investor blog lists participation. Amount is for the whole round.",
+          "evidencePublishedAt": "2025-04-20"
+        },
+        "status": "supported",
+        "sources": [
+          "jt-deal"
+        ]
+      },
+      "scopeStatus": "eligible",
+      "evidenceStatus": "sufficient",
+      "reviewStatus": "agent_reviewed",
+      "lastChecked": "2026-10-16",
+      "limitations": [
+        "Independent human audit has not been performed."
+      ],
+      "sourceReview": {
+        "reviewer": "Codex",
+        "reviewerType": "ai",
+        "reviewedAt": "2026-10-16",
+        "independent": false,
+        "outcome": "eligible",
+        "note": "Rechecked Prague VC identity, criteria and participation in the dated grid.online announcement."
+      }
+    },
+    {
+      "id": "tensor",
+      "name": "Tensor Ventures",
+      "initials": "TV",
+      "website": "https://tensor.ventures/",
+      "description": "Deep-tech investing across scientific and industrial technologies.",
+      "type": "VC candidate",
+      "office": {
+        "value": "Prague contact office; main management location unresolved",
+        "status": "supported",
+        "sources": [
+          "tensor-office"
+        ]
+      },
+      "legalDomicile": {
+        "value": "Luxembourg fund entities",
+        "status": "supported",
+        "sources": [
+          "tensor-office"
+        ]
+      },
+      "sectors": {
+        "value": [
+          "Deep tech"
+        ],
+        "status": "supported",
+        "sources": [
+          "tensor-deal"
+        ]
+      },
+      "stages": {
+        "value": [
+          "Seed",
+          "Series A"
+        ],
+        "status": "supported",
+        "sources": [
+          "tensor-office"
+        ]
+      },
+      "geography": {
+        "value": null,
+        "status": "not_found",
+        "sources": [],
+        "note": "Not found in the inspected sources."
+      },
+      "focus": {
+        "value": null,
+        "status": "not_found",
+        "sources": [],
+        "note": "Not found in the inspected sources."
+      },
+      "ticket": {
+        "value": null,
+        "status": "not_found",
+        "sources": [],
+        "note": "Not found in the inspected sources."
+      },
+      "capital": {
+        "value": [
+          {
+            "amount": 50000000,
+            "currency": "EUR",
+            "metric": "Fund target",
+            "scope": "Fund 2",
+            "asOf": "2024-12-23"
+          }
+        ],
+        "status": "supported",
+        "sources": [
+          "tensor-deal"
+        ]
+      },
+      "investment": {
+        "value": {
+          "company": "ValkaAI",
+          "announcedAt": "2026-03-03",
+          "evidencePublishedAt": "2026-03-03",
+          "transactionDate": null,
+          "roundSize": 12000000,
+          "currency": "EUR",
+          "investorAmount": null,
+          "note": "Tensor is named among participants in the €12M pre-seed round. Individual contribution and closing date are unknown. A single pre-seed deal does not replace its stated seed/Series A mandate."
+        },
+        "status": "supported",
+        "sources": [
+          "tensor-valka"
+        ]
+      },
+      "scopeStatus": "unresolved",
+      "evidenceStatus": "insufficient",
+      "reviewStatus": "agent_reviewed",
+      "lastChecked": "2026-10-16",
+      "limitations": [
+        "Czech presence alone does not prove the main management office.",
+        "€50M is a fundraising target, not confirmed commitments."
+      ],
+      "sourceReview": {
+        "reviewer": "Codex",
+        "reviewerType": "ai",
+        "reviewedAt": "2026-10-16",
+        "independent": false,
+        "outcome": "unresolved",
+        "note": "ValkaAI participation and deep-tech VC activity confirmed. Luxembourg entities and Prague contact do not settle main management location; retain unresolved."
+      }
+    },
+    {
+      "id": "kaya",
+      "name": "KAYA VC",
+      "initials": "KA",
+      "website": "https://www.kaya.vc/",
+      "description": "Early backing for ambitious founders from Central and Eastern Europe.",
+      "type": "VC investor",
+      "office": {
+        "value": "Prague; also offices in Warsaw, London and San Francisco",
+        "status": "supported",
+        "sources": [
+          "kaya-office",
+          "kaya-strategy"
+        ],
+        "note": "The investor’s About page explicitly calls KAYA Prague-based, distinguishing its base from other offices."
+      },
+      "legalDomicile": {
+        "value": null,
+        "status": "not_checked",
+        "sources": [],
+        "note": "Not checked against a legal register."
+      },
+      "sectors": {
+        "value": null,
+        "status": "not_found",
+        "sources": [],
+        "note": "Not found in the inspected sources."
+      },
+      "stages": {
+        "value": [
+          "Pre-seed",
+          "Seed"
+        ],
+        "status": "supported",
+        "sources": [
+          "kaya-strategy"
+        ]
+      },
+      "geography": {
+        "value": [
+          "CEE founders worldwide"
+        ],
+        "status": "supported",
+        "sources": [
+          "kaya-strategy"
+        ]
+      },
+      "focus": {
+        "value": null,
+        "status": "not_found",
+        "sources": [],
+        "note": "Not found in the inspected sources."
+      },
+      "ticket": {
+        "value": {
+          "min": 1000000,
+          "max": 3000000,
+          "currency": "USD",
+          "scope": "Stated ticket range"
+        },
+        "status": "supported",
+        "sources": [
+          "kaya-strategy"
+        ]
+      },
+      "capital": {
+        "value": [
+          {
+            "amount": 500000000,
+            "currency": "USD",
+            "metric": "AUM",
+            "scope": "Manager-reported total",
+            "asOf": null
+          },
+          {
+            "amount": 85000000,
+            "currency": "USD",
+            "metric": "Fund size",
+            "scope": "Current fund, as described on homepage",
+            "asOf": null
+          }
+        ],
+        "status": "supported",
+        "sources": [
+          "kaya-strategy"
+        ]
+      },
+      "investment": {
+        "value": {
+          "company": "Yoneda Labs",
+          "announcedAt": null,
+          "evidencePublishedAt": "2024-06-12",
+          "transactionDate": null,
+          "roundSize": null,
+          "currency": "USD",
+          "investorAmount": null,
+          "note": "KAYA’s June newsletter names its participation in a May 2024 round. A $4.6M list entry and $4M linked headline have unresolved scope; round size is left unknown. Publication is not an exact investment announcement date."
+        },
+        "status": "supported",
+        "sources": [
+          "kaya-deal"
+        ]
+      },
+      "scopeStatus": "eligible",
+      "evidenceStatus": "sufficient",
+      "reviewStatus": "agent_reviewed",
+      "lastChecked": "2026-10-16",
+      "limitations": [
+        "Capital figures have no explicit financial as-of date and must not be added together.",
+        "Yoneda round amount has unresolved scope; exact announcement and transaction dates are unknown.",
+        "Founder origin is distinct from company geography."
+      ],
+      "sourceReview": {
+        "reviewer": "Codex",
+        "reviewerType": "ai",
+        "reviewedAt": "2026-10-16",
+        "independent": false,
+        "outcome": "eligible",
+        "note": "Official About page explicitly identifies Prague as the base despite international offices. Dated newsletter establishes Yoneda participation; amount ambiguity retained."
+      }
+    },
+    {
+      "id": "miton",
+      "name": "Miton",
+      "initials": "MI",
+      "website": "https://www.miton.cz/",
+      "description": "An investment group focused on selected technology and consumer areas.",
+      "type": "VC investment group · own capital",
+      "office": {
+        "value": "Prague",
+        "status": "supported",
+        "sources": [
+          "miton-approach"
+        ],
+        "note": "Operational office at Corso IIa, Křižíkova 148/34. Management-base judgment uses its team and operating-office presentation."
+      },
+      "legalDomicile": {
+        "value": null,
+        "status": "not_checked",
+        "sources": [],
+        "note": "Not checked against a legal register."
+      },
+      "sectors": {
+        "value": [
+          "Artificial intelligence",
+          "Web3",
+          "E-commerce",
+          "Mental health",
+          "Gastrotech"
+        ],
+        "status": "supported",
+        "sources": [
+          "miton-strategy"
+        ]
+      },
+      "stages": {
+        "value": [
+          "Pre-seed",
+          "Seed",
+          "Series A"
+        ],
+        "status": "supported",
+        "sources": [
+          "miton-approach"
+        ]
+      },
+      "geography": {
+        "value": null,
+        "status": "not_found",
+        "sources": [],
+        "note": "Not found in the inspected sources."
+      },
+      "focus": {
+        "value": null,
+        "status": "not_found",
+        "sources": [],
+        "note": "Not found in the inspected sources."
+      },
+      "ticket": {
+        "value": {
+          "min": 300000,
+          "max": 2000000,
+          "currency": "EUR",
+          "scope": "Typical initial investment; follow-ons separate"
+        },
+        "status": "supported",
+        "sources": [
+          "miton-approach"
+        ]
+      },
+      "capital": {
+        "value": [
+          {
+            "amount": 450000000,
+            "currency": "EUR",
+            "metric": "Portfolio value",
+            "scope": "Current portfolio as described on homepage",
+            "asOf": null
+          }
+        ],
+        "status": "supported",
+        "sources": [
+          "miton-strategy"
+        ]
+      },
+      "investment": {
+        "value": {
+          "company": "ACE",
+          "announcedAt": "2026-10-01",
+          "evidencePublishedAt": "2026-10-01",
+          "transactionDate": null,
+          "roundSize": null,
+          "currency": "CZK",
+          "investorAmount": null,
+          "note": "Miton announces an investment agreement as an equal partner. The source says millions of crowns without an exact amount; settlement is not confirmed."
+        },
+        "status": "supported",
+        "sources": [
+          "miton-ace"
+        ]
+      },
+      "scopeStatus": "eligible",
+      "evidenceStatus": "sufficient",
+      "reviewStatus": "agent_reviewed",
+      "lastChecked": "2026-10-16",
+      "limitations": [
+        "Invests its own capital and qualifies by venture investment activity; it is not presented as a conventional externally funded VC vehicle.",
+        "Portfolio value is not AUM or capital available for new investments.",
+        "ACE exact contribution and closing date are unknown.",
+        "Geographic investment mandate was not established in the inspected sources."
+      ],
+      "sourceReview": {
+        "reviewer": "Codex",
+        "reviewerType": "ai",
+        "reviewedAt": "2026-10-16",
+        "independent": false,
+        "outcome": "eligible",
+        "note": "Own-capital venture investment group with Prague operational office, stated startup stages and ticket range, and dated ACE agreement. Included by activity, not fund legal form."
+      }
+    }
+  ],
+  "candidates": [
+    {
+      "id": "credo",
+      "name": "Credo Ventures",
+      "discoverySource": "https://www.credoventures.com/",
+      "systemDecision": "unresolved",
+      "reason": "Participation and VC strategy confirmed; Prague and Kraków offices do not identify the main management base. Keep Czech eligibility unresolved.",
+      "research": "profile",
+      "samplingGroup": "purposive_development"
+    },
+    {
+      "id": "purple",
+      "name": "Purple Ventures",
+      "discoverySource": "https://www.purple-ventures.com/",
+      "systemDecision": "accepted",
+      "reason": "Official site describes Purple as Brno-based; strategy and Sloneek’s dated announcement establish venture investment. Brno base is an explicit inference from narrative plus office evidence.",
+      "research": "profile",
+      "samplingGroup": "purposive_development"
+    },
+    {
+      "id": "presto",
+      "name": "Presto Ventures",
+      "discoverySource": "https://www.prestoventures.com/",
+      "systemDecision": "accepted",
+      "reason": "Current Prague operational office corroborated by CVCA’s Prague-based description. Sloneek confirms Presto’s 2022 investment in a dated 2024 publication.",
+      "research": "profile",
+      "samplingGroup": "purposive_development"
+    },
+    {
+      "id": "look",
+      "name": "Look AI Ventures",
+      "discoverySource": "https://lookai.vc/",
+      "systemDecision": "accepted",
+      "reason": "Rechecked Prague-based VC identity and strategy against the official site and Sodex participation against the dated announcement.",
+      "research": "profile",
+      "samplingGroup": "purposive_development"
+    },
+    {
+      "id": "jt",
+      "name": "J&T Ventures",
+      "discoverySource": "https://www.jtventures.cz/",
+      "systemDecision": "accepted",
+      "reason": "Rechecked Prague VC identity, criteria and participation in the dated grid.online announcement.",
+      "research": "profile",
+      "samplingGroup": "purposive_development"
+    },
+    {
+      "id": "tensor",
+      "name": "Tensor Ventures",
+      "discoverySource": "https://tensor.ventures/",
+      "systemDecision": "unresolved",
+      "reason": "ValkaAI participation and deep-tech VC activity confirmed. Luxembourg entities and Prague contact do not settle main management location; retain unresolved.",
+      "research": "profile",
+      "samplingGroup": "purposive_development"
+    },
+    {
+      "id": "kaya",
+      "name": "KAYA VC",
+      "discoverySource": "https://www.kaya.vc/",
+      "systemDecision": "accepted",
+      "reason": "Official About page explicitly identifies Prague as the base despite international offices. Dated newsletter establishes Yoneda participation; amount ambiguity retained.",
+      "research": "profile",
+      "samplingGroup": "purposive_development"
+    },
+    {
+      "id": "miton",
+      "name": "Miton",
+      "discoverySource": "https://www.miton.cz/",
+      "systemDecision": "accepted",
+      "reason": "Own-capital venture investment group with Prague operational office, stated startup stages and ticket range, and dated ACE agreement. Included by activity, not fund legal form.",
+      "research": "profile",
+      "samplingGroup": "purposive_development"
+    },
+    {
+      "id": "directory-1",
+      "name": "Abris Capital",
+      "discoverySource": "https://cvca.cz/en/membership/",
+      "systemDecision": "unresolved",
+      "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+      "research": "discovery_only",
+      "samplingGroup": "directory_frame"
+    },
+    {
+      "id": "directory-2",
+      "name": "ARX Equity Partners",
+      "discoverySource": "https://cvca.cz/en/membership/",
+      "systemDecision": "unresolved",
+      "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+      "research": "discovery_only",
+      "samplingGroup": "directory_frame"
+    },
+    {
+      "id": "directory-3",
+      "name": "CVI",
+      "discoverySource": "https://cvca.cz/en/membership/",
+      "systemDecision": "unresolved",
+      "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+      "research": "discovery_only",
+      "samplingGroup": "directory_frame"
+    },
+    {
+      "id": "directory-4",
+      "name": "DEPO Ventures",
+      "discoverySource": "https://cvca.cz/en/membership/",
+      "systemDecision": "unresolved",
+      "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+      "research": "discovery_only",
+      "samplingGroup": "directory_frame"
+    },
+    {
+      "id": "directory-5",
+      "name": "Enterprise Investors",
+      "discoverySource": "https://cvca.cz/en/membership/",
+      "systemDecision": "unresolved",
+      "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+      "research": "discovery_only",
+      "samplingGroup": "directory_frame"
+    },
+    {
+      "id": "directory-6",
+      "name": "Espira Investments",
+      "discoverySource": "https://cvca.cz/en/membership/",
+      "systemDecision": "unresolved",
+      "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+      "research": "discovery_only",
+      "samplingGroup": "directory_frame"
+    },
+    {
+      "id": "directory-7",
+      "name": "EVERITA Capital",
+      "discoverySource": "https://cvca.cz/en/membership/",
+      "systemDecision": "unresolved",
+      "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+      "research": "discovery_only",
+      "samplingGroup": "directory_frame"
+    },
+    {
+      "id": "directory-8",
+      "name": "Genesis Capital Equity",
+      "discoverySource": "https://cvca.cz/en/membership/",
+      "systemDecision": "unresolved",
+      "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+      "research": "discovery_only",
+      "samplingGroup": "directory_frame"
+    },
+    {
+      "id": "directory-9",
+      "name": "i&i Biotech Investments",
+      "discoverySource": "https://cvca.cz/en/membership/",
+      "systemDecision": "unresolved",
+      "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+      "research": "discovery_only",
+      "samplingGroup": "directory_frame"
+    },
+    {
+      "id": "directory-10",
+      "name": "Innova Capital",
+      "discoverySource": "https://cvca.cz/en/membership/",
+      "systemDecision": "unresolved",
+      "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+      "research": "discovery_only",
+      "samplingGroup": "directory_frame"
+    },
+    {
+      "id": "directory-11",
+      "name": "Integral Capital Group",
+      "discoverySource": "https://cvca.cz/en/membership/",
+      "systemDecision": "unresolved",
+      "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+      "research": "discovery_only",
+      "samplingGroup": "directory_frame"
+    },
+    {
+      "id": "directory-12",
+      "name": "Inven Capital",
+      "discoverySource": "https://cvca.cz/en/membership/",
+      "systemDecision": "unresolved",
+      "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+      "research": "discovery_only",
+      "samplingGroup": "directory_frame"
+    },
+    {
+      "id": "directory-13",
+      "name": "Jet Investment",
+      "discoverySource": "https://cvca.cz/en/membership/",
+      "systemDecision": "unresolved",
+      "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+      "research": "discovery_only",
+      "samplingGroup": "directory_frame"
+    },
+    {
+      "id": "directory-14",
+      "name": "MAM Private Equity Fund",
+      "discoverySource": "https://cvca.cz/en/membership/",
+      "systemDecision": "unresolved",
+      "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+      "research": "discovery_only",
+      "samplingGroup": "directory_frame"
+    },
+    {
+      "id": "directory-15",
+      "name": "Mid Europa Partners",
+      "discoverySource": "https://cvca.cz/en/membership/",
+      "systemDecision": "unresolved",
+      "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+      "research": "discovery_only",
+      "samplingGroup": "directory_frame"
+    },
+    {
+      "id": "directory-16",
+      "name": "Nation1",
+      "discoverySource": "https://cvca.cz/en/membership/",
+      "systemDecision": "unresolved",
+      "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+      "research": "discovery_only",
+      "samplingGroup": "directory_frame"
+    },
+    {
+      "id": "directory-17",
+      "name": "Orbit Capital",
+      "discoverySource": "https://cvca.cz/en/membership/",
+      "systemDecision": "unresolved",
+      "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+      "research": "discovery_only",
+      "samplingGroup": "directory_frame"
+    },
+    {
+      "id": "directory-18",
+      "name": "Sandberg Capital",
+      "discoverySource": "https://cvca.cz/en/membership/",
+      "systemDecision": "unresolved",
+      "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+      "research": "discovery_only",
+      "samplingGroup": "directory_frame"
+    },
+    {
+      "id": "directory-19",
+      "name": "SkyLimit Investments",
+      "discoverySource": "https://cvca.cz/en/membership/",
+      "systemDecision": "unresolved",
+      "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+      "research": "discovery_only",
+      "samplingGroup": "directory_frame"
+    },
+    {
+      "id": "directory-20",
+      "name": "Stratum Partners",
+      "discoverySource": "https://cvca.cz/en/membership/",
+      "systemDecision": "unresolved",
+      "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+      "research": "discovery_only",
+      "samplingGroup": "directory_frame"
+    },
+    {
+      "id": "directory-21",
+      "name": "Thein",
+      "discoverySource": "https://cvca.cz/en/membership/",
+      "systemDecision": "unresolved",
+      "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+      "research": "discovery_only",
+      "samplingGroup": "directory_frame"
+    },
+    {
+      "id": "directory-22",
+      "name": "Tilia Impact Ventures",
+      "discoverySource": "https://cvca.cz/en/membership/",
+      "systemDecision": "unresolved",
+      "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+      "research": "discovery_only",
+      "samplingGroup": "directory_frame"
+    },
+    {
+      "id": "directory-23",
+      "name": "V4C Investment Advisers",
+      "discoverySource": "https://cvca.cz/en/membership/",
+      "systemDecision": "unresolved",
+      "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+      "research": "discovery_only",
+      "samplingGroup": "directory_frame"
+    },
+    {
+      "id": "directory-24",
+      "name": "Versute Investments",
+      "discoverySource": "https://cvca.cz/en/membership/",
+      "systemDecision": "unresolved",
+      "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+      "research": "discovery_only",
+      "samplingGroup": "directory_frame"
+    },
+    {
+      "id": "directory-25",
+      "name": "Accolade",
+      "discoverySource": "https://cvca.cz/en/membership/",
+      "systemDecision": "unresolved",
+      "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
+      "research": "discovery_only",
+      "samplingGroup": "directory_frame"
+    },
+    {
+      "id": "directory-26",
+      "name": "AKAT Czech Capital Market Association",
+      "discoverySource": "https://cvca.cz/en/membership/",
+      "systemDecision": "out_of_scope",
+      "reason": "Directory describes association or professional services; not a qualifying VC organization.",
+      "research": "discovery_only",
+      "samplingGroup": "directory_frame"
+    },
+    {
+      "id": "directory-27",
+      "name": "Aon Central and Eastern Europe",
+      "discoverySource": "https://cvca.cz/en/membership/",
+      "systemDecision": "out_of_scope",
+      "reason": "Directory describes association or professional services; not a qualifying VC organization.",
+      "research": "discovery_only",
+      "samplingGroup": "directory_frame"
+    },
+    {
+      "id": "directory-28",
+      "name": "ASB Czech Republic",
+      "discoverySource": "https://cvca.cz/en/membership/",
+      "systemDecision": "out_of_scope",
+      "reason": "Directory describes association or professional services; not a qualifying VC organization.",
+      "research": "discovery_only",
+      "samplingGroup": "directory_frame"
+    }
+  ],
+  "sourceReviews": {
+    "version": "2026-10-16-preview.2",
+    "reviewedAt": "2026-10-16",
+    "method": "AI-assisted source-by-source review; same agent, not blinded or independent",
+    "baseline": "data/baselines/2026-10-15/",
+    "reviews": [
+      {
+        "investorId": "credo",
+        "reviewer": "Codex",
+        "reviewerType": "ai",
+        "reviewedAt": "2026-10-16",
+        "independent": false,
+        "outcome": "unresolved",
+        "note": "Participation and VC strategy confirmed; Prague and Kraków offices do not identify the main management base. Keep Czech eligibility unresolved.",
+        "baselineScope": "unresolved",
+        "changedFields": [
+          "capital",
+          "investment"
+        ],
+        "sources": [
+          "credo-strategy",
+          "credo-capital",
+          "credo-deal"
+        ]
+      },
+      {
+        "investorId": "purple",
+        "reviewer": "Codex",
+        "reviewerType": "ai",
+        "reviewedAt": "2026-10-16",
+        "independent": false,
+        "outcome": "eligible",
+        "note": "Official site describes Purple as Brno-based; strategy and Sloneek’s dated announcement establish venture investment. Brno base is an explicit inference from narrative plus office evidence.",
+        "baselineScope": "unresolved",
+        "changedFields": [
+          "office",
+          "capital",
+          "investment",
+          "scopeStatus"
+        ],
+        "sources": [
+          "purple-strategy",
+          "purple-capital",
+          "sloneek-round-2024"
+        ]
+      },
+      {
+        "investorId": "presto",
+        "reviewer": "Codex",
+        "reviewerType": "ai",
+        "reviewedAt": "2026-10-16",
+        "independent": false,
+        "outcome": "eligible",
+        "note": "Current Prague operational office corroborated by CVCA’s Prague-based description. Sloneek confirms Presto’s 2022 investment in a dated 2024 publication.",
+        "baselineScope": "unresolved",
+        "changedFields": [
+          "office",
+          "capital",
+          "investment",
+          "scopeStatus"
+        ],
+        "sources": [
+          "presto-strategy",
+          "presto-base",
+          "presto-capital",
+          "sloneek-round-2024"
+        ]
+      },
+      {
+        "investorId": "look",
+        "reviewer": "Codex",
+        "reviewerType": "ai",
+        "reviewedAt": "2026-10-16",
+        "independent": false,
+        "outcome": "eligible",
+        "note": "Rechecked Prague-based VC identity and strategy against the official site and Sodex participation against the dated announcement.",
+        "baselineScope": "eligible",
+        "changedFields": [
+          "investment"
+        ],
+        "sources": [
+          "look-strategy",
+          "look-deal"
+        ]
+      },
+      {
+        "investorId": "jt",
+        "reviewer": "Codex",
+        "reviewerType": "ai",
+        "reviewedAt": "2026-10-16",
+        "independent": false,
+        "outcome": "eligible",
+        "note": "Rechecked Prague VC identity, criteria and participation in the dated grid.online announcement.",
+        "baselineScope": "eligible",
+        "changedFields": [
+          "investment"
+        ],
+        "sources": [
+          "jt-strategy",
+          "jt-focus",
+          "jt-deal"
+        ]
+      },
+      {
+        "investorId": "tensor",
+        "reviewer": "Codex",
+        "reviewerType": "ai",
+        "reviewedAt": "2026-10-16",
+        "independent": false,
+        "outcome": "unresolved",
+        "note": "ValkaAI participation and deep-tech VC activity confirmed. Luxembourg entities and Prague contact do not settle main management location; retain unresolved.",
+        "baselineScope": "unresolved",
+        "changedFields": [
+          "stages",
+          "investment"
+        ],
+        "sources": [
+          "tensor-office",
+          "tensor-deal",
+          "tensor-valka"
+        ]
+      },
+      {
+        "investorId": "kaya",
+        "reviewer": "Codex",
+        "reviewerType": "ai",
+        "reviewedAt": "2026-10-16",
+        "independent": false,
+        "outcome": "eligible",
+        "note": "Official About page explicitly identifies Prague as the base despite international offices. Dated newsletter establishes Yoneda participation; amount ambiguity retained.",
+        "baselineScope": "unresolved",
+        "changedFields": [
+          "office",
+          "investment",
+          "scopeStatus"
+        ],
+        "sources": [
+          "kaya-office",
+          "kaya-strategy",
+          "kaya-deal"
+        ]
+      },
+      {
+        "investorId": "miton",
+        "reviewer": "Codex",
+        "reviewerType": "ai",
+        "reviewedAt": "2026-10-16",
+        "independent": false,
+        "outcome": "eligible",
+        "note": "Own-capital venture investment group with Prague operational office, stated startup stages and ticket range, and dated ACE agreement. Included by activity, not fund legal form.",
+        "baselineScope": "unresolved",
+        "changedFields": [
+          "office",
+          "stages",
+          "ticket",
+          "investment",
+          "scopeStatus"
+        ],
+        "sources": [
+          "miton-approach",
+          "miton-strategy",
+          "miton-ace"
+        ]
+      }
+    ]
+  },
+  "intakeVersion": "2026-10-16.cvca-complete-1"
+}

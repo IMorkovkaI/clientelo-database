@@ -1,0 +1,37 @@
+{
+  "provider": "Ministry of Finance of the Czech Republic, ARES",
+  "purpose": "Minimal legal-entity corroboration; not investment proof",
+  "kurzyAttempt": "Automated retrieval blocked by robots.txt on 2026-10-16; no Kurzy facts incorporated",
+  "records": [
+    {
+      "ico": "23823445",
+      "legalName": "JSK Investments SICAV a.s.",
+      "country": "CZ",
+      "registeredAddress": "Klimentská 1216/46, Nové Město, 11000 Praha 1",
+      "incorporatedAt": "2025-10-09",
+      "registryUpdatedAt": "2026-09-20",
+      "sourceUrl": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/23823445",
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "ico": "05775574",
+      "legalName": "Purple Ventures s.r.o.",
+      "country": "CZ",
+      "registeredAddress": "Masarykova 409/26, Brno-město, 60200 Brno",
+      "incorporatedAt": "2017-02-03",
+      "registryUpdatedAt": "2026-04-06",
+      "sourceUrl": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/05775574",
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "ico": "08220867",
+      "legalName": "J&T Ventures CG SICAV a.s.",
+      "country": "CZ",
+      "registeredAddress": "Sokolovská 700/113a, Karlín, 18600 Praha 8",
+      "incorporatedAt": "2019-05-31",
+      "registryUpdatedAt": "2026-09-21",
+      "sourceUrl": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08220867",
+      "retrievedAt": "2026-10-16"
+    }
+  ]
+}

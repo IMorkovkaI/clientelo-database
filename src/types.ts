@@ -5,6 +5,7 @@ export interface Claim<T> {
   status: "supported" | Missing;
   sources: string[];
   note?: string;
+  basis?: "portfolio_observation";
 }
 export interface Source {
   id: string;
@@ -32,6 +33,7 @@ export interface Capital {
 }
 export interface Investment {
   company: string;
+  evidencePublishedAt: string | null;
   announcedAt: string | null;
   transactionDate: string | null;
   roundSize: number | null;
@@ -57,7 +59,15 @@ export interface Investor {
   investment: Claim<Investment>;
   scopeStatus: "eligible" | "unresolved" | "ineligible";
   evidenceStatus: "sufficient" | "insufficient" | "conflicting";
-  reviewStatus: "pending" | "reviewed";
+  reviewStatus: "pending" | "agent_reviewed" | "reviewed";
+  sourceReview?: {
+    reviewer: string;
+    reviewerType: "ai";
+    reviewedAt: string;
+    independent: false;
+    outcome: "eligible" | "unresolved" | "ineligible";
+    note: string;
+  };
   lastChecked: string;
   limitations: string[];
 }

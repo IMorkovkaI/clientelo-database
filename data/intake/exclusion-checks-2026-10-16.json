@@ -1,0 +1,43 @@
+{
+  "reviewedAt": "2026-10-16",
+  "reviewerType": "ai",
+  "purpose": "Source-supported negative controls for scope tests; not an independent accuracy sample.",
+  "records": [
+    {
+      "id": "directory-1",
+      "name": "Abris Capital",
+      "url": "https://cvca.cz/en/abris-capital-2/",
+      "primaryUrl": "https://abris-capital.com/",
+      "country": "Poland",
+      "strategy": "PE / buyouts",
+      "reason": "Warsaw listing and primary site PE strategy; CVCA membership and Czech portfolio company do not establish Czech VC eligibility.",
+      "expectedDecision": "out_of_scope",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "id": "directory-3",
+      "name": "CVI",
+      "url": "https://cvca.cz/en/cvi-2/",
+      "primaryUrl": null,
+      "country": "Poland",
+      "strategy": "Private debt",
+      "reason": "Warsaw-listed direct lender; exceptional minority equity does not establish a Czech VC mandate. Primary website retrieval failed; decision is scoped to the association evidence.",
+      "expectedDecision": "out_of_scope",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "id": "directory-2",
+      "name": "ARX Equity Partners",
+      "url": "https://cvca.cz/en/arx-equity-partners-2/",
+      "primaryUrl": "https://www.arxequity.com/",
+      "country": "Czechia",
+      "strategy": "PE / buyouts",
+      "reason": "Prague-listed PE acquisitions and buyouts; primary site shows majority acquisitions. A Czech address alone does not make a VC investor.",
+      "expectedDecision": "out_of_scope",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-16"
+    }
+  ]
+}

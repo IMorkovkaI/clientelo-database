@@ -1,0 +1,371 @@
+{
+  "version": "2026-10-16-preview.6",
+  "reviewedAt": "2026-10-16",
+  "method": "AI-assisted source-by-source review; same agent, not blinded or independent",
+  "baseline": "data/baselines/2026-10-15/",
+  "reviews": [
+    {
+      "investorId": "credo",
+      "reviewer": "Codex",
+      "reviewerType": "ai",
+      "reviewedAt": "2026-10-16",
+      "independent": false,
+      "outcome": "eligible",
+      "note": "Company profile linked from the official website explicitly identifies Prague headquarters, corroborated by the Prague-issued manifesto and operational address. Existing dated ElevenLabs participation establishes VC activity. Czech management criterion is now met.",
+      "baselineScope": "unresolved",
+      "changedFields": [
+        "capital",
+        "investment",
+        "office",
+        "scopeStatus",
+        "type"
+      ],
+      "sources": [
+        "credo-strategy",
+        "credo-capital",
+        "credo-deal",
+        "credo-headquarters",
+        "credo-manifesto"
+      ]
+    },
+    {
+      "investorId": "purple",
+      "reviewer": "Codex",
+      "reviewerType": "ai",
+      "reviewedAt": "2026-10-16",
+      "independent": false,
+      "outcome": "eligible",
+      "note": "Official site describes Purple as Brno-based; strategy and Sloneek’s dated announcement establish venture investment. Brno base is an explicit inference from narrative plus office evidence. ARES legal-entity corroboration added by IČO on 16 October 2026; not an investment or regulatory-authorisation check.",
+      "baselineScope": "unresolved",
+      "changedFields": [
+        "office",
+        "capital",
+        "investment",
+        "scopeStatus",
+        "focus",
+        "legalDomicile"
+      ],
+      "sources": [
+        "purple-strategy",
+        "purple-capital",
+        "sloneek-round-2024",
+        "purple-portfolio",
+        "purple-legal-page",
+        "purple-ares"
+      ]
+    },
+    {
+      "investorId": "presto",
+      "reviewer": "Codex",
+      "reviewerType": "ai",
+      "reviewedAt": "2026-10-16",
+      "independent": false,
+      "outcome": "eligible",
+      "note": "Current Prague operational office corroborated by CVCA’s Prague-based description. Sloneek confirms Presto’s 2022 investment in a dated 2024 publication.",
+      "baselineScope": "unresolved",
+      "changedFields": [
+        "office",
+        "capital",
+        "investment",
+        "scopeStatus"
+      ],
+      "sources": [
+        "presto-strategy",
+        "presto-base",
+        "presto-capital",
+        "sloneek-round-2024"
+      ]
+    },
+    {
+      "investorId": "look",
+      "reviewer": "Codex",
+      "reviewerType": "ai",
+      "reviewedAt": "2026-10-16",
+      "independent": false,
+      "outcome": "eligible",
+      "note": "Rechecked Prague-based VC identity and strategy against the official site and Sodex participation against the dated announcement.",
+      "baselineScope": "eligible",
+      "changedFields": [
+        "investment"
+      ],
+      "sources": [
+        "look-strategy",
+        "look-deal"
+      ]
+    },
+    {
+      "investorId": "jt",
+      "reviewer": "Codex",
+      "reviewerType": "ai",
+      "reviewedAt": "2026-10-16",
+      "independent": false,
+      "outcome": "eligible",
+      "note": "Rechecked Prague VC identity, criteria and participation in the dated grid.online announcement. ARES legal-entity corroboration added by IČO on 16 October 2026; not an investment or regulatory-authorisation check.",
+      "baselineScope": "eligible",
+      "changedFields": [
+        "investment",
+        "legalDomicile"
+      ],
+      "sources": [
+        "jt-strategy",
+        "jt-focus",
+        "jt-deal",
+        "jt-legal-page",
+        "jt-ares"
+      ]
+    },
+    {
+      "investorId": "tensor",
+      "reviewer": "Codex",
+      "reviewerType": "ai",
+      "reviewedAt": "2026-10-16",
+      "independent": false,
+      "outcome": "eligible",
+      "note": "EIF identifies Tensor Advisory's team in Czechia, corroborating the current Prague office. Existing dated ValkaAI evidence confirms direct VC activity; Luxembourg fund domicile is separate.",
+      "baselineScope": "unresolved",
+      "changedFields": [
+        "stages",
+        "investment",
+        "office",
+        "scopeStatus"
+      ],
+      "sources": [
+        "tensor-office",
+        "tensor-deal",
+        "tensor-valka",
+        "cvca-promotion-eif-team"
+      ]
+    },
+    {
+      "investorId": "kaya",
+      "reviewer": "Codex",
+      "reviewerType": "ai",
+      "reviewedAt": "2026-10-16",
+      "independent": false,
+      "outcome": "eligible",
+      "note": "Official About page explicitly identifies Prague as the base despite international offices. Dated newsletter establishes Yoneda participation; amount ambiguity retained.",
+      "baselineScope": "unresolved",
+      "changedFields": [
+        "office",
+        "investment",
+        "scopeStatus"
+      ],
+      "sources": [
+        "kaya-office",
+        "kaya-strategy",
+        "kaya-deal"
+      ]
+    },
+    {
+      "investorId": "miton",
+      "reviewer": "Codex",
+      "reviewerType": "ai",
+      "reviewedAt": "2026-10-16",
+      "independent": false,
+      "outcome": "eligible",
+      "note": "Own-capital venture investment group with Prague operational office, stated startup stages and ticket range, and dated ACE agreement. Included by activity, not fund legal form.",
+      "baselineScope": "unresolved",
+      "changedFields": [
+        "office",
+        "stages",
+        "ticket",
+        "investment",
+        "scopeStatus",
+        "focus"
+      ],
+      "sources": [
+        "miton-approach",
+        "miton-strategy",
+        "miton-ace",
+        "miton-portfolio"
+      ]
+    },
+    {
+      "investorId": "directory-4",
+      "reviewer": "Codex",
+      "reviewerType": "ai",
+      "reviewedAt": "2026-10-16",
+      "independent": false,
+      "outcome": "eligible",
+      "note": "Current strategy, dated Tatum participation and corroborated Prague operations meet the Czech VC pilot rules.",
+      "baselineScope": null,
+      "reviewFrame": "cvca_expansion_2026-10-16",
+      "changedFields": [
+        "profile"
+      ],
+      "sources": [
+        "depo-current",
+        "depo-base",
+        "depo-team",
+        "depo-tatum"
+      ]
+    },
+    {
+      "investorId": "directory-9",
+      "reviewer": "Codex",
+      "reviewerType": "ai",
+      "reviewedAt": "2026-10-16",
+      "independent": false,
+      "outcome": "eligible",
+      "note": "EIF identifies the investment team in Czechia; current Prague adviser and dated iQure participation support inclusion despite Luxembourg fund headquarters.",
+      "baselineScope": null,
+      "reviewFrame": "cvca_expansion_2026-10-16",
+      "changedFields": [
+        "profile"
+      ],
+      "sources": [
+        "cvca-promotion-eif-team",
+        "ibio-current",
+        "ibio-deal",
+        "ibio-capital"
+      ]
+    },
+    {
+      "investorId": "directory-12",
+      "reviewer": "Codex",
+      "reviewerType": "ai",
+      "reviewedAt": "2026-10-16",
+      "independent": false,
+      "outcome": "eligible",
+      "note": "Official team and owner evidence corroborate Czech operations; EIB confirms VC strategy and CEZ's dated Vytal release confirms investment.",
+      "baselineScope": null,
+      "reviewFrame": "cvca_expansion_2026-10-16",
+      "changedFields": [
+        "profile"
+      ],
+      "sources": [
+        "inven-current",
+        "inven-base",
+        "inven-eib",
+        "inven-vytal"
+      ]
+    },
+    {
+      "investorId": "directory-22",
+      "reviewer": "Codex",
+      "reviewerType": "ai",
+      "reviewedAt": "2026-10-16",
+      "independent": false,
+      "outcome": "eligible",
+      "note": "Czech team/Prague base, an explicit venture strategy and FaceUp's dated participation announcement satisfy the pilot criteria.",
+      "baselineScope": null,
+      "reviewFrame": "cvca_expansion_2026-10-16",
+      "changedFields": [
+        "profile"
+      ],
+      "sources": [
+        "cvca-promotion-eif-team",
+        "tilia-current",
+        "tilia-faceup",
+        "tilia-strategy",
+        "tilia-capital"
+      ]
+    },
+    {
+      "investorId": "directory-13",
+      "reviewer": "Codex",
+      "reviewerType": "ai",
+      "reviewedAt": "2026-10-16",
+      "independent": false,
+      "outcome": "eligible",
+      "note": "The dedicated Jet venture strategy, Brno headquarters and dated Headmade investment qualify. Parent PE activity is excluded from profile criteria.",
+      "baselineScope": null,
+      "reviewFrame": "cvca_expansion_2026-10-16",
+      "changedFields": [
+        "profile"
+      ],
+      "sources": [
+        "jet-base",
+        "jet-current",
+        "jet-capital",
+        "jet-headmade"
+      ]
+    },
+    {
+      "investorId": "cvca-jsk-investments",
+      "reviewer": "Codex",
+      "reviewerType": "ai",
+      "reviewedAt": "2026-10-16",
+      "independent": false,
+      "outcome": "eligible",
+      "note": "Named venture strategy and self-managed investment leadership, Prague operations and dated MintNeuro investment meet pilot rules. ARES legal-entity corroboration added by IČO on 16 October 2026; not an investment or regulatory-authorisation check.",
+      "baselineScope": null,
+      "reviewFrame": "cvca_expansion_2026-10-16",
+      "changedFields": [
+        "profile",
+        "legalDomicile",
+        "stages",
+        "capital.note"
+      ],
+      "sources": [
+        "jsk-current",
+        "jsk-base",
+        "jsk-mintneuro",
+        "jsk-statute",
+        "jsk-ares"
+      ]
+    },
+    {
+      "investorId": "directory-17",
+      "reviewer": "Codex",
+      "reviewerType": "ai",
+      "reviewedAt": "2026-10-16",
+      "independent": false,
+      "outcome": "eligible",
+      "note": "Explicit Prague headquarters, matching official equity team and Mews' dated equity announcement meet the Czech VC pilot rules. Growth equity is scoped separately from debt; financial uncertainty remains visible.",
+      "baselineScope": null,
+      "reviewFrame": "cvca_expansion_2026-10-16",
+      "changedFields": [
+        "profile"
+      ],
+      "sources": [
+        "orbit-headquarters",
+        "orbit-equity",
+        "orbit-cvca",
+        "orbit-mews"
+      ]
+    },
+    {
+      "investorId": "reflex",
+      "reviewer": "Codex",
+      "reviewerType": "ai",
+      "reviewedAt": "2026-10-16",
+      "independent": false,
+      "outcome": "eligible",
+      "note": "Explicit Prague headquarters, corroborated operating office, early-stage VC strategy and dated grid.online participation meet pilot rules despite financial gaps.",
+      "baselineScope": null,
+      "reviewFrame": "public_source_expansion_2026-10-16",
+      "changedFields": [
+        "profile"
+      ],
+      "sources": [
+        "reflex-base",
+        "reflex-headquarters",
+        "reflex-portfolio",
+        "jt-deal"
+      ]
+    },
+    {
+      "investorId": "rockaway",
+      "reviewer": "Codex",
+      "reviewerType": "ai",
+      "reviewedAt": "2026-10-16",
+      "independent": false,
+      "outcome": "eligible",
+      "note": "Company-authored Prague headquarters, official contact, explicit seed/Series A strategy and dated Remix participation meet pilot rules. Unknown financial values remain visible.",
+      "baselineScope": null,
+      "reviewFrame": "public_source_expansion_2026-10-16",
+      "changedFields": [
+        "profile"
+      ],
+      "sources": [
+        "rockaway-base",
+        "rockaway-headquarters",
+        "rockaway-strategy",
+        "rockaway-remix",
+        "rockaway-capital-check",
+        "rockaway-group-fund"
+      ]
+    }
+  ]
+}

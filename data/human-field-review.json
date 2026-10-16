@@ -1,0 +1,44 @@
+{
+  "reviewedAt": "2026-10-16",
+  "reviewer": "Project owner (reported in project chat)",
+  "reviewerType": "human",
+  "reviewedVersion": "2026-10-16-preview.4",
+  "independent": false,
+  "blinded": false,
+  "method": "User reports manually checking linked sources for all 15 preview.4 investors in five sections, then explicitly confirms no incorrect populated values. The aggregate verdict was supplied in project chat; no cell-by-cell verdict sheet was supplied.",
+  "aggregateVerdict": {
+    "reportedAt": "2026-10-16",
+    "incorrectPopulatedFields": 0,
+    "statement": "No incorrect populated values found",
+    "basis": "Explicit answer to the question about 62 populated fields and 13 unknown fields in the preserved 15-profile version."
+  },
+  "fields": [
+    "sectors",
+    "stages",
+    "geography",
+    "focus",
+    "ticket"
+  ],
+  "investorIds": [
+    "credo",
+    "purple",
+    "presto",
+    "look",
+    "jt",
+    "tensor",
+    "kaya",
+    "miton",
+    "directory-4",
+    "directory-9",
+    "directory-12",
+    "directory-22",
+    "directory-13",
+    "cvca-jsk-investments",
+    "directory-17"
+  ],
+  "observations": [
+    "User generally endorsed the gathered sources and identified missing contextual information for JSK, Miton and Purple.",
+    "Unknown values may be appropriate where disclosure is absent."
+  ],
+  "limitation": "Supports owner-reported source agreement on 62 populated fields, not 75 passed judgments. The 13 unknown fields and omissions are separate. Purposive, unblinded review; fields cluster within profiles. Identity, Czech management base, dated investment participation and capital were outside the clarified scope. Later edits and new profiles are not covered. No entity precision, population confidence interval or worldwide accuracy is established."
+}

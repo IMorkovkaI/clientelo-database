@@ -3,8 +3,8 @@
     "id": "credo",
     "name": "Credo Ventures",
     "discoverySource": "https://www.credoventures.com/",
-    "systemDecision": "unresolved",
-    "reason": "Main management location needs explicit confirmation across its offices. Founder origin is a condition; company location alone cannot establish geographic fit. The cited deal is the latest captured here, not necessarily the latest actual investment.",
+    "systemDecision": "accepted",
+    "reason": "Company profile linked from the official website explicitly identifies Prague headquarters, corroborated by the Prague-issued manifesto and operational address. Existing dated ElevenLabs participation establishes VC activity. Czech management criterion is now met.",
     "research": "profile",
     "samplingGroup": "purposive_development"
   },
@@ -12,8 +12,8 @@
     "id": "purple",
     "name": "Purple Ventures",
     "discoverySource": "https://www.purple-ventures.com/",
-    "systemDecision": "unresolved",
-    "reason": "CEE+ is conservatively normalized to CEE; additional countries need confirmation. Main management office and a dated investment announcement remain unresolved.",
+    "systemDecision": "accepted",
+    "reason": "Official site describes Purple as Brno-based; strategy and Sloneek’s dated announcement establish venture investment. Brno base is an explicit inference from narrative plus office evidence.",
     "research": "profile",
     "samplingGroup": "purposive_development"
   },
@@ -21,8 +21,8 @@
     "id": "presto",
     "name": "Presto Ventures",
     "discoverySource": "https://www.prestoventures.com/",
-    "systemDecision": "unresolved",
-    "reason": "The new fund headline is not used as confirmed closed capital. NATO & allies matching uses a documented small country mapping; other countries need review.",
+    "systemDecision": "accepted",
+    "reason": "Current Prague operational office corroborated by CVCA’s Prague-based description. Sloneek confirms Presto’s 2022 investment in a dated 2024 publication.",
     "research": "profile",
     "samplingGroup": "purposive_development"
   },
@@ -31,7 +31,7 @@
     "name": "Look AI Ventures",
     "discoverySource": "https://lookai.vc/",
     "systemDecision": "accepted",
-    "reason": "Initial evidence gate met; independent audit pending.",
+    "reason": "Rechecked Prague-based VC identity and strategy against the official site and Sodex participation against the dated announcement.",
     "research": "profile",
     "samplingGroup": "purposive_development"
   },
@@ -40,7 +40,7 @@
     "name": "J&T Ventures",
     "discoverySource": "https://www.jtventures.cz/",
     "systemDecision": "accepted",
-    "reason": "Initial evidence gate met; independent audit pending.",
+    "reason": "Rechecked Prague VC identity, criteria and participation in the dated grid.online announcement.",
     "research": "profile",
     "samplingGroup": "purposive_development"
   },
@@ -48,8 +48,8 @@
     "id": "tensor",
     "name": "Tensor Ventures",
     "discoverySource": "https://tensor.ventures/",
-    "systemDecision": "unresolved",
-    "reason": "Czech presence alone does not prove the main management office. €50M is a fundraising target, not confirmed commitments.",
+    "systemDecision": "accepted",
+    "reason": "EIF identifies Tensor Advisory's team in Czechia, corroborating the current Prague office. Existing dated ValkaAI evidence confirms direct VC activity; Luxembourg fund domicile is separate.",
     "research": "profile",
     "samplingGroup": "purposive_development"
   },
@@ -57,8 +57,8 @@
     "id": "kaya",
     "name": "KAYA VC",
     "discoverySource": "https://www.kaya.vc/",
-    "systemDecision": "unresolved",
-    "reason": "Capital figures have no explicit as-of date. A dated investment announcement remains to be captured. Founder origin is distinct from company geography.",
+    "systemDecision": "accepted",
+    "reason": "Official About page explicitly identifies Prague as the base despite international offices. Dated newsletter establishes Yoneda participation; amount ambiguity retained.",
     "research": "profile",
     "samplingGroup": "purposive_development"
   },
@@ -66,8 +66,8 @@
     "id": "miton",
     "name": "Miton",
     "discoverySource": "https://www.miton.cz/",
-    "systemDecision": "unresolved",
-    "reason": "VC eligibility and main management location require review. Portfolio value is not capital available for new investments.",
+    "systemDecision": "accepted",
+    "reason": "Own-capital venture investment group with Prague operational office, stated startup stages and ticket range, and dated ACE agreement. Included by activity, not fund legal form.",
     "research": "profile",
     "samplingGroup": "purposive_development"
   },
@@ -75,36 +75,36 @@
     "id": "directory-1",
     "name": "Abris Capital",
     "discoverySource": "https://cvca.cz/en/membership/",
-    "systemDecision": "unresolved",
-    "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
-    "research": "discovery_only",
+    "systemDecision": "out_of_scope",
+    "reason": "Warsaw listing and primary site PE strategy; CVCA membership and Czech portfolio company do not establish Czech VC eligibility. Sources checked 2026-10-16: https://cvca.cz/en/abris-capital-2/; https://abris-capital.com/",
+    "research": "screened",
     "samplingGroup": "directory_frame"
   },
   {
     "id": "directory-2",
     "name": "ARX Equity Partners",
     "discoverySource": "https://cvca.cz/en/membership/",
-    "systemDecision": "unresolved",
-    "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
-    "research": "discovery_only",
+    "systemDecision": "out_of_scope",
+    "reason": "Prague-listed PE acquisitions and buyouts; primary site shows majority acquisitions. A Czech address alone does not make a VC investor. Sources checked 2026-10-16: https://cvca.cz/en/arx-equity-partners-2/; https://www.arxequity.com/",
+    "research": "screened",
     "samplingGroup": "directory_frame"
   },
   {
     "id": "directory-3",
     "name": "CVI",
     "discoverySource": "https://cvca.cz/en/membership/",
-    "systemDecision": "unresolved",
-    "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
-    "research": "discovery_only",
+    "systemDecision": "out_of_scope",
+    "reason": "Warsaw-listed direct lender; exceptional minority equity does not establish a Czech VC mandate. Primary website retrieval failed; decision is scoped to the association evidence. Sources checked 2026-10-16: https://cvca.cz/en/cvi-2/",
+    "research": "screened",
     "samplingGroup": "directory_frame"
   },
   {
     "id": "directory-4",
     "name": "DEPO Ventures",
     "discoverySource": "https://cvca.cz/en/membership/",
-    "systemDecision": "unresolved",
-    "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
-    "research": "discovery_only",
+    "systemDecision": "accepted",
+    "reason": "Current strategy, dated Tatum participation and corroborated Prague operations meet the Czech VC pilot rules.",
+    "research": "profile",
     "samplingGroup": "directory_frame"
   },
   {
@@ -145,11 +145,11 @@
   },
   {
     "id": "directory-9",
-    "name": "i&i Biotech Investments",
+    "name": "i&i Bio",
     "discoverySource": "https://cvca.cz/en/membership/",
-    "systemDecision": "unresolved",
-    "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
-    "research": "discovery_only",
+    "systemDecision": "accepted",
+    "reason": "EIF identifies the investment team in Czechia; current Prague adviser and dated iQure participation support inclusion despite Luxembourg fund headquarters.",
+    "research": "profile",
     "samplingGroup": "directory_frame"
   },
   {
@@ -174,18 +174,18 @@
     "id": "directory-12",
     "name": "Inven Capital",
     "discoverySource": "https://cvca.cz/en/membership/",
-    "systemDecision": "unresolved",
-    "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
-    "research": "discovery_only",
+    "systemDecision": "accepted",
+    "reason": "Official team and owner evidence corroborate Czech operations; EIB confirms VC strategy and CEZ's dated Vytal release confirms investment.",
+    "research": "profile",
     "samplingGroup": "directory_frame"
   },
   {
     "id": "directory-13",
-    "name": "Jet Investment",
+    "name": "Jet Ventures (Jet Investment)",
     "discoverySource": "https://cvca.cz/en/membership/",
-    "systemDecision": "unresolved",
-    "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
-    "research": "discovery_only",
+    "systemDecision": "accepted",
+    "reason": "The dedicated Jet venture strategy, Brno headquarters and dated Headmade investment qualify. Parent PE activity is excluded from profile criteria.",
+    "research": "profile",
     "samplingGroup": "directory_frame"
   },
   {
@@ -211,17 +211,17 @@
     "name": "Nation1",
     "discoverySource": "https://cvca.cz/en/membership/",
     "systemDecision": "unresolved",
-    "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
-    "research": "discovery_only",
+    "reason": "Nation1/N1 is a real early-stage investor, but the current team is split between Prague and San Francisco with no explicit main management base. Remains outside live profiles pending that evidence; Luxembourg fund presence alone neither admits nor excludes it. Sources checked 2026-10-16: https://n1.rocks/; https://cvca.cz/en/nation1-2/",
+    "research": "screened",
     "samplingGroup": "directory_frame"
   },
   {
     "id": "directory-17",
-    "name": "Orbit Capital",
+    "name": "Orbit Capital — Growth Equity",
     "discoverySource": "https://cvca.cz/en/membership/",
-    "systemDecision": "unresolved",
-    "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
-    "research": "discovery_only",
+    "systemDecision": "accepted",
+    "reason": "Explicit Prague headquarters, matching official equity team and Mews' dated equity announcement meet the Czech VC pilot rules. Growth equity is scoped separately from debt; financial uncertainty remains visible.",
+    "research": "profile",
     "samplingGroup": "directory_frame"
   },
   {
@@ -237,9 +237,9 @@
     "id": "directory-19",
     "name": "SkyLimit Investments",
     "discoverySource": "https://cvca.cz/en/membership/",
-    "systemDecision": "unresolved",
-    "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
-    "research": "discovery_only",
+    "systemDecision": "out_of_scope",
+    "reason": "Official source identifies SkyLimit Investments as founder of the Industry fund and describes controlling-stake purchases of established profitable engineering firms. Inspected PE/buyout strategy falls outside the VC pilot. Sources checked 2026-10-16: https://www.skylimit.cz/o-nas",
+    "research": "screened",
     "samplingGroup": "directory_frame"
   },
   {
@@ -256,17 +256,17 @@
     "name": "Thein",
     "discoverySource": "https://cvca.cz/en/membership/",
     "systemDecision": "unresolved",
-    "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
-    "research": "discovery_only",
+    "reason": "Primary Industry page confirms majority/full acquisitions in traditional engineering; CVCA lists LBO/growth capital. No qualifying startup VC strategy established for the broader Thein group. Keep outside live profiles; do not infer VC from technology sectors. Sources checked 2026-10-16: https://www.theinindustry.com/industry/; https://cvca.cz/en/thein-2/",
+    "research": "screened",
     "samplingGroup": "directory_frame"
   },
   {
     "id": "directory-22",
     "name": "Tilia Impact Ventures",
     "discoverySource": "https://cvca.cz/en/membership/",
-    "systemDecision": "unresolved",
-    "reason": "Discovery only; verify current identity, Czech management, VC strategy and dated direct investment.",
-    "research": "discovery_only",
+    "systemDecision": "accepted",
+    "reason": "Czech team/Prague base, an explicit venture strategy and FaceUp's dated participation announcement satisfy the pilot criteria.",
+    "research": "profile",
     "samplingGroup": "directory_frame"
   },
   {
@@ -322,5 +322,32 @@
     "reason": "Directory describes association or professional services; not a qualifying VC organization.",
     "research": "discovery_only",
     "samplingGroup": "directory_frame"
+  },
+  {
+    "id": "cvca-jsk-investments",
+    "name": "JSK Investments — Venture Capital",
+    "discoverySource": "https://cvca.cz/en/jsk-investments-en/",
+    "samplingGroup": "cvca_expansion_2026-10-16",
+    "systemDecision": "accepted",
+    "reason": "Named venture strategy and self-managed investment leadership, Prague operations and dated MintNeuro investment meet pilot rules.",
+    "research": "profile"
+  },
+  {
+    "id": "reflex",
+    "name": "Reflex Capital",
+    "discoverySource": "https://www.reflexcapital.com/",
+    "samplingGroup": "public_source_expansion_2026-10-16",
+    "systemDecision": "accepted",
+    "reason": "Explicit Prague headquarters, corroborated operating office, early-stage VC strategy and dated grid.online participation meet pilot rules despite financial gaps.",
+    "research": "profile"
+  },
+  {
+    "id": "rockaway",
+    "name": "Rockaway Ventures",
+    "discoverySource": "https://rockawayventures.com/",
+    "samplingGroup": "public_source_expansion_2026-10-16",
+    "systemDecision": "accepted",
+    "reason": "Company-authored Prague headquarters, official contact, explicit seed/Series A strategy and dated Remix participation meet pilot rules. Unknown financial values remain visible.",
+    "research": "profile"
   }
 ]

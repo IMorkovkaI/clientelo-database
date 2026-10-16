@@ -28,6 +28,10 @@ import {
 } from "lucide-react";
 import raw from "../data/investors.json";
 import candidates from "../data/candidates.json";
+import expansion from "../reports/expansion-results.json";
+import reviewResults from "../reports/source-review-results.json";
+import humanFieldReview from "../data/human-field-review.json";
+import fieldReviewResults from "../reports/human-field-review-results.json";
 import type {
   Claim,
   Criterion,
@@ -43,6 +47,7 @@ import {
   rankInvestors,
   matches,
   isRecent,
+  evidenceDate,
 } from "./ranking";
 import { moveDraft, parseSaved, STORAGE_KEY } from "./storage";
 import {
@@ -82,6 +87,15 @@ const options = {
   ],
   focus: ["B2B", "B2C", "Software", "Hardware", "Marketplaces", "Dual-use"],
 };
+for (const key of ["sectors", "stages", "focus"] as const) {
+  options[key] = [
+    ...new Set([
+      ...options[key],
+      ...dataset.investors.flatMap((i) => i[key].value ?? []),
+    ]),
+  ].sort();
+}
+options.geography.push("Austria", "Switzerland");
 const byId = (id: string) => dataset.investors.find((i) => i.id === id)!;
 const baseUrl = import.meta.env.BASE_URL;
 type View = "investors" | "draft" | "compare" | "methodology";
@@ -89,7 +103,9 @@ function readInitial(): SavedState {
   try {
     return parseSaved(
       localStorage.getItem(STORAGE_KEY),
-      dataset.investors.map((i) => i.id),
+      dataset.investors
+        .filter((i) => i.scopeStatus === "eligible")
+        .map((i) => i.id),
     );
   } catch {
     return parseSaved(null, []);
@@ -124,8 +140,10 @@ function Evidence({
           return s ? (
             <article key={id}>
               <div className="eyebrow">
-                {s.kind === "primary" ? "Primary source" : "Discovery source"} ·{" "}
-                {s.publisher}
+                {s.kind === "primary"
+                  ? "Primary source"
+                  : "Institutional source"}{" "}
+                · {s.publisher}
               </div>
               <h4>{s.title}</h4>
               <blockquote>“{s.excerpt}”</blockquote>
@@ -163,7 +181,7 @@ function ClaimValue<T>({
       <span className={missing ? "missing" : ""}>
         {claimText(claim, format)}
       </span>
-      {missing && claim.note && <small>{claim.note}</small>}
+      {claim.note && <small>{claim.note}</small>}
       <Evidence ids={claim.sources} />
     </div>
   );
@@ -234,7 +252,7 @@ export default function App() {
   const [selected, setSelected] = useState<string[]>([]);
   const [onlyDifferences, setOnlyDifferences] = useState(false);
   const [mobileFilters, setMobileFilters] = useState(false);
-  const [exporting, setExporting] = useState(false);
+  const [exporting, setExporting] = useState<"csv" | "xlsx" | null>(null);
   const [storageError, setStorageError] = useState(false);
   const [toast, setToast] = useState<{
     text: string;
@@ -347,14 +365,14 @@ export default function App() {
     );
   }
   async function download(format: "csv" | "xlsx") {
-    setExporting(true);
+    setExporting(format);
     try {
       await exportDraft(format, draft, dataset);
-      setToast({ text: `Final draft exported as ${format.toUpperCase()}` });
+      setToast({ text: `${format.toUpperCase()} download started` });
     } catch {
       setToast({ text: "Export failed. Please try again." });
     } finally {
-      setExporting(false);
+      setExporting(null);
     }
   }
   function AddButton({
@@ -488,7 +506,8 @@ export default function App() {
           Include unknown values
         </label>
         <p className="small muted inset">
-          Keep potential matches with missing information.
+          Keep missing details for selected criteria. Czech eligibility is still
+          required.
         </p>
         <label className="check-label">
           <input
@@ -499,7 +518,7 @@ export default function App() {
           Recent investment evidence
         </label>
         <p className="small muted inset">
-          An announcement within 36 months of this dataset.
+          A source published within 36 months; the investment may be older.
         </p>
         <div className="filter-help">
           <Info size={16} />
@@ -533,20 +552,26 @@ export default function App() {
       render: (i) => (
         <ClaimValue
           claim={i.investment}
-          format={(v) => `${v.company} · announced ${dateLabel(v.announcedAt)}`}
+          format={(v) =>
+            `${v.company} · source published ${dateLabel(v.evidencePublishedAt)}`
+          }
         />
       ),
       value: (i) =>
-        claimText(i.investment, (v) => `${v.company} ${v.announcedAt}`),
+        claimText(i.investment, (v) => `${v.company} ${v.evidencePublishedAt}`),
     },
     {
       label: "Evidence status",
       render: (i) => (
         <>
           {i.evidenceStatus === "sufficient"
-            ? "Initial evidence gate met"
+            ? "Pilot inclusion checks met"
             : "Evidence incomplete"}
-          <small>Independent human audit pending</small>
+          <small>
+            {i.reviewStatus === "agent_reviewed"
+              ? "AI source review completed"
+              : "Source review pending"}
+          </small>
         </>
       ),
       value: (i) => i.evidenceStatus,
@@ -616,7 +641,9 @@ export default function App() {
       </header>
       <div className="preview-bar">
         <Info size={14} />
-        <span>Research preview · Public sources, human audit pending.</span>
+        <span>
+          Research preview · AI source review; evidence gaps are shown.
+        </span>
         <button onClick={() => navigate("methodology")}>
           About the data <ArrowUpRight size={13} />
         </button>
@@ -690,7 +717,16 @@ export default function App() {
                 </div>
                 <div className="results-toolbar">
                   <h2 aria-live="polite">
-                    {ranked.length} <span>research profiles</span>
+                    {ranked.length}{" "}
+                    <span>
+                      of{" "}
+                      {
+                        dataset.investors.filter(
+                          (i) => i.scopeStatus === "eligible",
+                        ).length
+                      }{" "}
+                      eligible profiles
+                    </span>
                   </h2>
                   <button
                     className="button secondary mobile-filter-button"
@@ -791,8 +827,8 @@ export default function App() {
                         </strong>
                         <AddButton id={r.investor.id} compact />
                         <span className="audit-label">
-                          {r.investor.evidenceStatus === "sufficient"
-                            ? "Source-backed · audit pending"
+                          {r.investor.scopeStatus === "eligible"
+                            ? "Pilot criteria met · AI reviewed"
                             : "Evidence incomplete"}
                         </span>
                       </div>
@@ -834,27 +870,42 @@ export default function App() {
                   Final draft<span className="title-count">{draft.length}</span>
                 </h1>
                 <p>
-                  Your choices, in your order. Add context before the next
-                  conversation.
+                  Review your notes and order, then download your shortlist.
                 </p>
               </div>
-              <div className="export-actions">
-                <button
-                  disabled={!draft.length || exporting}
-                  className="button secondary"
-                  onClick={() => download("csv")}
+              <div className="export-group">
+                <div
+                  className="export-actions"
+                  role="group"
+                  aria-label="Download Final draft"
+                  aria-describedby="export-description"
                 >
-                  <Download size={16} />
-                  CSV
-                </button>
-                <button
-                  disabled={!draft.length || exporting}
-                  className="button primary"
-                  onClick={() => download("xlsx")}
-                >
-                  <Download size={16} />
-                  {exporting ? "Exporting…" : "Export Excel"}
-                </button>
+                  <button
+                    disabled={!draft.length || exporting !== null}
+                    className="button secondary"
+                    aria-busy={exporting === "csv"}
+                    onClick={() => download("csv")}
+                  >
+                    <Download size={16} />
+                    {exporting === "csv" ? "Preparing CSV…" : "Download CSV"}
+                  </button>
+                  <button
+                    disabled={!draft.length || exporting !== null}
+                    className="button primary"
+                    aria-busy={exporting === "xlsx"}
+                    onClick={() => download("xlsx")}
+                  >
+                    <Download size={16} />
+                    {exporting === "xlsx"
+                      ? "Preparing Excel…"
+                      : "Download Excel"}
+                  </button>
+                </div>
+                <p id="export-description" className="export-description">
+                  {draft.length
+                    ? `${draft.length} ${draft.length === 1 ? "investor" : "investors"} · your order, notes & sources`
+                    : "Add an investor to enable downloads"}
+                </p>
               </div>
             </div>
             <div className="draft-toolbar">
@@ -866,6 +917,11 @@ export default function App() {
                 Back to results
               </button>
               <span className="small muted">
+                {storageError ? (
+                  <Info size={14} aria-hidden="true" />
+                ) : (
+                  <Check size={14} aria-hidden="true" />
+                )}
                 {storageError ? "Session only" : "Saved in this browser"}
               </span>
               <button
@@ -970,7 +1026,7 @@ export default function App() {
                               rows={2}
                               maxLength={2000}
                               aria-label={`Note for ${i.name}`}
-                              placeholder="Why this investor?"
+                              placeholder="Add a note…"
                               value={d.note}
                               onChange={(e) =>
                                 setSaved((s) => ({
@@ -1151,10 +1207,11 @@ export default function App() {
                   Behind every profile.
                 </h1>
                 <p>
-                  What is known, what is missing, and what still needs a person.
+                  What is known, what is missing, and what the research still
+                  needs to resolve.
                 </p>
               </div>
-              <span className="badge amber">Independent audit pending</span>
+              <span className="badge amber">AI source review</span>
             </div>
             <div className="method-layout">
               <section>
@@ -1181,12 +1238,12 @@ export default function App() {
                   </li>
                 </ol>
                 <p>
-                  Unresolved candidates remain in research preview. They are
-                  never exported as human-verified investors. Discovery-only
-                  entries are available in the candidate file, not presented as
-                  researched investor profiles.
+                  Missing ticket, capital or focus details can be included.
+                  Identity, Czech management and investment evidence must still
+                  meet the rules. Unresolved and excluded candidates stay in the
+                  candidate file, outside search and Final draft.
                 </p>
-                <h3>Current release: {dataset.version}</h3>
+                <h3>Pilot evidence</h3>
                 <table className="quality-table">
                   <tbody>
                     <tr>
@@ -1198,7 +1255,7 @@ export default function App() {
                       <td>{dataset.investors.length}</td>
                     </tr>
                     <tr>
-                      <th>Initial evidence gate met</th>
+                      <th>Pilot inclusion checks met</th>
                       <td>
                         {
                           dataset.investors.filter(
@@ -1210,12 +1267,41 @@ export default function App() {
                       </td>
                     </tr>
                     <tr>
-                      <th>Human-audited records</th>
-                      <td>0</td>
+                      <th>AI source reviews completed</th>
+                      <td>
+                        {
+                          dataset.investors.filter(
+                            (i) => i.reviewStatus === "agent_reviewed",
+                          ).length
+                        }
+                      </td>
                     </tr>
                     <tr>
                       <th>Precision / recall</th>
-                      <td>Not measured</td>
+                      <td>Independent accuracy not measured</td>
+                    </tr>
+                    <tr>
+                      <th>Owner-reported field source checks</th>
+                      <td>
+                        {humanFieldReview.investorIds.length} prior-version
+                        profiles · five fields
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>Manual source agreement</th>
+                      <td>
+                        {fieldReviewResults.supportedFields} /{" "}
+                        {fieldReviewResults.populatedFields} populated fields ·{" "}
+                        {fieldReviewResults.unknownFields} unknowns separate
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>Baseline positives supported by AI review</th>
+                      <td>
+                        {reviewResults.baselineEvaluation.tp} /{" "}
+                        {reviewResults.baselineEvaluation.evaluatedAccepted} ·
+                        dependent review
+                      </td>
                     </tr>
                     <tr>
                       <th>Typical ticket available</th>
@@ -1232,15 +1318,49 @@ export default function App() {
                       <th>Dated investment evidence</th>
                       <td>
                         {
-                          dataset.investors.filter(
-                            (i) => i.investment.value?.announcedAt,
-                          ).length
+                          dataset.investors.filter((i) => evidenceDate(i))
+                            .length
                         }{" "}
                         / {dataset.investors.length} profiles
                       </td>
                     </tr>
                   </tbody>
                 </table>
+                <h3>Worldwide expansion scenarios</h3>
+                <p>
+                  Planning assumptions, not a census or measured budget. Costs
+                  include research, verification, failed candidates,
+                  deduplication, quality checks, tools and engineering.
+                </p>
+                <table className="quality-table">
+                  <thead>
+                    <tr>
+                      <th>Scenario</th>
+                      <th>Records</th>
+                      <th>Initial EUR</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {expansion.scenarios.map((s) => (
+                      <tr key={s.name}>
+                        <th>{s.name}</th>
+                        <td>{s.accepted.toLocaleString("en-US")}</td>
+                        <td>
+                          {Math.round(s.initialEUR).toLocaleString("en-US")}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+                <p>
+                  The pilot includes a scoped manual accuracy check. The owner
+                  reports checking sector, stage, geography, focus and ticket
+                  sources for {humanFieldReview.investorIds.length} profiles in
+                  the previous dataset and found no incorrect populated values.
+                  This does not establish entity precision or validate later
+                  edits. See the assignment assessment and cost report for
+                  assumptions, sources and annual maintenance.
+                </p>
                 <h3>How suitability works for now</h3>
                 <p>
                   The ranking is a provisional implementation of the chat
@@ -1253,9 +1373,15 @@ export default function App() {
                   confirmation.
                 </p>
                 <p>
+                  Portfolio examples show documented experience, not an
+                  exclusive investment policy. An absent portfolio category
+                  remains unknown. Office location is separate from investment
+                  geography.
+                </p>
+                <p>
                   Policy: {RANKING_POLICY.version}. A score is fit with entered
                   criteria, not the chance of receiving funding. With no
-                  criteria, results use captured investment dates then names.
+                  criteria, results use evidence publication dates then names.
                 </p>
                 <h3>Reading missing information</h3>
                 <dl className="missing-definitions">
@@ -1273,46 +1399,42 @@ export default function App() {
                   Typical tickets, fund sizes, fundraising targets, AUM,
                   portfolio value and funding rounds are different metrics. A
                   whole round is never assigned to an individual investor.
-                  Announcement dates are separate from transaction dates.
-                  “Recent” means evidence captured within 36 months of{" "}
+                  Publication, announcement and transaction dates are separate.
+                  “Recent” means evidence published within 36 months of{" "}
                   {dateLabel(dataset.asOf)}, not proof of available capital.
                 </p>
-                <h3>Remaining human work</h3>
-                <ol>
-                  <li>
-                    Independently audit candidate identity, Czech management, VC
-                    eligibility and investment proof.
-                  </li>
-                  <li>
-                    Review field values against the linked original sources;
-                    resolve conflicts and missing evidence.
-                  </li>
-                  <li>
-                    Freeze a representative evaluation sample and complete the
-                    blind audit template before viewing system decisions.
-                  </li>
-                  <li>
-                    Calculate quality from real human judgments; do not use
-                    software tests as a data accuracy measurement.
-                  </li>
-                  <li>
-                    Approve the final suitability policy and complete a sourced
-                    global coverage and cost estimate.
-                  </li>
-                </ol>
                 <p>
-                  The 36 candidates are a purposive development set plus a
-                  directory discovery frame. They are not a random sample and do
-                  not establish market coverage or global accuracy.
+                  The {candidates.length} candidates are a purposive development
+                  set plus a directory discovery frame and researched additions.
+                  They are not a random sample and do not establish market
+                  coverage or global accuracy.
                 </p>
               </section>
               <aside className="download-panel">
                 <FileText size={23} />
                 <h2>Research package</h2>
                 <p>
-                  Public evidence and an honest starting point for the
-                  independent audit.
+                  Public evidence, review decisions and downloads. The agent
+                  owns the research. Reviewer provenance and assignment limits
+                  are recorded in the assessment.
                 </p>
+                {[
+                  ["assignment_check.md", "Assignment assessment"],
+                  ["research_plan.md", "Research plan"],
+                  ["pilot_results.md", "Pilot evaluation"],
+                  ["pilot_evidence.md", "Investment sources and dates"],
+                  ["global_estimate.md", "Coverage and cost assumptions"],
+                  ["expansion-calculation.md", "Calculated budget"],
+                ].map(([file, title]) => (
+                  <a
+                    className="download-link"
+                    href={`${baseUrl}reports/${file}`}
+                    download
+                    key={file}
+                  >
+                    {title} <Download size={15} />
+                  </a>
+                ))}
                 <a
                   className="download-link"
                   href={`${baseUrl}data/investors.json`}
@@ -1336,10 +1458,17 @@ export default function App() {
                 </a>
                 <a
                   className="download-link"
-                  href={`${baseUrl}data/manual_review_template.csv`}
+                  href={`${baseUrl}data/source-reviews.json`}
                   download
                 >
-                  Blind audit template · CSV <Download size={15} />
+                  AI review log · JSON <Download size={15} />
+                </a>
+                <a
+                  className="download-link"
+                  href={`${baseUrl}data/source-reviewed.csv`}
+                  download
+                >
+                  AI-reviewed profiles · CSV <Download size={15} />
                 </a>
                 <a
                   className="download-link"
@@ -1350,8 +1479,9 @@ export default function App() {
                 </a>
                 <div className="filter-divider" />
                 <p className="small">
-                  These downloads contain research data, not a completed
-                  human-verified release.
+                  These downloads contain research data with AI review
+                  provenance. The owner-reported field check covers the earlier
+                  15-profile version.
                 </p>
                 <a
                   className="text-link"
@@ -1411,7 +1541,11 @@ export default function App() {
               </a>
               <div className="detail-actions">
                 <AddButton id={current.id} />
-                <span className="badge amber">Human audit pending</span>
+                <span className="badge amber">
+                  {current.reviewStatus === "agent_reviewed"
+                    ? "AI source review"
+                    : "Source review pending"}
+                </span>
               </div>
             </div>
             <div className="detail-body">
@@ -1455,6 +1589,9 @@ export default function App() {
                   <>
                     <h4>{current.investment.value.company}</h4>
                     <p className="small">
+                      Evidence published:{" "}
+                      {dateLabel(current.investment.value.evidencePublishedAt)}
+                      <br />
                       Announced:{" "}
                       {dateLabel(current.investment.value.announcedAt)}
                       <br />
@@ -1504,9 +1641,15 @@ export default function App() {
                 </dl>
                 <p className="small">
                   Scope: {current.scopeStatus}. Evidence:{" "}
-                  {current.evidenceStatus}. Human review: {current.reviewStatus}
+                  {current.evidenceStatus}. Review:{" "}
+                  {current.reviewStatus === "agent_reviewed"
+                    ? "AI-assisted source review"
+                    : current.reviewStatus}
                   .
                 </p>
+                {current.sourceReview && (
+                  <p className="small">{current.sourceReview.note}</p>
+                )}
               </section>
               <section>
                 <h3>What still needs checking</h3>

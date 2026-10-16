@@ -8,7 +8,7 @@ An assignment deliverable for a Czech firm. The primary user searches for suitab
 
 A Czech investor's main investment management office must be in Czechia. A fund domiciled abroad may qualify. Investing in Czech companies, Czech nationality or a Czech registered address alone is insufficient. Main-office ambiguity means unresolved, not rejected. Include equity and convertible startup investment. An accelerator qualifies only with its own qualifying investments.
 
-Required for eligibility: clear identity, Czech management base, VC strategy, named investment with dated public participation evidence. Missing ticket, capital or strategy details do not automatically invalidate an otherwise eligible investor. Record scope, evidence, activity and human review separately.
+Required for eligibility: clear identity, Czech management base, VC strategy, named investment with dated public participation evidence. Missing ticket, capital or strategy details do not automatically invalidate an otherwise eligible investor. Record scope, evidence, activity and reviewer provenance separately. Own-capital groups qualify by venture investment activity and retain a distinct organization type.
 
 ## Data behavior
 
@@ -22,7 +22,7 @@ Separate ticket, whole-round size, investor contribution, fund size, fundraising
 2. **Details:** a right panel with identity, current-search fit, investment profile, dated investment evidence, capital, organizational scope, limitations and sources. Expand evidence beside claims. Native dialog provides focus containment and Escape close.
 3. **Final draft:** chosen investors, user order, inline notes, comparison selection, removal/undo and CSV/XLSX exports. Persist locally across navigation and refresh. No accounts.
 4. **Comparison:** two or three columns, identical rows, evidence, explicit unknowns, differences-only, shared notes and removal. Full-list reordering stays in Final draft. No automatic winner.
-5. **Methodology:** definitions, current quality counts, audit status, downloads and human tasks.
+5. **Methodology:** definitions, current quality counts, review status and downloads.
 
 ## Provisional suitability policy
 
@@ -36,4 +36,4 @@ See PRODUCT.md and DESIGN.md. Light cool-gray canvas, near-white surfaces, charc
 
 ## Delivery boundaries
 
-The software can be tested before research completion. Human audit is a separate required milestone for the original assignment. The app intentionally exposes the research preview and preserves evidence gaps. It must not claim 95% precision, complete Czech market coverage, or a supported worldwide cost before the relevant work is performed.
+The agent performs research and source-by-source review. The owner also supplied sources, clarified ambiguities and reported a five-field check on 15 preview.4 profiles: 62/62 populated fields with no reported error, 13 unknowns separate. This is a scoped, unblinded result, not an entity audit or validation of later edits. The app exposes the research preview and evidence gaps. Worldwide coverage and costs are documented planning scenarios; complete Czech coverage and worldwide accuracy remain unmeasured. The owner will publish. Run E2E at publication or when the user explicitly requests it earlier, as stated in AGENTS.md.

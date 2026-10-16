@@ -1,0 +1,47 @@
+{
+  "release": "2026-10-16-preview.6",
+  "asOf": "2026-10-16",
+  "method": "AI-assisted source-by-source review; same agent, not blinded or independent",
+  "candidateCount": 39,
+  "profileCount": 17,
+  "sourceCount": 70,
+  "agentReviewed": 17,
+  "baselineReviewed": 8,
+  "addedProfileReviews": 9,
+  "eligibleProfiles": 17,
+  "unresolvedProfiles": 0,
+  "discoveryOnly": 16,
+  "screenedWithoutProfile": 6,
+  "candidateDecisions": {
+    "accepted": 17,
+    "unresolved": 15,
+    "out_of_scope": 7
+  },
+  "coverage": {
+    "typicalTicket": 11,
+    "datedInvestmentPublication": 17,
+    "capitalObservation": 11
+  },
+  "changedScopeDecisions": 6,
+  "independentlyReviewed": 0,
+  "baselineEvaluation": {
+    "baselineVersion": "2026-10-15-preview.1",
+    "referenceType": "same_agent_source_review",
+    "reviewedProfiles": 8,
+    "tp": 2,
+    "fp": 0,
+    "unresolvedAccepted": 0,
+    "unreviewedAccepted": 0,
+    "evaluatedAccepted": 2,
+    "precisionAgainstAgentReference": 1,
+    "illustrativeWilson95": [
+      0.34238022750666547,
+      1
+    ],
+    "humanPrecision": null,
+    "note": "Descriptive agreement with dependent AI reference labels, not validated accuracy. The Wilson interval only illustrates small-n uncertainty; purposive sampling and shared errors invalidate population inference. Unresolved and unchecked accepted records are reported separately, not counted as correct."
+  },
+  "precision": null,
+  "recall": null,
+  "metricNote": "Same-agent purposive source review, without independent reference labels. Review coverage and corrections are measured; accuracy and market recall are not."
+}
